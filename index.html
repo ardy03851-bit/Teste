@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+		<meta charset="utf-8">
+
+		<!-- Electron defs -->
+		<!-- <meta http-equiv="Content-Security-Policy"
+		content="
+			default-src 'self';
+			script-src 'self' 'unsafe-inline';
+			style-src 'self' 'unsafe-inline';
+			img-src 'self' data:;
+			font-src 'self';
+			object-src 'none';
+		"> -->
+
+		<link rel="icon" href="https://slowroads.io/favicon.svg">
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<!-- <link rel="icon" href="./favicon_dark.svg" type="image/x-icon" media="(prefers-color-scheme: dark)"> -->
+		<!-- <link rel="icon" href="./favicon_light.svg" type="image/x-icon" media="(prefers-color-scheme: light)"> -->
+		<link rel="preload" href="/fonts/Sono.ttf" as="font" type="font/ttf" crossorigin="">
+		<link rel="preload" href="/fonts/Space.ttf" as="font" type="font/ttf" crossorigin="">
+
+		<link rel="manifest" href="/manifest.json">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="title" content="Slow Roads">
+		<meta name="description" content="Endless driving zen">
+		<meta name="color-scheme" content="light only">
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://slowroads.io/">
+		<meta property="og:title" content="Slow Roads">
+		<meta property="og:description" content="Endless driving zen">
+		<meta property="og:image" content="/meta-autumn-02c.jpg">
+		<!-- <meta property="og:image" content="/meta-steam.jpg"> -->
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://slowroads.io/">
+		<meta property="twitter:title" content="Slow Roads">
+		<meta property="twitter:description" content="Endless driving zen">
+		<meta property="twitter:image" content="/meta-autumn-02c.jpg">
+		<!-- <meta property="twitter:image" content="/meta-steam.jpg"> -->
+
+		<title> s l o w&nbsp;&nbsp;r o a d s</title>
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+			  if (window.location.hash) {
+				// Check if the URL contains a hash
+				const metas = document.querySelectorAll('meta[property^="og:"], meta[name^="twitter:"]');
+
+				// Remove or modify the necessary meta tags
+				metas.forEach(meta => {
+				  	meta.parentNode.removeChild(meta);
+				});
+			  }
+			});
+
+		</script>
+
+		<style>
+
+			:root {
+				--sr-white: #F4F2ED;
+
+				--sr-white-0: #F4F2ED00;
+				--sr-white-10: #F4F2ED20;
+				--sr-white-25: #F4F2ED40;
+				--sr-white-50: #F4F2ED80;
+				--sr-white-75: #F4F2EDC0;
+				--sr-white-90: #F4F2EDE0;
+
+				--sr-primary: #343c3e;
+				--sr-primary-0: #343c3e00;
+				--sr-primary-25: #343c3e40;
+				--sr-primary-50: #343c3e80;
+				--sr-primary-75: #343c3eC0;
+				--sr-primary-90: #343c3eEE;
+
+				--sr-secondary: #D2D1CD;
+				--sr-secondary-0: #D2D1CD00;
+				--sr-secondary-25: #D2D1CD40;
+				--sr-secondary-50: #D2D1CD80;
+				--sr-secondary-75: #D2D1CDC0;
+				--sr-secondary-90: #D2D1CDEE;
+
+				--sr-tertiary: #7e7c76;
+				--sr-tertiary-0: #7e7c7600;
+				--sr-tertiary-25: #7e7c7640;
+				--sr-tertiary-50: #7e7c7680;
+				--sr-tertiary-75: #7e7c76C0;
+				--sr-tertiary-90: #7e7c76EE;
+
+				--sr-warn: #ff992b;
+
+				--sr-dark: #444444;
+				--sr-darker: #333;
+				--sr-black: #23262c;
+
+				--sr-bg: #F4F2ED;
+				--sr-lowlight: #343c3e80;
+
+				color-scheme: light only;
+			}
+
+			@font-face {
+				font-family: Sono;
+				src: url(/fonts/Sono.ttf);
+				font-variant: slashed-zero;
+			}
+
+			@font-face {
+				font-family: Space;
+				src: url(/fonts/Space.ttf);
+				font-variant: slashed-zero;
+			}
+
+			/* width */
+			::-webkit-scrollbar {
+				width: 0.6rem;
+			}
+
+			/* Track */
+			::-webkit-scrollbar-track {
+				background: var(--sr-primary-25);
+			}
+
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+				background: var(--sr-primary-50);
+			}
+
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+				background: var(--sr-primary);
+			}
+
+			* {
+				margin: 0;
+				padding: 0;
+				scroll-behavior: smooth !important;
+				font-variant: slashed-zero;
+		    }
+
+			body {
+				overflow: hidden;
+				font-family: Space, Helvetica, sans-serif;
+			}
+
+			img {
+				-webkit-user-drag: none;
+				-khtml-user-drag: none;
+				-moz-user-drag: none;
+				-o-user-drag: none;
+				user-drag: none;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			html {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				font-size: 16px;
+			}
+
+			@media screen and (orientation: landscape) and (max-width: 1361px)  {
+				html {
+					font-size: 14px;
+				}
+			}
+
+			@media screen and (orientation: landscape) and (max-width: 1180px) {
+				html {
+					font-size: 12px;
+				}
+			}
+
+			@media screen and (orientation: portrait) {
+				html {
+					font-size: 12px;
+				}
+			}
+
+
+
+		</style>
+
+		<script src="./alea.min.js"></script>
+
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.4593a708.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.05185c5f.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.28a0dec0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.205d685d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/control.c2cf8273.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.a7863966.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.2e86b85f.js">
+	<link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/nodes/0.545b03e2.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/layout.eb19d6ff.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/nodes/1.04400d9e.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/nodes/3.da2ad8c8.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/conifers.26f84295.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/SettingsManager.a31845d6.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/DevMidlineGenerator.7013ef99.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/HillsHeightmap.1d759caa.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/DriftmasMidlineGenerator.13fc1bad.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/tree_08.839552e8.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/IsStaticRoute.ed7acde0.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/index.d9998155.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/times.b1a5e42f.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/each.e59479a4.js"><link rel="stylesheet" href="https://slowroads.io/_app/immutable/assets/3.988f5726.css"><style>
+    @keyframes lgGlassSweep {
+      0% { transform: translateX(-140%) skewX(-24deg); opacity: 0; }
+      35% { opacity: 0.55; }
+      70% { opacity: 0.55; }
+      100% { transform: translateX(320%) skewX(-24deg); opacity: 0; }
+    }
+    @keyframes lgAmbientPulse {
+      0%, 100% { opacity: 0.45; transform: scale(0.98); }
+      50% { opacity: 0.85; transform: scale(1.03); }
+    }
+    #liquid-glass-zip-hud .lg-shell {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 368px;
+      padding: 15px 18px;
+      border-radius: 28px;
+      background:
+        radial-gradient(120% 140% at 15% 0%, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.02) 55%, rgba(12, 14, 18, 0.48) 100%),
+        rgba(18, 20, 26, 0.72);
+      backdrop-filter: blur(36px) saturate(190%) contrast(106%);
+      -webkit-backdrop-filter: blur(36px) saturate(190%) contrast(106%);
+      box-shadow:
+        0 24px 54px -10px rgba(0, 0, 0, 0.65),
+        0 4px 16px rgba(0, 0, 0, 0.34),
+        inset 0 1px 0.5px rgba(255, 255, 255, 0.50),
+        inset 0 -1px 0.5px rgba(255, 255, 255, 0.12),
+        inset 0 0 18px rgba(255, 255, 255, 0.05);
+      border: 0.5px solid rgba(255, 255, 255, 0.24);
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, sans-serif;
+      color: #f8fafc;
+      -webkit-font-smoothing: antialiased;
+    }
+    #liquid-glass-zip-hud .lg-caustic {
+      position: absolute;
+      top: 0; bottom: 0; left: 0;
+      width: 38%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.18), transparent);
+      animation: lgGlassSweep 4.2s infinite cubic-bezier(0.4, 0, 0.2, 1);
+      pointer-events: none;
+    }
+    #liquid-glass-zip-hud .lg-main-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      position: relative;
+      z-index: 2;
+    }
+    #liquid-glass-zip-hud .lg-ring-wrap {
+      position: relative;
+      width: 38px;
+      height: 38px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.45), 0 1px 0 rgba(255, 255, 255, 0.18);
+    }
+    #liquid-glass-zip-hud .lg-ring-glow {
+      position: absolute;
+      inset: -3px;
+      border-radius: 999px;
+      background: radial-gradient(circle, rgba(226, 232, 240, 0.25), transparent 70%);
+      animation: lgAmbientPulse 2.4s infinite ease-in-out;
+      pointer-events: none;
+    }
+    #liquid-glass-zip-hud svg.lg-svg {
+      width: 38px;
+      height: 38px;
+      transform: rotate(-90deg);
+      overflow: visible;
+    }
+    #liquid-glass-zip-hud circle.lg-track {
+      fill: none;
+      stroke: rgba(255, 255, 255, 0.12);
+      stroke-width: 2.5;
+    }
+    #liquid-glass-zip-hud circle.lg-arc {
+      fill: none;
+      stroke: url(#lg-grad);
+      stroke-width: 2.6;
+      stroke-linecap: round;
+      stroke-dasharray: 94.25;
+      stroke-dashoffset: 92;
+      filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.45));
+      transition: stroke-dashoffset 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    #liquid-glass-zip-hud .lg-pct-mini {
+      position: absolute;
+      font-size: 9.5px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: rgba(255, 255, 255, 0.92);
+      font-variant-numeric: tabular-nums;
+    }
+    #liquid-glass-zip-hud .lg-meta {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    #liquid-glass-zip-hud .lg-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    #liquid-glass-zip-hud .lg-title {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: -0.015em;
+      color: rgba(255, 255, 255, 0.96);
+      white-space: nowrap;
+    }
+    #liquid-glass-zip-hud .lg-size-pill {
+      font-size: 11px;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 0.5px solid rgba(255, 255, 255, 0.16);
+      color: rgba(226, 232, 240, 0.9);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+    #liquid-glass-zip-hud .lg-sub {
+      font-size: 11.5px;
+      font-weight: 400;
+      color: rgba(203, 213, 225, 0.68);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      letter-spacing: -0.005em;
+    }
+    #liquid-glass-zip-hud .lg-actions {
+      display: flex;
+      gap: 8px;
+      position: relative;
+      z-index: 2;
+    }
+    #liquid-glass-zip-hud .lg-btn {
+      flex: 1;
+      appearance: none;
+      border: 0.5px solid rgba(255, 255, 255, 0.24);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: #f8fafc;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.06) 100%);
+      box-shadow: inset 0 1px 0.5px rgba(255, 255, 255, 0.35), 0 4px 12px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+      transition: transform 0.22s cubic-bezier(0.22, 1.35, 0.36, 1), background 0.2s ease, border-color 0.2s ease;
+    }
+    #liquid-glass-zip-hud .lg-btn:hover {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.11) 100%);
+      border-color: rgba(255, 255, 255, 0.42);
+      transform: translateY(-1px) scale(1.015);
+    }
+    #liquid-glass-zip-hud .lg-btn:active {
+      transform: scale(0.96);
+    }
+    #liquid-glass-zip-hud .lg-btn-close {
+      flex: 0 0 auto;
+      padding: 8px 11px;
+      color: rgba(203, 213, 225, 0.78);
+      background: rgba(255, 255, 255, 0.05);
+    }
+  </style></head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents"><div id="splash" class="svelte-1lrjs3m"><div id="splash-fixed" class="svelte-1lrjs3m"><div id="splash-main" class="svelte-1lrjs3m"><div id="splash-title" class="svelte-1lrjs3m"><img class="splash-logo svelte-1lrjs3m" src="/img/logo-stacked-white.svg" alt=""> <div class="splash-subtitle svelte-1lrjs3m">endless driving zen</div> <div id="splash-begin" class="svelte-1lrjs3m">begin</div> </div> <div class="splash-smallprint splash-lr svelte-1lrjs3m"><span class="splash-smallprint-link svelte-1lrjs3m">2.4.2</span> <br>
+                This work is licensed under a <a rel="license noopener noreferrer" class="splash-smallprint-link svelte-1lrjs3m" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0 International License</a></div>   <div id="splash-changelog" class="svelte-bsztam" style="transform: translateX(100%);"><div class="changelog-scrollable svelte-bsztam"><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam">2.4.2</div> <div class="changelog-date svelte-bsztam">15th June 2026</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Steam demo announcement</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Updated coupe model</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed odometer rolling over at 10,000 instead of 100,000</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed handbrake not working on gamepad</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed initial section of road being broken on Hills</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed drystone walls sometimes not spawning on Hills</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Disabled fog on interior textures</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam">2.4.1</div> <div class="changelog-date svelte-bsztam">3rd March 2026</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Small improvements to steering wheel detail</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Adjusted position of mouse control UI when in interior view</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed pixelly randering of trees on mobile</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed dashboard cruise control indicator being set for kilometres when units are miles</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed boost button not working on gamepad</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed odometer display digits overlapping when the odometer hits a multiple of 10</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://efe4a997.slowroads-io.pages.dev">2.4.0</a></div> <div class="changelog-date svelte-bsztam">1st March 2026</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added functional dashboards and improved interiors to all vehicles</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Reduced issues of bushes and grasses intersecting the interior</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Minor alterations to motor audio</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Different vehicles now have slightly different motor sounds</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Mouse input, if enabled, will now override controller input</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added inputs for switching cruise control mode and autodrive modes</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Increased brake force for all vehicles</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Acceleration input is now linear (was mistakenly quadratic)</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed certain settings not correctly updating when importing a profile</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed an issue preventing some controller settings from properly saving</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed an issue misreading controller trigger input as a button press</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed issue with roadside trees dissolving in from nothing</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://cde852ad.slowroads-io.pages.dev">2.3.3</a></div> <div class="changelog-date svelte-bsztam">22nd February 2026</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Patch: Fixed graphics settings not applying correctly</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Patch: Fixed crash when switching road width setting</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Patch: Fixed caching to avoid reloading textures between sessions</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://276ddbc9.slowroads-io.pages.dev">2.3.2</a></div> <div class="changelog-date svelte-bsztam">22nd February 2026</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Fixed an issue with the roadside ground shader on winter</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Fixed an issue causing occasional spikes in drystone wall position</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Fixed floating walls perpendicular to the road</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Added extra caution to autodrive when approaching bridge</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Fixed road markings sometimes being only half-shown</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Off-World: Fixed bug causing discontinuities in barriers</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed bug preventing N key from being mappable</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Pressing enter in the world hash input box now triggers world generation</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Disabled settings page access during scene load to prevent load conflict bugs</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://39691564.slowroads-io.pages.dev">2.3.1</a></div> <div class="changelog-date svelte-bsztam">16th February 2026</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Tweaking road shader parameters to reduce visible seams</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Off-World: Dust spray disabled in Low/Medium detail settings</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed autosteer and autodrive modes after bug in 2.3.0</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed various bugs causing fatal errors</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://0fa1425b.slowroads-io.pages.dev">2.3.0</a></div> <div class="changelog-date svelte-bsztam">15th February 2026</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Road textures improved and a range of paint markings added</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Improved LoD system for trees and environment chunks</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Small improvements to tree shading</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Fixed missing shadows on walls under trees</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Off-World: Upgraded ground shader and improved colours</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Off-World: Improved geometry for road and terrain</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Off-World: Added dust spray from wheels (on detail settings above Medium)</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Enabled shadow casting on off-road environment chunks</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Restored ability to set driver seat position on mobile (gameplay settings)</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed bug allowing for manual acceleration override when entering autodrive</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed setting for enabling/disabling steering wheel visibility</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed environment loading issue that left some roadside chunks at low-quality</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://6f2ce0a5.slowroads-io.pages.dev">2.2.0</a></div> <div class="changelog-date svelte-bsztam">7th February 2026</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Added extra layers of detail to the ground shaders</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Altered colours and lighting for all seasons/weathers</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Improved roadside ground geometry</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: Resolved texture scale issues for rocky outcrops</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Hills: General texture and detail upgrades</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added extra lateral smoothing to road generator</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Altered steering input to be snappier</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added center driving option for autodrive</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed bug causing large spikes in the first section of road geometry</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed minor UI bugs in controller mapping flow</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed physics bug causing flinging when crashing into bridge walls</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed issue causing empty grey bars in the sky at high FoV</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://88ec82eb.slowroads-io.pages.dev/">2.1.1</a></div> <div class="changelog-date svelte-bsztam">16th November 2025</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed occasional instant crash when changing road style or graphics settings</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Lowered minimum grip factor to 0.2</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Altered turn sign spawn logic for the differences in casual/winding roads</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Giving steer input now disables autosteer</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed inability to brake in autospeed mode</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed chevron sign spawn thresholds to have them return</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed minor floating-pixels issue with deciduous tree textures</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed issue preventing reversing in cruise control</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed minor shimmering pixels issue around signs</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed wall collision glitch caused by driving too far backwards</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed initial section of road sometimes sticking high into the air</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed brake audio running when airborne</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Reduced suspension audio effects on bike</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://9807d9f6.slowroads-io.pages.dev">2.1.0</a></div> <div class="changelog-date svelte-bsztam">1st November 2025</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Rewrote and improved physics for all vehicles</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Overhauled vehicle architecture in preparation for more vehicles, and vehicle configuration</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed feel of RWD and FWD</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added autosteer and autospeed modes to the autodrive</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added one-pedal drive setting to gently brake whenever you stop accelerating</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added camera controls for orbit/zoom in chase, and look-around in first-person</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added speed-relative FoV effects to the chase camera</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added toggle mode for steer lock</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added configurable axis range setting for gamepad inputs</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added brake sensitivity setting for controllers</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Improved touchscreen control feel</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed rendering issues on mobile</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed rendering issues on Firefox</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed an audio bug where the boost volume was unlimited, causing issues at high speed factors</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed various memory leaks in the scene regeneration process</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://96924af9.slowroads-io.pages.dev/">2.0.3</a></div> <div class="changelog-date svelte-bsztam">28th February 2025</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed all currently known cases of walls/trees overlapping the road</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added logic to rebuild fields in certain circumstances when a long-lived environment tile is revisited</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed issue of bridge geometry exceeding the end of the bridge, intersecting the ground</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Slightly increased the chance of gorse spawning high up on Hills</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added permalinks to prior versions in the changelog (click the version number)</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://2b2e9f18.slowroads-io.pages.dev/">2.0.2</a></div> <div class="changelog-date svelte-bsztam">24th February 2025</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added a max framerate setting</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Reworked render scale to use virtual pixel resolution by default with a native override toggle</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed issue in ultra view distance where winter trees suddenly pop in on the horizon</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed a fog distance issue with very high+ detail settings</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed deadzone settings not being saved on refresh</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed deadzone setting being ignored by raw steer override</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed rare issue where the ground sticks up through bridges</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed the app's icon for Apple devices</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://0df09d99.slowroads-io.pages.dev/">2.0.1</a></div> <div class="changelog-date svelte-bsztam">23rd February 2025</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed many (probably not all) instances of walls crossing the road</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Altered parameters for skid-correction steering to reduce overcorrection</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added a raw-input override for controllers, which disables all steer smoothing effects (useful for wheels)</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Steering wheel rotation setting now defines the full range of rotation, not half</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Moved simulation speed controls to debug mode only</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Render scales are now relative to device pixel ratio, not resolution</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added error handling to catch roads that fail to generate</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added reset-to-defaults for all settings and control mappings</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Move speed-relative steer limiter setting into the Controls settings</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Removed backdrop blur from touch controls for performance reasons</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Smoothed autodrive steering</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Increased anisotropy on road texture</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Slightly reduced silliness of the bike lean behaviour</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Slightly reduced volume of autodrive sound</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Longest/furthest journey stats now update live in your profile</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed bug where needless concrete walls spawn nowhere near water</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed bug allowing the road to rarely loop back on itself</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed hard braking when enabling speed control at high speed</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed UI being hidden when loading the game</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed boost icon being stuck enabled in autodrive</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed mouse input causing issues in free cam</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed issue with decimal commas in numeric settings</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Fixed scrolling issue on Firefox</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Replaced missing app icons</span> </div></div> </div><div class="changelog  svelte-bsztam"><div class="changelog-title svelte-bsztam"><div class="changelog-version-number svelte-bsztam"><a class="changelog-version-number-link svelte-bsztam" href="https://df8e1b8c.slowroads-io.pages.dev/">2.0.0</a></div> <div class="changelog-date svelte-bsztam">22nd January 2025</div></div> <div class="changelog-list svelte-bsztam"><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Overhauled engine for major performance and visual upgrades</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added mobile and touchscreen support</span> </div><div class="changelog-list-item svelte-bsztam"><span class="list-dot svelte-bsztam">-</span> <span>Added road width setting</span> </div></div> </div></div> <div class="changelog-close svelte-bsztam">Close</div></div>   <div class="splash-smallprint splash-ll svelte-1lrjs3m">from <a class="splash-smallprint-link svelte-1lrjs3m" href="https://topograph.io" target="_blank" rel="noopener noreferrer">topograph.io</a> © 2026 	
+                <span style="margin: 0 0.5rem;">·</span> <a class="splash-smallprint-link svelte-1lrjs3m" href="/privacy" target="_blank" rel="noopener noreferrer">privacy policy</a> <span style="margin: 0 0.5rem;">·</span> <a class="splash-smallprint-link svelte-1lrjs3m" href="https://topograph.io/slowroads" target="_blank" rel="noopener noreferrer">press kit</a></div> <div class="splash-main-buttons svelte-1lrjs3m"><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/TNf9bBrZmR" alt="" class="splash-main-button svelte-1lrjs3m"><img src="/img/icon_discord_white.svg" alt="" class="splash-main-button-icon svelte-1lrjs3m"> <br>
+                    Join the Discord</a> <a href="#about" class="splash-main-button svelte-1lrjs3m" style="padding-top: 2rem;"><span style="font-size: 1.5rem">About</span> <br> <span style="font-size: 2rem">▾</span></a> <a target="_blank" rel="noopener noreferrer" href="https://store.steampowered.com/app/3431300/Slow_Roads/" alt="" class="splash-main-button svelte-1lrjs3m"><img src="/img/icon_steam_white.svg" alt="" class="splash-main-button-icon svelte-1lrjs3m"> <br>
+                    Now on Steam</a></div></div> <div id="about" class="svelte-1lrjs3m"><div class="splash-body-section svelte-1lrjs3m" style="background: var(--sr-black);"><div class="splash-body-wrapper svelte-1lrjs3m" style="margin: 5rem 0"><div class="splash-blurb-corner-tl svelte-1lrjs3m"></div> <div class="splash-blurb-corner-tr svelte-1lrjs3m"></div> <div class="splash-blurb svelte-1lrjs3m"><strong>Slow Roads</strong> is a casual driving game designed for long, cathartic journeys on quiet, scenic roads. Simply chase the horizon through endless, procedurally-generated landscapes, with no ads, distractions, or goals. Set the weather to suit your mood, throw on some music, and <strong>just drive.</strong></div> <div class="splash-blurb-corner-bl svelte-1lrjs3m"></div> <div class="splash-blurb-corner-br svelte-1lrjs3m"></div></div></div> <div class="splash-body-section splash-steam-bg svelte-1lrjs3m"><div class="splash-body-wrapper svelte-1lrjs3m" style="color: var(--sr-secondary)"><div class="splash-body-header svelte-1lrjs3m" style="color: #6dcff6; text-shadow: 0 0 1rem #6dcff688">Available now on Steam
+                        <a class="splash-visit-steam svelte-1lrjs3m" target="_blank" rel="noopener noreferrer" href="https://store.steampowered.com/app/3431300/Slow_Roads/"><img src="/img/icon_steam_white.svg" class="splash-body-steam-icon svelte-1lrjs3m" alt="">
+                            Visit store page</a></div> <video src="/img/letterbox-general.mp4" class="steam-banner svelte-1lrjs3m" autoplay="" muted="" loop=""></video> <div class="splash-body-text svelte-1lrjs3m">For those who want a little more than the web version, Slow Roads is now available in an expanded edition on Steam - there you'll find dozens of new features and improved quality, with all the elements that have been most highly-requested over the years. The web version will remain freely available, and will continue to get small updates, but will stay as a more minimal representation of the game. Sales on Steam will help to fund ongoing development and keep the web version free and ad-free for all. Read on to find out more.</div> <div class="splash-body-subheader svelte-1lrjs3m" style="color: #6dcff6; position: relative">Steam-exclusive features:
+                        <a class="splash-try-demo svelte-1lrjs3m" target="_blank" rel="noopener noreferrer" href="https://store.steampowered.com/app/3431300/Slow_Roads/"><img src="/img/icon_steam_white.svg" class="splash-body-steam-icon svelte-1lrjs3m" alt="">
+                            Try the demo</a></div> <div class="splash-body-bullets svelte-1lrjs3m"><div class="splash-body-bullet svelte-1lrjs3m">More locations, starting with the new California Coast</div> <div class="splash-body-bullet svelte-1lrjs3m">More road styles, including off-road trails and multi-lane highways</div> <div class="splash-body-bullet svelte-1lrjs3m">More vehicles, starting with a sports car and rally hatchback</div> <video src="/img/letterbox-vehicles.mp4" autoplay="" muted="" loop="" class="steam-banner svelte-1lrjs3m"></video> <div class="splash-body-bullet svelte-1lrjs3m">Combustion engines and manual transmission for all vehicles</div> <div class="splash-body-bullet svelte-1lrjs3m">Vehicle tuning</div> <div class="splash-body-bullet svelte-1lrjs3m">Vehicle customisation</div> <video src="/img/letterbox-customisation.mp4" autoplay="" muted="" loop="" class="steam-banner svelte-1lrjs3m"></video> <div class="splash-body-bullet svelte-1lrjs3m">A music interface for playing local tracks or public radio streams</div> <div class="splash-body-bullet svelte-1lrjs3m">Improved graphics options and detail</div> <div class="splash-body-bullet svelte-1lrjs3m">Configurable traffic modes</div> <video src="/img/letterbox-cockpit.mp4" autoplay="" muted="" loop="" class="steam-banner svelte-1lrjs3m"></video> <div class="splash-body-bullet svelte-1lrjs3m">Achievements and profile stats</div> <div class="splash-body-bullet svelte-1lrjs3m">High definition assets</div> <div class="splash-body-bullet svelte-1lrjs3m">...and more to be added in future updates</div></div> <div class="splash-body-text svelte-1lrjs3m">The Steam version is now live! Please consider purchasing if you'd like to support the project and enjoy the bonus features. I'll be continuing with content updates for both versions into the future - the main focus for the coming months will be adding weather effects and a new location to the Steam version. Join the Discord for the latest news and updates.</div> <a class="splash-visit-store svelte-1lrjs3m" target="_blank" rel="noopener noreferrer" href="https://store.steampowered.com/app/3431300/Slow_Roads/">Visit the store page for full details</a> <div class="splash-body-subheader svelte-1lrjs3m" style="color: #6dcff6;">Targets for upcoming updates</div> <div class="splash-body-bullets svelte-1lrjs3m"><div class="splash-body-bullet svelte-1lrjs3m">Force feedback support for controllers</div> <div class="splash-body-bullet svelte-1lrjs3m">Rain and dynamic weather effects</div> <div class="splash-body-bullet svelte-1lrjs3m">Day-night cycle and time sync features</div> <div class="splash-body-bullet svelte-1lrjs3m">New locations, e.g. a mountainous Alps location (see WIP below)</div> <div class="splash-body-bullet svelte-1lrjs3m">A world config tool giving control over procedural generation parameters</div> <div class="splash-body-bullet svelte-1lrjs3m">...and more</div></div> <img src="/img/about_dev_04.jpg" class="steam-banner svelte-1lrjs3m"> <div class="splash-body-text svelte-1lrjs3m">If this sounds good to you, please support the project's future development by <a class="splash-body-link svelte-1lrjs3m" href="https://store.steampowered.com/app/3431300/Slow_Roads/" target="_blank" rel="noopener noreferrer">purchasing Slow Roads on Steam!</a></div> <div class="splash-body-header svelte-1lrjs3m" style="text-align: left; position: relative; color: #6dcff6; margin-top: 2rem; text-shadow: 0 0 1rem #6dcff688">Slow Roads: Web Edition
+                        <a class="splash-visit-steam svelte-1lrjs3m" style="top:-0.5rem;" target="_blank" rel="noopener noreferrer" href="https://topographinteractive.itch.io/slow-roads"><img src="/img/icon_itch_white.svg" class="splash-body-steam-icon svelte-1lrjs3m" style="width: 1.5rem; margin-left: 0.5rem;" alt="">
+                            Purchase here</a></div> <div class="splash-body-text svelte-1lrjs3m">If you only want to play the web version offline without the extra expense, you can find the downloadable Slow Roads: Web Edition available for a small price on the <a class="splash-body-link svelte-1lrjs3m" href="https://topographinteractive.itch.io/slow-roads" target="_blank" rel="noopener noreferrer">Slow Roads page on itch.io</a>. This version won't receive the Steam-exclusive features, but does include the high-resolution textures unavailable on the web. Available for Windows, Linux, and MacOS.
+                        <br> <br>
+                        Note that if you want to transfer your progress and settings from slowroads.io to the Web Edition, you can download your save file from the Profile settings and upload that in the app.</div></div></div> <div class="splash-body-section svelte-1lrjs3m" style="background: none;"><div class="splash-body-wrapper svelte-1lrjs3m"><div class="splash-body-header svelte-1lrjs3m">Background</div> <div class="splash-body-text svelte-1lrjs3m">Hey, I'm <a class="splash-body-link svelte-1lrjs3m" href="https://anslo.dev">Anslo</a>, a creative generalist interested in 3D graphics and procedural generation. Slow Roads began as my hobby project to generate endless scenic landscapes, packaged as a chill driving game. I made it partly as an experiment in procedural generation, partly to show how capable browsers can be with 3D, and partly to scratch a very specific itch to mindlessly drive forever, as a kind of active meditation.</div> <div class="splash-body-text svelte-1lrjs3m">I started the project in July 2021, released a rough version 1.0 in October 2022, rewrote the whole engine over the next two years, and am now busy developing all sorts of new features. The original goal has always been to support dozens of different locations, I expect to keep working on the game until I fulfil that. But, ultimately, my hope is that those in need of a simple escape will find it here.</div> <div class="splash-body-text svelte-1lrjs3m">You can read a few more details on the <a href="https://topograph.io/slowroads" target="_blank" rel="noopener noreferrer" class="splash-body-link svelte-1lrjs3m">press kit page here</a></div></div></div> <div class="splash-body-section svelte-1lrjs3m" style="background: var(--sr-black);"><div class="splash-body-wrapper svelte-1lrjs3m"><div class="splash-body-header svelte-1lrjs3m">Development Roadmap</div> <div class="splash-body-text svelte-1lrjs3m">Slow Roads is a living project under continuous development. Here's a look at where the focus will be for the next little while. As a solo developer, it's impossible to estimate when or whether these features will be finished, but know that I'm now working on the game full-time. I post regular updates to the #dev-log channel in the <a class="splash-body-link svelte-1lrjs3m" href="https://discord.gg/TNf9bBrZmR" target="_blank" rel="noopener noreferrer">Discord server</a>, so check there for the latest.</div> <div class="splash-body-subheader svelte-1lrjs3m">Near-term goals:</div> <div class="splash-body-bullets svelte-1lrjs3m"><div class="splash-body-bullet svelte-1lrjs3m">Post-release support and updates for the Steam version</div> <div class="splash-body-bullet svelte-1lrjs3m">Rain and dynamic weather (Steam feature)</div> <div class="splash-body-bullet svelte-1lrjs3m">Time-of-day cycle controls (Steam feature)</div> <div class="splash-body-bullet svelte-1lrjs3m">Web version 2.5 upgrades, e.g. new UI and improved graphics (will not include Steam-exclusive features)</div> <div class="splash-body-bullet svelte-1lrjs3m">Driftmas 2026</div></div> <div class="splash-body-subheader svelte-1lrjs3m">Future goals:</div> <div class="splash-body-bullets svelte-1lrjs3m"><div class="splash-body-bullet svelte-1lrjs3m">New locations, including mountains, tunnels, forests, and more</div> <div class="splash-body-bullet svelte-1lrjs3m">Improved environmental detail with wildlife, structures, etc.</div> <div class="splash-body-bullet svelte-1lrjs3m">Development of new vehicles</div> <div class="splash-body-bullet svelte-1lrjs3m">Regular community events</div> <div class="splash-body-bullet svelte-1lrjs3m">Gradual development of both the Steam and Web version in parallel</div></div> <div class="splash-body-text svelte-1lrjs3m"><a class="splash-body-link svelte-1lrjs3m" href="https://discord.gg/TNf9bBrZmR" target="_blank" rel="noopener noreferrer">Join the Discord</a> or <a class="splash-body-link svelte-1lrjs3m" href="https://bsky.app/profile/slowroads.io" target="_blank" rel="noopener noreferrer">follow slowroads.io on Bluesky</a> to keep updated and share feedback!</div></div></div> <div class="splash-body-section svelte-1lrjs3m" style="background: none;"><div class="splash-body-wrapper svelte-1lrjs3m"><div class="splash-body-header svelte-1lrjs3m">FAQ</div> <div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Why do I get such a poor performance?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Will the web version remain available and receive updates?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Can I transfer my progress from the web version to the Steam version?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Is there an offline version of the web game that I can play without an internet connection?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">What's the background on the game's development?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Who's the developer?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">How and why is the web version free, and without ads?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Have you thought about adding a competitive or rally mode?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Why can I drive through trees, or glitch into the sky by going backwards?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Why are all the cars electric?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Can you add a radio or music player, or connect to Spotify etc.?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">I have a great idea for a feature, how can I tell you?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Can I contribute to the development of the game?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Can I have permission to host the game on my own site, make an app of the game with a web-view, or otherwise distribute the game myself?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Will you make it open-source?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Which tech/language was used to make Slow Roads?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">How does the environment generation algorithm work?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">I miss the old slow roads - is there a way to still play it?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">I miss a specific previous version - is there a way to still play it?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div><div class="faq-qa svelte-1ka7nal"><div class="faq-q svelte-1ka7nal">Will there ever be an SR3?<div class="faq-expand svelte-1ka7nal"><span style="transform: rotate(45deg);">+</span></div></div> </div></div></div> <div class="splash-body-section svelte-1lrjs3m" style="background: var(--sr-black);"><div class="splash-body-wrapper svelte-1lrjs3m"><div class="splash-body-header svelte-1lrjs3m">Contact</div> <div class="splash-body-text svelte-1lrjs3m" style="text-align:center; user-select: default;">Email
+                        <br> <span style="font-size: 1.2rem; font-weight: 400; color: var(--sr-white); user-select: all;">hello@slowroads.io</span> <br> <br>
+                        Discord
+                        <br> <span style="font-size: 1.2rem; font-weight: 400; color: var(--sr-white)"><a class="splash-body-link svelte-1lrjs3m" href="https://discord.gg/TNf9bBrZmR" target="_blank" rel="noopener noreferrer">Join the server here</a></span> <br> <br>
+                        Bluesky
+                        <br> <span style="font-size: 1.2rem; font-weight: 400; color: var(--sr-white)"><a class="splash-body-link svelte-1lrjs3m" href="https://bsky.app/profile/slowroads.io" target="_blank" rel="noopener noreferrer">Follow slowroads.io here</a></span></div></div></div> <div class="splash-body-section svelte-1lrjs3m" style="background: none;"><div class="splash-body-wrapper svelte-1lrjs3m"><div class="splash-body-header svelte-1lrjs3m">Attributions</div> <div class="splash-body-text svelte-1lrjs3m" style="text-align: center">Rendering library - <a class="splash-body-link svelte-1lrjs3m" href="https://threejs.org/">three.js</a> <br>
+                        Brand design - <a class="splash-body-link svelte-1lrjs3m" href="https://benj-design.com">benj-design.com</a> <br>
+                        Off-world textures - <a class="splash-body-link svelte-1lrjs3m" href="https://mars.nasa.gov/mars2020/multimedia/raw-images/">Nasa Perseverance</a> <br>
+                        Brake audio - <a class="splash-body-link svelte-1lrjs3m" href="https://freesound.org/people/WavJunction.com/sounds/456764/">WavJunction.com on freesound.org</a> <br>
+                        Ambient audio - <a class="splash-body-link svelte-1lrjs3m" href="https://freesound.org/people/InspectorJ/sounds/401543/">InspectorJ on freesound.org</a> <br>
+                        Tyre audio - <a class="splash-body-link svelte-1lrjs3m" href="https://freesound.org/people/fractanimal/sounds/614627/">fractanimal on freesound.org</a> <br>
+                        Gravel audio - <a class="splash-body-link svelte-1lrjs3m" href="https://freesound.org/people/seth-m/sounds/341069/">seth-m on freesound.org</a> <br>
+                        Boost audio - <a class="splash-body-link svelte-1lrjs3m" href="https://freesound.org/people/YleArkisto/sounds/342892/">YleArkisto on freesound.org</a> <br>
+                        Suspension audio - <a class="splash-body-link svelte-1lrjs3m" href="https://freesound.org/people/ingudios/sounds/119468/">ingudios on freesound.org</a> <br>
+                        Collision sounds - <a class="splash-body-link svelte-1lrjs3m" href="https://freesound.org/people/jakobthiesen/sounds/174836/">jakobthiesen on freesound.org</a> <br>
+                        Collision sounds - <a class="splash-body-link svelte-1lrjs3m" href="https://freesound.org/people/jakobthiesen/sounds/174837/">jakobthiesen on freesound.org</a> <br>
+                        Collision sounds - <a class="splash-body-link svelte-1lrjs3m" href="https://freesound.org/people/SubwaySandwitch420/sounds/538947/">SubwaySandwitch420 on freesound.org</a> <br>
+                        Barrier scrape sound - <a class="splash-body-link svelte-1lrjs3m" href="https://freesound.org/people/eyenorth/sounds/464846/">eyenorth on freesound.org</a> <br>
+                        Misc sound effects - <a class="splash-body-link svelte-1lrjs3m" href="https://freesound.org/people/HECKFRICKER/sounds/625312/">HECKFRICKER on freesound.org</a> <br></div></div></div> <div class="splash-body-section svelte-1lrjs3m" style="background: var(--sr-black);"><div class="splash-body-wrapper svelte-1lrjs3m"><div class="splash-body-header svelte-1lrjs3m" style="font-size: 1rem">Thank you for playing</div></div></div></div> <div id="splash-bg-overlay" class="svelte-1lrjs3m"></div> <div id="splash-bg" class="svelte-1lrjs3m" style="background-image: url(&quot;/img/autumn_09b.webp&quot;);"></div></div></div>  <div id="main" tabindex="-1" autofocus="" class="svelte-bgj4yc"><div id="ui-dynamic" class="svelte-bgj4yc">      <div class="load-bar svelte-bgj4yc load-bar-init"></div></div> <canvas class="svelte-bgj4yc"></canvas></div> <div id="svelte-announcer" aria-live="assertive" aria-atomic="true" style="position: absolute; left: 0px; top: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); overflow: hidden; white-space: nowrap; width: 1px; height: 1px;"></div></div>
+	
+</body></html>
