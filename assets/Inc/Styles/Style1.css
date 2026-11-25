@@ -1,0 +1,2249 @@
+﻿
+body { font-family:'Roboto', Sans-Serif; color:#323232; font-size:15px !important; width:100%; min-width:990px; background-position-y:0px !important; -webkit-background-size: cover !important; -moz-background-size: cover !important; -o-background-size: cover !important; background-size:cover !important; }
+body#tinymce { max-width:930px !important; }
+
+#MainWrapper { width:100%; margin:0px auto; overflow:hidden; background-color:#FFF; position:static; padding:20px 0; }
+#ContentWrapper { overflow:hidden; padding:0;  }
+div.BodyWrapper { width:auto; min-width:990px; max-width:1170px; margin:20px auto; }
+.Wrapper { max-width:1170px; height:auto; margin:0 auto; position:relative; width:100%; }
+.HalfWrapper { /*max-width:585px;*/ height:auto; margin:0 auto; right:auto; width:100%; }
+.Left { float:right; }
+.Right { float:left; }
+
+input { padding-left:2px; } select { height:30px; } h3 { font-size:1.2em !important; } .h1, .h2, h1, h2 { margin-top:0 !important; }
+h4 { margin-top:20px; }
+.Hidden { display:none; visibility:hidden; } .Clear { clear:both; } .Center { text-align:center; } .ReqField, .ReqError { color:#BA120E; } .ReqError { font-weight:500; }
+.ErrorInput { background-color:#ff7373 !important; border:1px solid #8c0000 !important; }
+.default-button { border:1px solid #FFF; background-color:#B70C04; margin:0 auto; text-align:center; padding:10px; clear:both; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px }
+a.default-button { color:#FFF !important; font-weight:500; text-transform:uppercase; font-size:14px; }
+p { min-height:10px; }
+
+/* Widgets ----------------------------------------------------------------------------------------------------------------------------*/
+.FullWidget, .QuarterWidget, .ThirdWidget, .HalfWidget, .TwoThirdWidget, .ThreeQuarterWidget { height:auto; overflow:hidden; float:left; margin-right:20px; }
+.FullWidget { width:1170px; margin-right:0; float:none; }
+.QuarterWidget { width:277.5px; }
+.ThirdWidget { width:376.66px; }
+.HalfWidget { width:575px; }
+.TwoThirdWidget { width:773.33px; }
+.ThreeQuarterWidget  { width:892.5px; }
+.NoneWidget { display:none; visibility:hidden; }
+
+.QuarterWidget:nth-child(4n+4) { margin-right:0; }
+.ThirdWidget:nth-child(3n+3) { margin-right:0; }
+
+.TopBar_Mobile { height:0; background-color:#F1F1F1; }
+.TopBar1 { height:130px; background-color:#F1F1F1; border-top:0 solid #E2E2E2; }
+.TopBar2 { height:50px; background:#B70C04; width:100%; }
+.Links, .MenuPanel { color:#000; font-size:16px; }
+.Stuck { position:fixed; top:0; z-index:999; text-align:center; border-bottom:1px solid #FFF; }
+.Stuck .MenuPanel { }
+.Stuck .MainMenu { /*display:inline-block;*/ width:unset; float:none !important; }
+
+.TopBar1 .InternalLinks { position:absolute; top:10px; right:0; z-index:500; color:#343434; }
+.TopBar1 .InternalLinks div { display:inline-block; margin-left:10px; }
+.TopBar1 .InternalLinks .fa { margin-right:5px; color:#B70C04; }
+.TopBar1 .InternalLinks a { color:#343434; }
+
+.TopBar1 .ExternalLinks { position:absolute; top:48px; right:191px; z-index:500; }
+.TopBar1 .ExternalLinks div { display:inline; margin-left:5px; }
+.TopBar1 .ExternalLinks div img { border:0; }
+
+.TopBar1 .Links { height:100%; position:absolute; top:48px; right:0; z-index:99; float:right; }
+.TopBar1 .Links .SearchBox { float:right; display:flex; width:auto; position:relative; top:0; background-color:#FFF; }
+.TopBar1 .Links .SearchBox input[type='text'] { height:40px; line-height:40px; padding:1px 15px; width:150px; border:0; font-size:14px; color:#406A3C; background-color:#FFF; }
+.TopBar1 .Links .SearchBox input::-webkit-input-placeholder { color:#333 !important; } 
+.TopBar1 .Links .SearchBox input:-moz-placeholder { color:#333 !important; }
+.TopBar1 .Links .SearchBox input::-moz-placeholder { color:#333 !important; }
+.TopBar1 .Links .SearchBox input:-ms-input-placeholder { color:#333 !important; }
+.TopBar1 .Links .SearchBox .fa { font-size:18px; padding:0; line-height:10px; color:#B70C04; position:absolute; top:11px; right:4px; border:0; padding:5px;  }
+.TopBar1 .Links .SearchBox a:hover, .TopBar .SearchBox .fa:hover { text-decoration:none; }
+.TopBar1 .Links .SearchBox a:visited, .TopBar .SearchBox .fa:visited { text-decoration:none; }
+
+.TopBar1 .SiteLogo { display:block; float:left; width:auto; height:auto; position:absolute; top:10px; left:0; z-index:999; }
+.TopBar1 .SiteLogo .logo img { cursor:pointer; height:100%; }
+.TopBar1 .SchoolName, .TopBar1 .SchoolTag { position:absolute; color:#343434; line-height:1em; z-index:99; font-family:Arial; font-weight:600; font-family:'Times New Roman', Times, serif; }
+.TopBar1 .SchoolName { font-size:38px; top:30px; max-width:calc(100% - 600px); left:120px; }
+.TopBar1 .SchoolTag { font-size:22px; margin:5px 0; color:#B70C04; font-style:italic; }
+.TopBar1 #google_translate_element { position:absolute; right:0; top:89px; }
+
+.MenuPanel { clear:both; text-align:center; position:relative; z-index:999; top:14px; }
+.MainMenu { padding-top:0; float:none !important; display:inline-block; }
+li.static a { padding:0; border:0; color:#FFF; font-weight:400; }
+li.static:hover a { cursor:pointer; }
+
+#mnuMainMenu .menu-icon { margin-right:3px; }
+#mnuMainMenu ul.dynamic { display:none; text-align:left; background-color:#fff !important; color:#8e8e8e; top:36px !important; border:1px solid #dedede; min-width:150px; font-size:13px !important; font-weight:400 !important; text-transform:capitalize; min-width:100%; }
+#mnuMainMenu ul li.dynamic { padding:5px 20px; float:unset; }
+#mnuMainMenu ul li ul { display:none; }
+#mnuMainMenu ul li { position:relative; float:left; list-style:none; }
+
+#mnuMainMenu a.level2:hover { color:#dd0000 !important; background-color:#FFF !important; }
+#mnuMainMenu a { font-size:16px; }
+#mnuMainMenu li:first-child a.level1 { margin-left:0 !important; }
+#mnuMainMenu li:last-child a.level1 { margin-right:0 !important; }
+#mnuMainMenu a.level1 { float:left; margin:0 23px !important; padding:0 !important; }
+
+#mnuMainMenu img.horizontal-separator { padding:0; }
+.NotMobile #mnuMainMenu a.level1 { padding-top:9px; padding-bottom:6px; }
+
+.MenuPanel.mobile { height:auto; z-index:9; }
+.MenuPanel.mobile .MainMenu { width:100%; height:auto; display:block; z-index:9999; }
+.MenuPanel .ResponsiveMenu { float:right; overflow:hidden; padding:4px 10px; text-transform:uppercase; }
+.MenuPanel .ResponsiveMenu a { color:#FFF; font-size:20px; }
+.MenuPanel .ResponsiveMenu a:hover, .MenuPanel .ResponsiveMenu a:visited { color:#FFF; text-decoration:none; }
+.MenuPanel .ResponsiveMenu .fa { font-size:26px; color:#FFF; margin-left:10px; position:relative; top:3px; }
+
+a.popout { background-image:none !important; cursor:pointer; }
+.level_menu { padding:0 30px; }
+ul.level2 { padding:5px 0 !important; }
+ul.level2, a.level2 { color:#010101 !important; padding:0 !important; }
+
+.FooterBar { width:100%; overflow:hidden; }
+.Footer1 { background-color:#B70C04; color:#fff; padding:40px 0; }
+.Footer1 .GetInTouch, .Footer1 .ContactUs, .Footer1 .Location { width:33.3%; height:100%; float:left; padding:10px 10px; }
+.Footer1 .GetInTouch { padding-right:0; }
+.Footer1 .GetInTouch span { vertical-align:top; }
+.Footer1 .Title { font-size:18px; font-weight:500; padding-bottom:5px; text-transform:uppercase; }
+.Footer1 .GetInTouch, .Footer1 .GetInTouch { margin-bottom:5px; }
+.Footer1 .GetInTouch, .Footer1 .GetInTouch { margin-bottom:5px; }
+.Footer1 .GetInTouch input, .Footer1 .GetInTouch textarea { padding:10px; font-size:14px; color:#666; width:calc(100% - 30px); border:0 solid #CCC; margin-bottom:10px; }
+.Footer1 .GetInTouch input[type='submit'] { text-transform:uppercase; background-color:#A6140C; color:#FFF; font-size:14px; font-weight:500; border:1px solid #fff;}
+.Footer1 .GetInTouch input[type='submit']:hover { background-color:#B70C04; color:#FFF; }
+.Footer1 .ContactInput { padding-left:10px !important; }
+
+.Footer1 .ContactUs .Logo { display:flex; align-items:center; margin-bottom:20px; }
+.Footer1 .ContactUs .Logo img { height:80px; margin-right:10px; }
+.Footer1 .ContactUs .Logo .Name { line-height:normal; font-size:24px; max-width:calc(100% - 100px); }
+.Footer1 .ContactUs .fa { width:20px; margin-right:5px; text-align:center; font-size:16px; }
+.Footer1 .ContactUs .Address, .ContactUs .Email, .ContactUs .Phone , .ContactUs .Terms { clear:left; color:#fff; margin-bottom:15px; }
+.Footer1 .ContactUs a { color:#fff; text-decoration:underline; }
+.Footer1 .Link1 { display:inline; margin-right:5px; }
+.Footer1 .Link1 img { border:0; }
+.Footer1 .Affiliates { margin-top:10px; }
+.Footer1 .Affiliates img { height:50px; }
+
+.Footer2 { height:75px; text-align:right; background-color:#0D0D0D; color:#fff; font-size:12px; padding:14px; }
+.Footer2 .Wrapper{display: flex; flex-direction: row-reverse;align-items: center;}
+.Footer2 .CopyrightInfo { float:right; width:49%; }
+.Footer2 .PoweredBy { float:left; width:49%; text-align:left; }
+.Footer2 .PoweredBy a { color:#fff; display:flex; align-items:end; }
+.Footer2 .PoweredBy a:hover { text-decoration:none; }
+.Footer2 .PoweredBy img { border:0; position:relative; top:-2px; left:5px; }
+
+/* QuickLinks */
+input[type="checkbox"] { transition: all 0.3s; box-sizing: border-box; display: none; }
+.sidebarIconToggle { border: 2px solid #fff; cursor: pointer; position: absolute; z-index: 8; top: 308px; left: -50px; width: 200px; text-align: center; transform: rotate(90deg); background-color:#B70C04; color: white; font-weight: 500; font-size: 24px; padding: 5px; transition: all 0.3s; }
+#sidebarMenu { position: absolute; left: 20px; top:200px; width: 250px; transform: translateX(-450px); transition: transform 250ms ease-in-out; }
+.sidebarMenuInner { padding-left: 0; width: 210px; display: block; text-align: center; overflow: hidden; }
+.sidebarMenuInner li { background-color:#F1F1F1; }
+.sidebarMenuInner li {  margin: 0 0 5px 0; padding: 0; display: block; width: 100%; border: 1px solid #fff; } 
+.sidebarMenuInner li:nth-of-type(odd) { background-color:#B70C04;}
+.sidebarMenuInner li:nth-of-type(even) { background-color:#F1F1F1; }
+.sidebarMenuInner li:nth-of-type(odd) a { color:white;}
+.sidebarMenuInner li a { color: #010101; font-size: 20px; display: block; text-align: left; padding: 5px 10px; }
+input[type="checkbox"]:checked ~ .sidebarIconToggle { left: 180px; transition: all 0.3s; }
+input[type="checkbox"]:checked ~ #sidebarMenu { transform: translateX(0); }
+@media (max-width: 768px) {
+.sidebarIconToggle {width: 140px;font-size: 16px;left: -40px;top: 300px;padding: 4px;}
+}
+@media (max-width: 480px) {
+.sidebarIconToggle {width: 105px;font-size: 12px;left: -36px;}
+}
+
+@media (max-width: 480px) {
+input[type="checkbox"]:checked ~ .sidebarIconToggle {left: 105px;}
+}
+@media (max-width: 320px) {
+.sidebarIconToggle {display: none;}
+    #sidebarMenu  {display:none;}
+
+}
+@media (max-width: 480px) {
+.sidebarIconToggle {display: none;}
+#sidebarMenu {display: none;}
+}
+@media (max-width: 768px) {
+.sidebarMenuInner {width: 120px;}
+.sidebarMenuInner li a {font-size: 13px;}
+}
+@media (max-width: 768px) {
+ input[type="checkbox"]:checked ~ .sidebarIconToggle {left: 100px;}
+}
+@media (max-width: 768px) {
+#sidebarMenu {top: 256px;}
+}
+@media only screen and (max-width: 580px) {
+.sidebarMenuInner {width: 106px;}
+#sidebarMenu {top: 256px;}
+.sidebarMenuInner li a {font-size: 11px;}
+}
+    /* Start - Cookie panel ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    .cookie-policy-banner {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 5px 10px;
+        color: #fff;
+        background-color: #1d1d1d;
+        z-index: 9999;
+        text-align: center;
+    }
+
+        .cookie-policy-banner p {
+            display: inline-block;
+            padding: 8px 0 10px 0;
+            margin: 10px 20px 10px 0;
+            font-size: 12px;
+        }
+
+        .cookie-policy-banner section {
+            display: inline-block;
+        }
+
+        .cookie-policy-banner a.small-button {
+            margin-bottom: 8px;
+            margin-right: 10px;
+        }
+
+        .cookie-policy-banner .small-button.confirm {
+            color: #fff;
+            background-color: #e36b1b;
+            border-color: #c55200;
+            padding: 6px 10px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .cookie-policy-banner a.arrow-link {
+            color: #fff;
+            text-decoration: none;
+        }
+
+    /* Start - Ajax processing pop up box ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    div.AjaxProcessingContainer {
+        border: 0;
+        height: 10%;
+        width: 20%;
+        position: fixed;
+        _position: absolute;
+        left: 40%;
+        top: 40%;
+        color: black;
+        z-index: 1000;
+    }
+
+    div.AjaxProcesingShadow {
+        background: #ccc url(../../Images/Site/bgShadow.png) no-repeat right bottom;
+        position: relative;
+        bottom: 5px;
+        right: 5px;
+    }
+
+    table.AjaxProcesing {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #818181;
+        background-color: #fff;
+        position: relative;
+        bottom: 4px;
+        right: 4px;
+    }
+
+    td.AjaxProcesingImage {
+        text-align: center;
+    }
+
+    td.AjaxProcesingText {
+        text-align: center;
+        color: #333;
+        font-size: medium;
+    }
+
+    .modalBackground {
+        background-color: gray;
+        filter: alpha(opacity=70);
+        opacity: 0.7;
+    }
+
+    div.AjaxModalBox {
+        min-height: 150px;
+        text-align: left;
+        background-color: White;
+        border: 2px solid #313131;
+        padding: 0px 0px 20px 0px;
+        width: 100%;
+        max-width: 450px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+    }
+
+        div.AjaxModalBox div.Container {
+            padding: 10px;
+        }
+
+            div.AjaxModalBox div.Container p.title {
+                color: #585858 !important;
+                text-transform: uppercase !important;
+                font-weight: 500 !important;
+                border-bottom: 1px solid #585858;
+            }
+
+    .CloseAjaxModalBox {
+        width: 100%;
+        height: 20px;
+        text-align: right;
+        background-color: #313131;
+    }
+
+    /* Start - Generic error panel box ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    div.ErrorPanel {
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        background-color: #BA120E;
+        padding: 15px 0;
+        border-bottom: 1px solid #333;
+    }
+
+    div.ErrorPanel {
+        position: fixed;
+        top: 0px;
+        left: 0px !important;
+        z-index: 99999;
+    }
+
+        div.ErrorPanel span {
+            width: 70%;
+            display: block;
+            font-weight: 500;
+            margin: 0px auto;
+            color: #fff;
+        }
+
+    span.CloseError {
+        width: 17px !important;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .ErrorModalSummary ul {
+        padding: 0px;
+        margin-top: 5px;
+        margin-left: 0px;
+        list-style-type: none;
+        color: Red;
+    }
+
+    .ErrorModalSummary li {
+        padding-left: 30px;
+        margin: 0px;
+        text-indent: 0px;
+        color: #BA120E;
+    }
+
+    /* Home page ----------------------------------------------------------------------------------------------------------------------------*/
+    .carousel-inner .carousel-item {
+        max-height: 680px
+    }
+
+        .carousel-inner .carousel-item:after {
+            content: "";
+            background-color: rgba(0,0,0,0);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0
+        }
+
+    .right.carousel-control, .left.carousel-control {
+        display: none
+    }
+
+    #img-carousel img {
+        display: block;
+        height: auto;
+        left: 50%; /*min-height:100%;*/
+        min-width: 100%;
+        object-fit: contain;
+        position: relative;
+        top: 50%;
+        transform: translate(-50%,0%);
+        width: 100%;
+    }
+
+    .carousel .Message {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 75px;
+        display: flex;
+        justify-content: center;
+        margin: 15px auto;
+    }
+
+        .carousel .Message .Row1 {
+            padding: 20px;
+            background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+            max-width: 85%;
+        }
+
+        .carousel .Message h2 {
+            margin: 0 !important;
+            font-size: 48px;
+        }
+
+        .carousel .Message .Info {
+            color: #fff;
+            text-align: center;
+            display: table;
+        }
+
+    .HP_RowA, .HP_RowB, .HP_RowC, .HP_RowD {
+        width: 100%;
+        clear: both;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 40px 0 20px 0;
+        color: #fff;
+    }
+    .HP_RowB {padding:60px 10px 20px 10px;}
+    .HP_RowB .Wrapper{ display: flex; justify-content: space-evenly;flex-wrap: wrap;}
+    .HP_RowB .Wrapper div.Button { text-align: center; margin: 10px; padding: 15px 25px; border: 1px solid #CACACA; border-radius: 10px; box-shadow: 3px 3px 8px 4px #CACACA; text-align: center; }
+    .HP_RowB img{height: 100px;}
+    .HP_RowB .Title{color:#000; padding-top:20px;}
+    .HP_RowB .Wrapper div.Button:hover{transition: background-image 0.1s ease-in-out; transform: scale(1.1);}
+    .HP_RowA {
+        background-color: #606060;
+        padding: 0;
+    }
+
+        .HP_RowA .HalfWidget {
+            margin-right: 0px;
+            margin-bottom: 0;
+            float: right;
+        }
+
+    .PrincipalMessage {
+        padding: 30px 40px 30px 20px;
+        overflow-y: auto !important;
+        height: auto !important;
+        color: #fff;
+    }
+
+        .PrincipalMessage h2 {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #fff;
+        }
+
+        .PrincipalMessage .Welcome {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #fff;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .PrincipalMessage .Message {
+            padding: 10px 0;
+        }
+
+        .PrincipalMessage .Principal {
+            font-size: 16px;
+        }
+
+            .PrincipalMessage .Principal span {
+                font-style: italic;
+                font-weight: 600;
+            }
+
+        .PrincipalMessage .Title {
+            clear: left;
+            font-size: 14px;
+            font-weight: normal;
+        }
+
+    /* Home page ----------------------------------------------------------------------------------------------------------------------------*/
+    .HomeWidget {
+        height: 300px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+        .HomeWidget img {
+            width: 100%;
+        }
+
+        .HomeWidget .WidgetHeader {
+            line-height: 73px;
+            color: #FFF;
+            font-size: 22px;
+            width: 80%;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            padding: 0;
+        }
+
+            .HomeWidget .WidgetHeader .HeaderText {
+                line-height: 1.5;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .HomeWidget .WidgetHeader a {
+                color: #fff;
+            }
+
+        .HomeWidget .WidgetContent {
+            height: 100%;
+        }
+
+        .HomeWidget .List-ItemContainer {
+            padding: 20px 15px 0 15px;
+            border: 0;
+            height: auto;
+            margin-bottom: 0; /*min-height:100px;*/
+        }
+
+            .HomeWidget .List-ItemContainer .ListItem {
+                max-height: 150px;
+                border-bottom: 1px dotted #666;
+                padding-bottom: 10px;
+            }
+
+            .HomeWidget .List-ItemContainer .ImageHolder {
+                display: none;
+            }
+
+            .HomeWidget .List-ItemContainer .ContentHolder {
+                width: 100%;
+            }
+
+            .HomeWidget .List-ItemContainer .TitleBox {
+                height: auto;
+                max-height: 34px !important;
+                margin-bottom: 5px;
+                font-weight: 500;
+            }
+
+                .HomeWidget .List-ItemContainer .TitleBox h2 {
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+
+            .HomeWidget .List-ItemContainer .DatePublished {
+                font-size: 11px;
+                display: block;
+                color: #1E3964;
+            }
+
+            .HomeWidget .List-ItemContainer .Introduction {
+                font-size: 14px !important;
+                max-height: 67px !important;
+                height: auto;
+                margin-bottom: 0 !important;
+            }
+
+        .HomeWidget .Grid-ItemContainer {
+            height: 300px !important;
+        }
+
+            .HomeWidget .Grid-ItemContainer .ContentHolder {
+                display: none;
+            }
+
+        .HomeWidget .GridItem .ImageHolder {
+            height: 235px !important;
+        }
+
+        .HomeWidget .EventsWidget, .HomeWidget .TwitterPanel {
+            height: 300px !important;
+            overflow: hidden;
+        }
+
+            .HomeWidget .EventsWidget .EventLine {
+                margin-bottom: 15px !important;
+            }
+
+            .HomeWidget .TwitterPanel iframe {
+                height: 330px !important;
+            }
+
+    1
+    .Scroll {
+        overflow-y: scroll;
+    }
+
+    .HomeGraphic {
+        min-height: 350px;
+        background-image: url('../../Images/Site/Home.jpg');
+        background-position: center;
+        background-size: cover;
+        float: none;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    /*.QuarterWidget .Grid-ItemContainer .ImageHolder img { height:100%; position:relative; left:-30px; width:unset; }*/
+
+    .WidgetHeader {
+        background-color: #B70C04;
+        padding: 12px 0;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+        .WidgetHeader .HeaderText a {
+            color: #fff;
+        }
+
+    .WidgetContent {
+        max-height: 257px;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .SideMenu .MenuItem {
+        padding: 5px 0;
+        color: #010101;
+        font-weight: 500;
+    }
+
+        .SideMenu .MenuItem a, .SideMenu .MenuItem a:visited {
+            color: #010101;
+        }
+
+    .SideMenu .MenuSeperator {
+        border: 1px solid #007040;
+        height: 1px;
+    }
+
+    .SideWidget .LatestNews {
+        margin-top: 20px;
+    }
+
+    .SideWidget .WidgetHeader {
+        padding: 10px 0;
+        font-size: 22px;
+    }
+
+    .SideWidget .Grid-ItemContainer {
+        height: 320px;
+    }
+
+    .ViewAll {
+        text-align: center;
+        padding: 15px 0;
+        margin-bottom: 15px;
+    }
+
+    a.ViewAll {
+        background-color: #007040 !important;
+        color: #333 !important;
+        font-weight: 500;
+    }
+
+    .Twitter, .Facebook {
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+        .Facebook span {
+            width: 100% !important;
+        }
+
+    .TwitterPanel {
+        height: 450px !important;
+        border: 1px solid #D1D3D2;
+        overflow: hidden;
+    }
+
+    /* Grid Items ----------------------------------------------------------------------------------------------------------------------------*/
+    .Grid-ItemContainer {
+        width: 100%;
+        height: 320px;
+        overflow: hidden;
+        color: #fff;
+        float: left;
+        margin: 0 20px 20px 0;
+        border: 0 solid #D1D3D2;
+        background-color: #F1F1F1;
+    }
+
+        .Grid-ItemContainer:nth-child(3n+3) {
+            margin-right: 0;
+        }
+
+        .Grid-ItemContainer .NoItems {
+            padding: 20px;
+            display: block;
+            font-size: 18px;
+            font-weight: 500;
+            color: #323232;
+        }
+
+    .GridItem .ImageHolder {
+        width: 100%;
+        height: 225px;
+        border: 0 !important;
+    }
+
+    .GridItem .ContentHolder {
+        width: 100%;
+        clear: left;
+        padding: 10px 15px 0 15px;
+    }
+
+        .GridItem .ContentHolder .TitleBox {
+            max-height: 50px;
+            overflow: hidden;
+        }
+
+            .GridItem .ContentHolder .TitleBox h2 {
+                padding: 3px 0;
+            }
+
+        .GridItem .ContentHolder .DatePublished {
+            padding-top: 5px;
+            color: #fff;
+        }
+
+        .GridItem .ContentHolder .Introduction {
+            display: none;
+        }
+
+        .GridItem .ContentHolder .ReadMore a {
+            display: none;
+        }
+
+    .List-ItemContainer {
+        width: 100%;
+        height: 160px;
+        overflow: hidden;
+        padding: 20px;
+        border: 1px solid #999;
+        margin-bottom: 20px;
+    }
+
+    .ListItem {
+        max-height: 120px;
+        overflow: hidden;
+    }
+
+        .ListItem .ImageHolder {
+            width: 180px;
+            height: 100%;
+            max-height: 120px;
+            float: left;
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .ListItem .ContentHolder {
+            width: calc(100% - 200px);
+            float: left;
+        }
+
+            .ListItem .ContentHolder .TitleBox {
+                max-height: 23px;
+                overflow: hidden;
+            }
+
+            .ListItem .ContentHolder .Introduction {
+                font-size: 14px;
+                padding-top: 3px;
+                max-height: 50px;
+                overflow: hidden;
+                margin-bottom: 5px;
+            }
+
+            .ListItem .ContentHolder .ReadMore a {
+                color: #5678A6;
+                font-size: 13px;
+                font-weight: 500;
+            }
+
+    .ThirdWidget .Grid-ItemContainer {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* News pages top banner image Panels ----------------------------------------------------------------------------------------------------------------------------*/
+    .NewsPageMedia, .StudentNewsPageMedia, .SearchPageMedia, .EventsPageMedia {
+        height: 200px;
+        background-size: cover !important;
+        padding-top: 0;
+    }
+
+    .NewsPageMedia {
+        background: url(../../Images/Site/NewsPageBG.jpg) no-repeat center top;
+    }
+
+    .StudentNewsPageMedia {
+        background: url(../../Images/Site/StudentPressPageBG.jpg) no-repeat center top;
+    }
+
+    .SearchPageMedia {
+        background: url(../../Images/Site/SearchPageBG.jpg) no-repeat center top;
+    }
+
+    .EventsPageMedia {
+        background: url(../../Images/Site/EventsPageBG.jpg) no-repeat center top;
+    }
+
+        .NewsPageMedia .Info, .StudentNewsPageMedia .Info, .EventsPageMedia .Info {
+            margin: 0 auto;
+            color: #fff;
+        }
+
+        .NewsPageMedia h2, .StudentNewsPageMedia h2, .EventsPageMedia h2, .SearchPageMedia h2 {
+            font-size: 46px;
+            color: #fff;
+            display: inline;
+            padding: 5px 10px;
+            background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+            font-weight: 300;
+            position: relative;
+            top: 100px;
+            left: 50px;
+        }
+
+    /* Events Widget - usercontrol ----------------------------------------------------------------------------------------------------------------------------*/
+    .Events {
+        margin-bottom: 20px;
+    }
+
+    .EventsWidget {
+        height: 100%;
+        color: #B70C04;
+        padding: 20px 10px 0 10px;
+        margin-bottom: 20px;
+    }
+
+        .EventsWidget .EventLine {
+            margin: 0 0 10px 0;
+            display: flex;
+        }
+
+        .EventsWidget .EventStartDate {
+            width: 105px;
+            text-align: center;
+            font-weight: 500;
+            border-right: 1px solid #B70C04;
+            text-transform: uppercase;
+        }
+
+            .EventsWidget .EventStartDate .Month, .EventsWidget .EventStartDate .Date {
+                padding-right: 10px;
+                overflow: hidden;
+            }
+
+            .EventsWidget .EventStartDate .Month {
+                font-size: 18px;
+            }
+
+            .EventsWidget .EventStartDate .Date {
+                font-size: 16px;
+            }
+
+        .EventsWidget .EventTitle {
+            width: calc(100% - 115px);
+            overflow: hidden;
+            padding-left: 10px;
+            height: 47px;
+        }
+
+        .EventsWidget .ViewAll {
+            border: 0 !important;
+            padding: 0;
+            display: flex;
+        }
+
+        .EventsWidget .default-button {
+            border: 0 !important;
+        }
+
+        .EventsWidget .ViewAll a {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .EventsWidget .NoEvents {
+            padding: 0 0 15px 10px;
+            display: block;
+        }
+
+    /* Events Page  ----------------------------------------------------------------------------------------------------------------------------*/
+    .CalendarLayout {
+        width: 100%;
+    }
+
+        .CalendarLayout .aspNetDisabled, .aspNetDisabled:hover {
+            text-decoration: none;
+            color: #777;
+        }
+
+        .CalendarLayout .MainHeader {
+            height: 60px;
+            padding: 10px;
+            background-color: #eaeaea;
+            color: #292929 !important;
+            border-bottom: 3px solid #333;
+        }
+
+            .CalendarLayout .MainHeader a {
+                color: #292929 !important;
+            }
+
+    .CalendarDayHeading {
+        width: 14.28%;
+        height: 50px;
+        color: #333;
+        padding: 5px;
+        float: left;
+        text-align: center;
+        font-size: 15px;
+        border: 1px solid #eaeaea;
+        padding: 14px 0;
+    }
+
+    .CalendarDay, .CalendarDay-Weekend, .CalendarDay-Today {
+        padding: 10px 5px 5px 5px;
+        height: 105px;
+        border: 1px solid #eaeaea;
+        background-color: #fff;
+        vertical-align: top;
+    }
+
+    .CalendarDay-Weekend {
+        background-color: #fff6ca;
+    }
+
+    .CalendarDay-Today {
+        background-color: #e2f0ff;
+    }
+
+    .CalendarDay {
+        width: 14.28%;
+        float: left;
+        text-align: center;
+    }
+
+    .PrevMonth, div.NextMonth {
+        width: 20%;
+        float: left;
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    .CurrentMonth {
+        width: 55%;
+        text-align: center;
+        float: left;
+        font-size: 26px;
+    }
+
+    .PrevMonth {
+        text-align: left;
+    }
+
+    .NextMonth {
+        text-align: right;
+    }
+
+    .DayDate {
+        width: 100%;
+        display: block;
+        line-height: 19px;
+        font-size: 20px;
+        color: #333;
+        text-align: center;
+    }
+
+    .DayEvents {
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .Monday {
+        clear: left;
+    }
+
+    .Saturday, .Sunday {
+        background-color: #fff6ca
+    }
+
+    .ActiveDay, .ActiveDay:hover {
+        color: #FF0000;
+    }
+
+    .AlternateDetail .EventListDetail {
+        border: 0 !important;
+        background-color: #eaeaea;
+    }
+
+    a.EventLink {
+        clear: left;
+        display: block;
+        margin: 5px 0;
+        background-color: #010101;
+        font-size: 11px;
+        color: #fff;
+        padding: 1px 0;
+        text-decoration: none;
+        max-height: 18px;
+        overflow: hidden;
+    }
+
+    /* Event Detail control  ----------------------------------------------------------------------------------------------------------------------------*/
+    .EventDetail .ColLabel {
+        float: left;
+        margin-top: 5px;
+        width: 120px;
+        clear: both;
+        text-align: right;
+        padding-right: 10px;
+        font-weight: 500;
+    }
+
+    .EventDetail .ColControl {
+        float: left;
+        margin-top: 5px;
+        width: calc(100% - 150px);
+    }
+
+    .EventDetail .EventItem {
+        width: 210px;
+        border: 1px solid #ccc;
+        padding: 15px;
+    }
+
+        .EventDetail .EventItem:nth-child(4n+4) {
+            margin-right: 0;
+        }
+
+        .EventDetail .EventItem .StartTime, .EventDetail .EventItem .EndTime {
+            margin-left: 20px;
+        }
+
+    .EventDetail .StartDate, .EventDetail .EndDate {
+        display: inline-block;
+        min-width: 100px;
+        padding-right: 20px;
+    }
+
+    .EventDetail .EventItem .fa {
+        padding-right: 10px;
+        color: #010101;
+    }
+
+    .EventDetail .EventItem .EventTitle {
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    .EventDetail .EventItem .EventMoreInfo, .EventDetail .EventItem .EventURL {
+        display: none;
+    }
+
+    .EventDetail .EventItem .PayNow {
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .EventListDetail {
+        width: 100% !important;
+        border-top: 1px solid #333 !important;
+        border-bottom: 1px solid #333 !important;
+        border-right: 0 !important;
+        border-left: 0 !important;
+        display: inline-block;
+        padding-top: 10px;
+    }
+
+        .EventListDetail .EventURL {
+            padding-top: 10px !important;
+        }
+
+        .EventListDetail .EventMoreInfo, .EventListDetail .EventURL {
+            display: block !important;
+        }
+
+    .RegisterEvent {
+        clear: both;
+    }
+
+        .RegisterEvent .ShowRegister {
+            cursor: pointer;
+            color: #880000;
+        }
+
+
+    /* Media Panels ----------------------------------------------------------------------------------------------------------------------------*/
+    .MediaPanel {
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+        .MediaPanel .MP_item1 {
+            height: 100%;
+        }
+
+        .MediaPanel .ImageHolder {
+            height: 100%;
+            border: 1px solid #000;
+        }
+
+            .MediaPanel .ImageHolder img {
+                height: 100% !important;
+                object-position: center;
+            }
+
+            .MediaPanel .ImageHolder .Mobile {
+                display: none;
+            }
+
+        .MediaPanel .ContentHolder {
+            width: 100%;
+            max-width: 700px;
+            height: 95px;
+            position: relative;
+            top: -115px;
+            padding: 5px 15px;
+            background-color: #000;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+        }
+
+            .MediaPanel .ContentHolder .TitleBox {
+            }
+
+                .MediaPanel .ContentHolder .TitleBox a {
+                    color: #fff;
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+
+            .MediaPanel .ContentHolder .DatePublished {
+                display: none;
+            }
+
+            .MediaPanel .ContentHolder .Introduction {
+                color: #ddd;
+                font-size: 17px;
+                line-height: normal;
+            }
+
+    /* Generic Data Control ----------------------------------------------------------------------------------------------------------------------------*/
+    .ImageHolder {
+        overflow: hidden;
+        border: 1px solid #bbb;
+        background-color: #fff;
+    }
+
+        .ImageHolder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .ImageHolder a:hover {
+            text-decoration: none;
+        }
+
+    .ContentHolder {
+    }
+
+        .ContentHolder .TitleBox h2 {
+            font-size: 20px;
+            color: #010101;
+            padding: 0;
+            margin: 0;
+        }
+
+            .ContentHolder .TitleBox h2 a {
+                color: #010101;
+            }
+
+        .ContentHolder .DatePublished {
+            font-size: 12px;
+        }
+
+        .ContentHolder .Introduction {
+            line-height: 1.2;
+        }
+
+    .ListItem-Featured .ListItem {
+        max-height: 230px !important;
+    }
+
+    .ListItem-Featured .ImageHolder {
+        width: 330px !important;
+    }
+
+    .ListItem-Featured .ContentHolder {
+        width: 300px !important;
+    }
+
+    .ThirdWidget .List-ItemContainer {
+        height: auto !important;
+    }
+
+    .ThirdWidget .ListItem {
+        width: 100% !important;
+        margin: 0;
+    }
+
+        .ThirdWidget .ListItem .ContentHolder {
+            width: calc(100% - 120px);
+        }
+
+            .ThirdWidget .ListItem .ContentHolder .TitleBox {
+                overflow: hidden;
+                width: 100%;
+                max-height: 70px;
+            }
+
+                .ThirdWidget .ListItem .ContentHolder .TitleBox h2 {
+                    padding-bottom: 0;
+                    line-height: 16px;
+                }
+
+                .ThirdWidget .ListItem .ContentHolder .TitleBox a {
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+
+            .ThirdWidget .ListItem .ContentHolder .DatePublished {
+                display: none;
+            }
+
+            .ThirdWidget .ListItem .ContentHolder .Introduction {
+                display: none;
+            }
+
+        .ThirdWidget .ListItem .ImageHolder {
+            width: 110px;
+            height: 74px;
+            margin-right: 10px;
+            position: initial;
+        }
+
+        .ThirdWidget .ListItem .ReadMore {
+            display: none;
+        }
+
+    /* Article Detail Page  ----------------------------------------------------------------------------------------------------------------------------*/
+    .ArticleTitle h1, div.Item-Title h1 {
+        font-size: 27px;
+        font-weight: 500;
+        padding: 0;
+    }
+
+    .ArticleBx {
+        min-height: 450px;
+        margin-bottom: 50px;
+    }
+
+        .ArticleBx .IntroText {
+            color: #777;
+            margin-right: 15px;
+            padding-top: 5px;
+            font-size: 18px;
+            line-height: normal;
+            display: none;
+        }
+
+        .ArticleBx .AuthorText {
+            margin-top: 5px;
+            font-weight: 500;
+        }
+
+        .ArticleBx .DatePublished {
+            margin: 5px 0;
+        }
+
+        .ArticleBx .ArticleImage {
+            margin-bottom: 20px;
+        }
+
+            .ArticleBx .ArticleImage img {
+                width: 100%;
+                border: 1px solid #D3D3D3;
+            }
+
+        .ArticleBx .Social-Networks {
+            width: 100%;
+            text-align: left;
+            padding: 10px 0;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            margin: 5px 0 10px;
+            height: 42px;
+        }
+
+        .ArticleBx .ArticleCopy {
+            clear: both;
+        }
+
+    .ArticleKeywords {
+        border-top: 1px dotted #ccc;
+        border-bottom: 1px dotted #ccc;
+        margin-top: 20px;
+        padding: 10px 0px;
+    }
+
+    #GalleryImages {
+        text-align: center;
+    }
+
+        #GalleryImages a {
+            margin: 15px;
+            display: inline-block;
+            max-width: 120px;
+            height: 100px;
+            overflow: hidden;
+            border: 1px solid #aaa;
+        }
+
+            #GalleryImages a img {
+                height: 100%;
+                width: 100px;
+                object-fit: cover;
+                left: 0 !important;
+            }
+
+    .splide__slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0 !important;
+    }
+
+    .st_facebook_custom {
+        background-image: url('../../Images/Site/social_icon_sprite.png') !important;
+        height: 20px;
+        width: 61px;
+        background-position: 0 0;
+        display: inline-block;
+        margin: 0 3px 0 0;
+        position: relative;
+        top: 0px;
+    }
+
+        .st_facebook_custom:hover {
+            background-position: -71px 0;
+            cursor: pointer;
+        }
+
+    .st_twitter_custom {
+        background-image: url('../../Images/Site/social_icon_sprite.png') !important;
+        height: 20px;
+        width: 61px;
+        background-position: 0 -20px;
+        display: inline-block;
+        margin: 0 3px;
+    }
+
+        .st_twitter_custom:hover {
+            background-position: -71px -20px;
+            cursor: pointer;
+        }
+
+    .st_googleplus_custom {
+        background-image: url('../../Images/Site/social_icon_sprite.png') !important;
+        height: 20px;
+        width: 43px;
+        background-position: 0 -40px;
+        display: inline-block;
+        margin: 0 3px;
+    }
+
+        .st_googleplus_custom:hover {
+            background-position: -71px -40px;
+            cursor: pointer;
+        }
+
+    .st_pinterest_custom {
+        background-image: url('../../Images/Site/social_icon_sprite.png') !important;
+        height: 20px;
+        width: 59px;
+        background-position: 0 -146px;
+        display: inline-block;
+        margin: 0 3px;
+    }
+
+        .st_pinterest_custom:hover {
+            background-position: -71px -146px;
+            cursor: pointer;
+        }
+
+    .st_sharethis_custom {
+        background-image: url('../../Images/Site/social_icon_sprite.png') !important;
+        height: 20px;
+        width: 61px;
+        background-position: 0 -60px;
+        display: inline-block;
+        margin: 0 0 0 3px;
+    }
+
+        .st_sharethis_custom:hover {
+            background-position: -71px -60px;
+            cursor: pointer;
+        }
+
+    .st_share_count {
+        height: 20px;
+        width: 100px;
+        display: inline-block;
+        margin: 0 3px;
+        padding-left: 5px;
+        border-left: 1px solid black;
+    }
+
+    /* Error Page  ----------------------------------------------------------------------------------------------------------------------------*/
+    .ErrorPage .ErrorMsg {
+        width: 40%;
+        height: auto;
+        float: right;
+    }
+
+    .ErrorPage .ErrorImg {
+        width: 60%;
+        height: auto;
+        float: left;
+        padding-right: 30px;
+    }
+
+    /* Enrolment pages ----------------------------------------------------------------------------------------------------------------------------*/
+    .Enrolment {
+        clear: both;
+        margin: 30px 0;
+    }
+
+        .Enrolment .Title {
+            font-size: 20px;
+            border-bottom: 1px solid #333;
+            margin-bottom: 20px;
+        }
+
+        .Enrolment .Ctl input:not([type='submit']) {
+            padding: 3px;
+            font-size: 14px;
+            color: #000;
+            width: 230px;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+        }
+
+        .Enrolment .Ctl input[type='radio'] {
+            width: 75px !important;
+            float: left;
+        }
+
+        .Enrolment .Lbl, .Enrolment .Ctl {
+            float: left;
+        }
+
+        .Enrolment .Lbl {
+            width: 180px;
+            clear: both;
+        }
+
+        .Enrolment .Ctl {
+            width: 400px;
+            margin-bottom: 20px;
+        }
+
+        .Enrolment .Save input {
+            padding: 0;
+        }
+
+  
+/* Custom pages ----------------------------------------------------------------------------------------------------------------------------*/
+table { width:100%; border-collapse:separate; border-spacing:0; background-color:#ffffff; }
+table.Staff td { width:50%; }
+table tr.Row1,
+table tr.Row2 { height:35px; border:4px solid #ffffff; }
+table tr.Row1 { background-color:rgba(185,185,185,0.2); }
+table tr.Row2 { background-color:rgba(185,185,185,0.4); }
+table td,
+table th { padding:10px !important; text-align:left; border-bottom:1px solid #dddddd; transition:background 0.2s ease; }
+table tr:nth-child(even) td { background-color:#f6f6f6; }
+table tr:hover td { background:linear-gradient(to right, #a1c6e683, transparent); }
+table tr a { color:#1f34de; margin:0 15px; text-decoration:none; }
+
+.ig-wall{width:100%;max-width:1200px;margin:15px auto;overflow:visible; margin-bottom:50px;}
+.ig-embed{display:block;width:100%!important;min-width:100%!important;height:900px;border:0;}
+.ig-wall h3 {padding: 15px; font-size: 28px !important; color: #B70C04;}
+@media(max-width:1024px){.ig-embed{height:800px;}}
+@media(max-width:768px){.ig-embed{height:500px;}}
+@media(max-width:480px){.ig-embed{height:400px;}}
+
+
+
+    /* Custom pages ----------------------------------------------------------------------------------------------------------------------------*/
+    .StaffMember {
+        width: calc(25% - 20px);
+        margin-right: 20px;
+        display: inline-block;
+        margin-bottom: 20px;
+        vertical-align: top;
+    }
+
+        .StaffMember:nth-child(4n) {
+            margin-right: 0;
+        }
+
+        .StaffMember .Photo {
+            width: 100%;
+            height: 210px;
+            overflow: hidden;
+        }
+
+            .StaffMember .Photo img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .StaffMember .Name, .StaffMember .Class, .StaffMember .Email, .StaffMember .Phone {
+            text-align: center;
+            padding: 3px 0;
+        }
+
+    .Policies .row div {
+        border: 1px solid #999;
+        padding: 10px;
+    }
+
+    /*Test styles for masonry*/
+    .grid {
+        background: #EEE;
+        max-width: 1200px;
+    }
+
+        .grid:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    /* clearfix */
+    .grid-sizer, .grid-item {
+        width: 20%;
+    }
+    /* ---- grid-item ---- */
+    .grid-item {
+        height: 120px;
+        float: left;
+        background: #D26;
+        border: 2px solid #333;
+        border-color: hsla(0, 0%, 0%, 0.5);
+        border-radius: 5px;
+    }
+
+    .grid-item--width2 {
+        width: 40%;
+    }
+
+    .grid-item--width3 {
+        width: 60%;
+    }
+
+    .grid-item--height2 {
+        height: 200px;
+    }
+
+    .grid-item--height3 {
+        height: 260px;
+    }
+
+    .grid-item--height4 {
+        height: 360px;
+    }
+
+    @media only screen and (max-width:1190px) {
+        body {
+            min-width: 990px;
+        }
+
+        .BodyWrapper {
+            min-width: unset !important;
+        }
+
+        .Wrapper {
+            max-width: 990px;
+        }
+
+        .FullWidget {
+            width: 990px;
+            float: none;
+        }
+
+        .QuarterWidget {
+            width: 232.5px;
+        }
+
+        .ThirdWidget {
+            width: 316.66px;
+        }
+
+        .HalfWidget {
+            width: 485px;
+        }
+
+        .TwoThirdWidget {
+            width: 653.33px;
+        }
+
+        .ThreeQuarterWidget {
+            width: 757.5px;
+        }
+
+        #mnuMainMenu a.level1 {
+            margin: 0 15px !important;
+        }
+
+        .TopBar1 .SchoolName { /*max-width:calc(100% - 600px); */
+        }
+
+        .Footer1 .ContactUs .Logo .Name {
+            top: 0;
+        }
+
+        .Footer1 .ContactInfo, .Footer1 .Buttons {
+            float: none;
+            text-align: center
+        }
+
+        .Footer1 .Buttons {
+            display: block;
+            margin: 0 auto;
+        }
+
+            .Footer1 .Buttons div img {
+                margin-top: 20px;
+            }
+
+        /* Grid Items ----------------------------------------------------------------------------------------------------------------------------*/
+        .Grid-ItemContainer { /*width:316.66px;*/
+            height: 305px;
+        }
+
+        .GridItem .ImageHolder {
+            height: 210px;
+        }
+    }
+
+    /*for screens setting width up to 990px + scrolbar */
+    @media only screen and (max-width:1009px) {
+        /* Nav functionalty based on width > 990px*/
+        .MenuPanel {
+            left: 0;
+            right: 0;
+            top: 5px;
+            position: absolute;
+        }
+
+        .MainMenu {
+            display: none;
+        }
+
+        .MainMenu {
+            background-color: #FFF;
+            top: 7px;
+            left: 0;
+            width: 100%;
+            position: relative;
+        }
+
+            .MainMenu li {
+                float: none;
+                width: 100%;
+            }
+
+                .MainMenu li a {
+                    color: #323232;
+                }
+
+                .MainMenu li:hover {
+                    background-color: #FFF;
+                }
+
+        .MainMenu {
+            padding-left: 0px;
+        }
+
+        #mnuMainMenu ul {
+            border: 1px solid #323232;
+            border-top: 0;
+            text-align: left;
+            background-color: #fff;
+        }
+
+            #mnuMainMenu ul .dynamic {
+                position: relative !important;
+            }
+
+            #mnuMainMenu ul.dynamic {
+                left: 0 !important;
+                top: 0 !important;
+            }
+
+        #mnuMainMenu a.level1 {
+            float: none;
+            margin: 0 !important;
+        }
+
+        #mnuMainMenu img.horizontal-separator {
+            display: none;
+        }
+
+        li.static {
+            padding: 5px 20px !important;
+        }
+
+        ul.level2 {
+            padding: 0 !important;
+        }
+
+        li.static:last-child a {
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+            background-color: unset;
+        }
+
+        li.static:hover a {
+            background-color: #fff;
+            color: #010101;
+        }
+
+        .Stuck .MainMenu {
+            top: 7px;
+        }
+        /* End Nav functionalty based on width > 990px*/
+
+        body {
+            min-width: unset;
+        }
+
+        .Wrapper {
+            max-width: 768px;
+        }
+
+        .FullWidget {
+            width: 768px;
+            float: none;
+        }
+
+        .QuarterWidget {
+            width: 177px;
+        }
+
+        .ThirdWidget {
+            width: 242.66px;
+        }
+
+        .HalfWidget {
+            width: 374px;
+        }
+
+        .TwoThirdWidget {
+            width: 505.33px;
+        }
+
+        .ThreeQuarterWidget {
+            width: 591px;
+        }
+
+        .TopBar_Mobile {
+            height: 40px;
+            border-bottom: 1px solid #B70C04;
+        }
+
+        .TopBar1 .SchoolName {
+            font-size: 35px;
+            max-width: calc(100% - 320px);
+            top: 18px;
+        }
+
+        .TopBar1 .SchoolTag {
+            font-size: 18px; /*max-width:calc(100% - 320px); top:60px; */
+        }
+
+        .TopBar1 .Links {
+            top: 20px;
+        }
+
+        .TopBar1 #google_translate_element {
+            top: 70px;
+        }
+
+        .TopBar1 .ExternalLinks {
+            top: -32px;
+            left: 0;
+            right: unset;
+        }
+
+        .TopBar1 .InternalLinks {
+            top: -32px;
+        }
+
+        .TopBar1 .ExternalLinks div img {
+            height: 25px;
+        }
+
+        .Footer1 .Address {
+            display: block;
+        }
+
+            .Footer1 .Address::after {
+                content: "" !important;
+            }
+
+        .Footer1 .ContactUs .Logo .Name {
+            font-size: 22px;
+        }
+
+        .Footer1 .ContactUs .Logo img {
+        }
+
+        /* Grid Items ----------------------------------------------------------------------------------------------------------------------------*/
+        .Grid-ItemContainer { /*width:242.66px;*/
+            height: 255px;
+        }
+
+        .GridItem .ImageHolder {
+            height: 160px;
+        }
+        /*.QuarterWidget .Grid-ItemContainer .ImageHolder img { left:-80px; }*/
+    }
+
+    /*for screens setting width up to 768px + scrolbar */
+    @media only screen and (max-width:788px) {
+        .Wrapper {
+            max-width: 639px;
+        }
+
+        .FullWidget, .HalfWidget {
+            width: 100%;
+            float: none;
+        }
+
+        .QuarterWidget, .ThreeQuarterWidget {
+            width: 309.5px;
+        }
+
+        .ThirdWidget {
+            width: 199.66px;
+        }
+
+        .TwoThirdWidget {
+            width: 419.33px;
+        }
+
+        .QuarterWidget:nth-child(2n+2) {
+            margin-right: 0;
+        }
+
+        .TopBar1 .Links, .TopBar1 #google_translate_element {
+            right: 0;
+        }
+
+        .Footer1 .GetInTouch, .Footer1 .ContactUs {
+            width: 50%;
+        }
+
+            .Footer1 .ContactUs .Logo .Name {
+                font-size: 26px;
+            }
+
+        .Footer1 .Location {
+            clear: both;
+            width: 100%;
+        }
+
+        .Footer1 .PoweredBy {
+            width: calc(100% - 325px);
+        }
+
+            .Footer1 .PoweredBy .Text {
+                top: 8px;
+            }
+
+            .Footer1 .PoweredBy .Links {
+                top: 20px;
+            }
+
+            .Footer1 .PoweredBy .Logo {
+                height: 55px;
+            }
+
+            .Footer1 .PoweredBy .SocialLink {
+                height: 35px;
+                width: 35px;
+            }
+
+        .carousel-caption {
+            right: 20%;
+            left: 20%;
+            bottom: 36%
+        }
+
+        .carousel .Message {
+            bottom: 50px;
+        }
+
+            .carousel .Message .Row1 {
+                padding: 10px 20px;
+            }
+
+            .carousel .Message h2 {
+                font-size: 32px;
+            }
+
+            .carousel .Message h3 {
+                font-size: 26px;
+            }
+
+        .HomeWidget .WidgetHeader {
+            font-size: 18px;
+        }
+
+        /* Grid Items ----------------------------------------------------------------------------------------------------------------------------*/
+        .Grid-ItemContainer { /*width:199.66px;*/
+            height: 230px;
+        }
+
+        .GridItem .ImageHolder {
+            height: 130px;
+        }
+
+        /* List Items ----------------------------------------------------------------------------------------------------------------------------*/
+        .ThirdWidget .ListItem .ContentHolder {
+            display: none;
+        }
+
+        .ThirdWidget .ListItem .ImageHolder {
+            width: 100%;
+            height: 95px;
+            margin-right: 0;
+        }
+    }
+
+    /*for screens setting width up to 639px + scrolbar */
+    @media only screen and (max-width:659px) {
+        .Wrapper {
+            max-width: 568px;
+        }
+
+        .FullWidget, .HalfWidget {
+            width: 100%;
+            float: none;
+        }
+
+        .QuarterWidget, .ThreeQuarterWidget {
+            width: 274px;
+        }
+
+        .ThirdWidget {
+            width: 176px;
+        }
+
+        .TwoThirdWidget {
+            width: 372px;
+        }
+
+        .TopBar1 .SchoolName {
+            font-size: 30px;
+        }
+
+        .TopBar1 .SchoolTag {
+            font-size: 16px;
+        }
+
+        .TopBar1 .Links .InternalLink {
+            margin-right: 10px;
+        }
+
+        .TopBar1 .Links .Email {
+            display: none;
+        }
+
+        .TopBar1 .Links .CallUs {
+            border-right: 0;
+        }
+
+        .HP_RowA {
+            display: inline-block;
+            height: 100%;
+        }
+
+        .Footer1 .PoweredBy .Links {
+            margin-right: 0;
+            position: absolute;
+            top: -50px;
+            right: 0px;
+        }
+
+        .Footer1 .PoweredBy .SocialLink:last-child {
+            margin-right: 0;
+        }
+
+        .carousel .Message {
+            bottom: 15px;
+        }
+
+            .carousel .Message .Row1 {
+                padding: 10px;
+            }
+
+        /* Grid Items ----------------------------------------------------------------------------------------------------------------------------*/
+        .Grid-ItemContainer { /*width:176px;*/
+            height: 210px;
+        }
+
+        .GridItem .ImageHolder {
+            height: 115px;
+        }
+    }
+
+    /*for screens setting width up to 568px + scrolbar */
+    @media only screen and (max-width:588px) {
+        .Wrapper {
+            max-width: 480px;
+        }
+
+        .FullWidget, .HalfWidget, .QuarterWidget, .ThreeQuarterWidget, .ThirdWidget, .TwoThirdWidget {
+            width: 100%;
+            float: none;
+        }
+
+        .TopBar1 {
+            height: 155px;
+        }
+
+            .TopBar1 .SiteLogo {
+                top: 5px;
+            }
+
+                .TopBar1 .SiteLogo .logo img {
+                    height: 85px;
+                }
+
+            .TopBar1 .SchoolTag {
+            }
+
+            .TopBar1 .SchoolName {
+                left: 85px;
+                max-width: calc(100% - 135px);
+            }
+
+            .TopBar1 .Links {
+                top: 100px;
+                left: 10px;
+                width: calc(100% - 20px);
+            }
+
+                .TopBar1 .Links .SearchBox {
+                    width: 100%;
+                    float: none;
+                }
+
+                    .TopBar1 .Links .SearchBox input[type='text'] {
+                        width: calc(100% - 50px)
+                    }
+
+            .TopBar1 #google_translate_element {
+                position: absolute;
+                top: 41px;
+            }
+
+        .Footer1 .ContactUs, .Footer1 .GetInTouch, .Footer1 .PoweredBy, .Footer1 .Affiliates {
+            width: 100%;
+            float: none;
+            clear: both;
+            padding-top: 10px;
+        }
+
+        .Footer1 .Affiliates {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .Footer1 .PoweredBy {
+            width: calc(100% - 325px);
+        }
+
+            .Footer1 .PoweredBy .Text {
+                font-size: 12px;
+                top: 8px;
+            }
+
+            .Footer1 .PoweredBy .Logo {
+                height: 50px;
+            }
+
+        .carousel .Message {
+            font-size: 14px;
+        }
+
+            .carousel .Message h2 {
+                font-size: 24px;
+            }
+
+            .carousel .Message h3 {
+                font-size: 16px;
+            }
+
+        .HomeWidget .WidgetHeader {
+            font-size: 22px;
+        }
+
+        /* Grid Items ----------------------------------------------------------------------------------------------------------------------------*/
+        .Grid-ItemContainer { /*width:480px;*/
+            height: 325px;
+        }
+
+        .GridItem .ImageHolder {
+            height: 230px !important;
+        }
+
+        /* List Items ----------------------------------------------------------------------------------------------------------------------------*/
+        .ThirdWidget .ListItem .ImageHolder {
+            height: 68px;
+        }
+
+        /* List Items ----------------------------------------------------------------------------------------------------------------------------*/
+        .ThirdWidget .ListItem .ContentHolder {
+            display: initial;
+        }
+
+        .ThirdWidget .ListItem .ImageHolder {
+            width: 110px;
+            height: 74px;
+            margin-right: 10px;
+        }
+
+        /* Events Page  ----------------------------------------------------------------------------------------------------------------------------*/
+        .DayEvents, a.ViewAll {
+            display: none;
+        }
+
+        .CalendarDay, .CalendarDay-Weekend, .CalendarDay-Today {
+            height: 50px;
+            padding-top: 15px;
+        }
+
+        .DayDate {
+            font-size: 18px !important;
+        }
+    }
+
+    /*for screens setting width up to 480px + scrolbar */
+    @media only screen and (max-width:500px) {
+        .Wrapper {
+            max-width: calc(100% - 40px);
+        }
+
+        .FullWidget, .QuarterWidget, .HalfWidget, .ThreeQuarterWidget, .ThirdWidget, .TwoThirdWidget {
+            width: 100%;
+            float: none;
+            margin-right: 0;
+        }
+
+        .TopBar1 .SchoolName {
+            font-size: 25px;
+        }
+
+        .TopBar1 .SchoolTag {
+            font-size: 12px;
+        }
+
+        .TopBar1 .InternalLinks .Email {
+            display: none;
+        }
+
+        .TopBar1 #google_translate_element {
+            display: none;
+        }
+
+        .Footer1 .ContactUs .Logo .Name {
+            max-width: 220px;
+        }
+
+        .Footer1 .Buttons div img {
+            height: 50px;
+        }
+
+    .Footer2 .ContactUs { width:100%; display:inline-block; }
+    .Footer2 .PoweredBy a{display: flex;}
+    .Footer2{padding: 10px; display: flex;}
+    .Footer2 .PoweredBy a img{height:26px;}
+    .Footer2 .Wrapper{display: flex;flex-direction: row-reverse;justify-content: center;  align-items: center;}
+
+        /* Grid Items ----------------------------------------------------------------------------------------------------------------------------*/
+        .Grid-ItemContainer {
+            height: 325px;
+        }
+
+        .GridItem .ImageHolder {
+            height: 230px;
+        }
+
+        /* List Items ----------------------------------------------------------------------------------------------------------------------------*/
+        .ThirdWidget .ListItem .ContentHolder {
+            display: initial;
+        }
+
+        .ThirdWidget .ListItem .ImageHolder {
+            width: 110px;
+            height: 74px;
+            margin-right: 10px;
+        }
+    }
+
+    @media only screen and (max-width:440px) {
+        .carousel .Message h2 {
+            font-size: 18px;
+        }
+    }
+
+    @media only screen and (max-width:330px) {
+        #ContentWrapper {
+            padding: 20px 5px !important;
+        }
+    }
+.icon-row {display: flex;flex-wrap: wrap;justify-content: center;align-items: center;gap: 105px;padding: 60px; background: #f1f1f1;}
+.icon-item {display: flex;flex-direction: column;align-items: center;text-align: center;text-decoration: none;color: #333;font-size: 14px;width: 80px;}
+.icon-item img {width: 80px;height: auto;transition: transform 0.2s;}
+.icon-item:hover img {transform: scale(1.1);}
+
+@media (max-width: 600px) {
+.icon-item {width: 60px;font-size: 12px;}
+.icon-item img {width: 40px;}
+}
+
+
+a { color: #0051A8;}
+a[href="#mnuMainMenu_SkipLink"], a[href="#ctlHeader_Menu_mnuMainMenu_SkipLink"]{background-color:#000; color:rgb(61, 155, 255);}
+.cookie-policy-banner .small-button.confirm { color:#fff !important; background-color:#8D4311 !important; border-color:#c55200 !important;}
+.HomeWidget .ListPanelTitle{display:none;} 
+.sr-only{color:#000;}
+footer .sr-only{color:#fff;}
+#MainContent_lblMessage a{ color:#0056B3;}
