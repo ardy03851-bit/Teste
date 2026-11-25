@@ -1,209 +1,28 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-		<meta charset="utf-8">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link rel="icon" type="image/png" sizes="32x32" href="https://messenger.abeto.co/assets/favicon32-BC0QIL61.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="https://messenger.abeto.co/assets/favicon16-B6JSd80n.png">
+      <meta name="description" content="It's a small planet, but someone's gotta make the deliveries.">
+      <title>Messenger</title>
 
-		<!-- Electron defs -->
-		<!-- <meta http-equiv="Content-Security-Policy"
-		content="
-			default-src 'self';
-			script-src 'self' 'unsafe-inline';
-			style-src 'self' 'unsafe-inline';
-			img-src 'self' data:;
-			font-src 'self';
-			object-src 'none';
-		"> -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:url" content="https://messenger.abeto.co">
+      <meta name="twitter:title" content="Messenger">
+      <meta name="twitter:description" content="It's a small planet, but someone's gotta make the deliveries.">
+      <meta name="twitter:image" content="https://messenger.abeto.co/assets/images/social.jpg">
 
-		<link rel="icon" href="https://slowroads.io/favicon.svg">
-		<link rel="apple-touch-icon" href="apple-touch-icon.png">
-		<!-- <link rel="icon" href="./favicon_dark.svg" type="image/x-icon" media="(prefers-color-scheme: dark)"> -->
-		<!-- <link rel="icon" href="./favicon_light.svg" type="image/x-icon" media="(prefers-color-scheme: light)"> -->
-		<link rel="preload" href="/fonts/Sono.ttf" as="font" type="font/ttf" crossorigin="">
-		<link rel="preload" href="/fonts/Space.ttf" as="font" type="font/ttf" crossorigin="">
-
-		<link rel="manifest" href="/manifest.json">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta name="theme-color" content="#ffffff">
-		<meta name="title" content="Slow Roads">
-		<meta name="description" content="Endless driving zen">
-		<meta name="color-scheme" content="light only">
-
-		<!-- Open Graph / Facebook -->
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://slowroads.io/">
-		<meta property="og:title" content="Slow Roads">
-		<meta property="og:description" content="Endless driving zen">
-		<meta property="og:image" content="/meta-autumn-02c.jpg">
-		<!-- <meta property="og:image" content="/meta-steam.jpg"> -->
-
-		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image">
-		<meta property="twitter:url" content="https://slowroads.io/">
-		<meta property="twitter:title" content="Slow Roads">
-		<meta property="twitter:description" content="Endless driving zen">
-		<meta property="twitter:image" content="/meta-autumn-02c.jpg">
-		<!-- <meta property="twitter:image" content="/meta-steam.jpg"> -->
-
-		<title> s l o w&nbsp;&nbsp;r o a d s</title>
-
-		<script>
-			document.addEventListener("DOMContentLoaded", function() {
-			  if (window.location.hash) {
-				// Check if the URL contains a hash
-				const metas = document.querySelectorAll('meta[property^="og:"], meta[name^="twitter:"]');
-
-				// Remove or modify the necessary meta tags
-				metas.forEach(meta => {
-				  	meta.parentNode.removeChild(meta);
-				});
-			  }
-			});
-
-		</script>
-
-		<style>
-
-			:root {
-				--sr-white: #F4F2ED;
-
-				--sr-white-0: #F4F2ED00;
-				--sr-white-10: #F4F2ED20;
-				--sr-white-25: #F4F2ED40;
-				--sr-white-50: #F4F2ED80;
-				--sr-white-75: #F4F2EDC0;
-				--sr-white-90: #F4F2EDE0;
-
-				--sr-primary: #343c3e;
-				--sr-primary-0: #343c3e00;
-				--sr-primary-25: #343c3e40;
-				--sr-primary-50: #343c3e80;
-				--sr-primary-75: #343c3eC0;
-				--sr-primary-90: #343c3eEE;
-
-				--sr-secondary: #D2D1CD;
-				--sr-secondary-0: #D2D1CD00;
-				--sr-secondary-25: #D2D1CD40;
-				--sr-secondary-50: #D2D1CD80;
-				--sr-secondary-75: #D2D1CDC0;
-				--sr-secondary-90: #D2D1CDEE;
-
-				--sr-tertiary: #7e7c76;
-				--sr-tertiary-0: #7e7c7600;
-				--sr-tertiary-25: #7e7c7640;
-				--sr-tertiary-50: #7e7c7680;
-				--sr-tertiary-75: #7e7c76C0;
-				--sr-tertiary-90: #7e7c76EE;
-
-				--sr-warn: #ff992b;
-
-				--sr-dark: #444444;
-				--sr-darker: #333;
-				--sr-black: #23262c;
-
-				--sr-bg: #F4F2ED;
-				--sr-lowlight: #343c3e80;
-
-				color-scheme: light only;
-			}
-
-			@font-face {
-				font-family: Sono;
-				src: url(/fonts/Sono.ttf);
-				font-variant: slashed-zero;
-			}
-
-			@font-face {
-				font-family: Space;
-				src: url(/fonts/Space.ttf);
-				font-variant: slashed-zero;
-			}
-
-			/* width */
-			::-webkit-scrollbar {
-				width: 0.6rem;
-			}
-
-			/* Track */
-			::-webkit-scrollbar-track {
-				background: var(--sr-primary-25);
-			}
-
-			/* Handle */
-			::-webkit-scrollbar-thumb {
-				background: var(--sr-primary-50);
-			}
-
-			/* Handle on hover */
-			::-webkit-scrollbar-thumb:hover {
-				background: var(--sr-primary);
-			}
-
-			* {
-				margin: 0;
-				padding: 0;
-				scroll-behavior: smooth !important;
-				font-variant: slashed-zero;
-		    }
-
-			body {
-				overflow: hidden;
-				font-family: Space, Helvetica, sans-serif;
-			}
-
-			img {
-				-webkit-user-drag: none;
-				-khtml-user-drag: none;
-				-moz-user-drag: none;
-				-o-user-drag: none;
-				user-drag: none;
-			}
-
-			a {
-				text-decoration: none;
-			}
-
-			html {
-				position: fixed;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				font-size: 16px;
-			}
-
-			@media screen and (orientation: landscape) and (max-width: 1361px)  {
-				html {
-					font-size: 14px;
-				}
-			}
-
-			@media screen and (orientation: landscape) and (max-width: 1180px) {
-				html {
-					font-size: 12px;
-				}
-			}
-
-			@media screen and (orientation: portrait) {
-				html {
-					font-size: 12px;
-				}
-			}
-
-
-
-		</style>
-
-		<script src="./alea.min.js"></script>
-
-		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.4593a708.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.05185c5f.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.28a0dec0.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.205d685d.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/control.c2cf8273.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.a7863966.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.2e86b85f.js">
-	<link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/nodes/0.545b03e2.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/layout.eb19d6ff.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/nodes/1.04400d9e.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/nodes/3.da2ad8c8.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/conifers.26f84295.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/SettingsManager.a31845d6.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/DevMidlineGenerator.7013ef99.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/HillsHeightmap.1d759caa.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/DriftmasMidlineGenerator.13fc1bad.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/tree_08.839552e8.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/IsStaticRoute.ed7acde0.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/index.d9998155.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/times.b1a5e42f.js"><link rel="modulepreload" as="script" crossorigin="" href="https://slowroads.io/_app/immutable/chunks/each.e59479a4.js"><link rel="stylesheet" href="https://slowroads.io/_app/immutable/assets/3.988f5726.css"><style>
+      <meta property="og:title" content="Messenger">
+      <meta property="og:description" content="It's a small planet, but someone's gotta make the deliveries.">
+      <meta property="og:type" content="website">
+      <meta property="og:locale" content="en_US">
+      <meta property="og:image" content="https://messenger.abeto.co/assets/images/social.jpg">
+      <meta property="og:url" content="https://messenger.abeto.co">
+      <script type="module" crossorigin="" src="https://messenger.abeto.co/assets/webgl-CS4l6lxD.js"></script>
+      <link rel="modulepreload" crossorigin="" href="https://messenger.abeto.co/assets/App3D-DwM1eiaC.js">
+      <link rel="stylesheet" crossorigin="" href="https://messenger.abeto.co/assets/style-BgpnrCnL.css">
+    <style>html{text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}html,html body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background-color:#fff;touch-action:none;-webkit-text-size-adjust:100%;text-size-adjust:100%}html body .click{cursor:pointer}html body #app{display:block;position:absolute;top:0;left:0;width:100%;height:100%;margin:0;padding:0;overflow:hidden}body .tp-dfwv{max-height:calc(100vh - 16px)}body .tp-dfwv::-webkit-scrollbar{width:5px}body .tp-dfwv::-webkit-scrollbar-track{background-color:#4c4f53}body .tp-dfwv::-webkit-scrollbar-thumb{background-color:#777c81}html{--default-font: sans-serif}</style><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, minimal-ui, viewport-fit=cover"><style>
     @keyframes lgGlassSweep {
       0% { transform: translateX(-140%) skewX(-24deg); opacity: 0; }
       35% { opacity: 0.55; }
@@ -343,7 +162,13 @@
       letter-spacing: -0.005em;
     }
   </style></head>
-	<body data-sveltekit-preload-data="hover" style="cursor: none;">
-		<div style="display: contents">  <div id="main" tabindex="-1" autofocus="" class="svelte-bgj4yc"><div id="ui-dynamic" class="svelte-bgj4yc">     <div id="ui-settings-bar" class="svelte-1vatkls"> <div class="audio-control svelte-1hs4ew6"><img class="ui-settings-bar-icon" src="/img/ico_volume_on.svg"> </div> <img class="ui-settings-bar-icon svelte-1vatkls" src="/img/ico_settings.svg"></div>    <div> <div class="conf-main svelte-101otrq"><div class="conf-header svelte-101otrq"><div class="conf-tab-header svelte-101otrq"><div class="conf-tab-header-label svelte-101otrq" style="opacity: 1;"><span class="svelte-101otrq invisible">-</span> WORLD <span class="svelte-101otrq invisible">-</span></div> <div class="conf-tab-pip svelte-101otrq"></div></div> <div class="conf-tab-header svelte-101otrq"><div class="conf-tab-header-label svelte-101otrq" style="opacity: 1;"><span class="svelte-101otrq invisible">-</span> STYLE <span class="svelte-101otrq invisible">-</span></div> <div class="conf-tab-pip svelte-101otrq"></div></div> <div class="conf-tab-header svelte-101otrq"><div class="conf-tab-header-label svelte-101otrq" style="opacity: 1;"><span class="svelte-101otrq invisible">-</span> VEHICLE <span class="svelte-101otrq invisible">-</span></div> <div class="conf-tab-pip svelte-101otrq"></div></div></div> <div class="conf-body svelte-101otrq"><div class="wld-main svelte-101otrq"><div class="wld-options svelte-101otrq"><div class="wld-option svelte-101otrq"><div class="wld-option-label svelte-101otrq">LOCATION</div> <div class="wld-option-tile svelte-101otrq"><div class="wld-option-arrows svelte-101otrq"><div class="wld-option-arrow svelte-101otrq" style="text-align: left;">◂</div> <div class="wld-option-arrow svelte-101otrq" style="text-align: right;">▸</div></div> HILLS</div></div> <div class="wld-option svelte-101otrq"><div class="wld-option-label svelte-101otrq">ROAD STYLE</div> <div class="wld-option-tile svelte-101otrq"><div class="wld-option-arrows svelte-101otrq"><div class="wld-option-arrow svelte-101otrq" style="text-align: left;">◂</div> <div class="wld-option-arrow svelte-101otrq" style="text-align: right;">▸</div></div> NORMAL</div></div> </div> <div class="wld-generate svelte-101otrq"><div class="wld-hash-box svelte-101otrq"></div> <div class="ui-btn">GENERATE</div></div></div></div></div></div>   <div class="touch-visible svelte-if0uoq"><div class="accel-slider svelte-if0uoq"><div class="slider-thumb svelte-if0uoq" style="top: 90%;"></div> <div class="accel-slider-track svelte-if0uoq"></div> <div class="accel-slider-zero svelte-if0uoq" style="top: 90%;"></div></div> <div class="steer svelte-if0uoq"><div class="steer-bar svelte-if0uoq"><div class="steer-thumb-container svelte-if0uoq"><div class="steer-thumb svelte-if0uoq"></div></div> <div class="steer-bar-zero svelte-if0uoq"></div></div></div> <div class="touch-btn touch-reset svelte-if0uoq">RESET</div> <div class="touch-btn touch-brake svelte-if0uoq">BRAKE</div> <div class="touch-btn touch-boost svelte-if0uoq">BOOST</div> <div class="touch-btn touch-cam svelte-if0uoq">CAM</div></div> <div class="dash-icons svelte-bgj4yc dash-icons-bottom dash-icons-top"> </div> <div id="upcoming-container" class="svelte-1wl5x4o upcoming-top" style="opacity: 1;"><svg viewBox="0 0 160 160" width="100%" height="100%"><g transform="translate(80 96) scale(-0.5 -0.5)"><polyline points="47.2818 8816.257 47.875618 8816.452 48.46944 8816.646 49.063263 8816.842 49.65708 8817.037 50.250904 8817.231 50.844723 8817.427 51.438545 8817.621 52.032368 8817.816 52.626186 8818.012 53.22001 8818.206 53.813828 8818.401 54.40765 8818.596 55.00147 8818.791 55.59529 8818.985 56.189114 8819.181 56.782932 8819.376 57.380005 8819.56 57.977077 8819.744 58.574154 8819.929 59.171227 8820.112 59.7683 8820.297 60.36537 8820.481 60.962444 8820.666 61.559517 8820.85 62.15659 8821.034 62.753662 8821.219 63.35074 8821.402 63.94781 8821.587 64.54488 8821.771 65.14196 8821.956 65.73903 8822.14 66.336105 8822.324 66.942505 8822.469 67.54891 8822.612 68.15531 8822.757 68.76172 8822.901 69.368126 8823.046 69.974525 8823.189 70.58093 8823.334 71.18733 8823.479 71.79374 8823.622 72.40014 8823.767 73.006546 8823.911 73.61295 8824.055 74.21935 8824.199 74.82576 8824.344 75.43216 8824.488 76.03857 8824.632 76.65466 8824.707 77.27075 8824.781 77.88685 8824.856 78.502945 8824.932 79.11903 8825.006 79.73513 8825.081 80.35123 8825.155 80.967316 8825.23 81.58341 8825.305 82.19951 8825.38 82.8156 8825.455 83.431694 8825.529 84.04779 8825.6045 84.66388 8825.679 85.279976 8825.754 85.89607 8825.829 86.51628 8825.825 87.1365 8825.822 87.756714 8825.818 88.37692 8825.815 88.99714 8825.8125 89.61735 8825.809 90.237564 8825.806 90.85777 8825.803 91.47799 8825.799 92.098206 8825.796 92.718414 8825.793 93.33863 8825.789 93.95884 8825.786 94.579056 8825.783 95.199265 8825.779 95.81948 8825.776 96.43444 8825.697 97.04941 8825.617 97.66437 8825.538 98.279335 8825.458 98.894295 8825.379 99.50926 8825.3 100.12422 8825.22 100.73919 8825.141 101.35415 8825.061 101.96911 8824.981 102.584076 8824.902 103.199036 8824.822 103.814 8824.743 104.42896 8824.663 105.04393 8824.584 105.65889 8824.505 106.255806 8824.343 106.85272 8824.182 107.449646 8824.0205 108.04656 8823.858 108.64348 8823.697 109.240395 8823.535 109.83732 8823.374 110.434235 8823.213 111.03115 8823.051 111.62807 8822.89 112.22498 8822.729 112.82191 8822.566 113.41882 8822.405 114.01574 8822.243 114.612656 8822.082 115.20957 8821.921 115.77648 8821.672 116.34338 8821.423 116.910286 8821.175 117.47719 8820.926 118.04409 8820.678 118.611 8820.429 119.1779 8820.181 119.744804 8819.932 120.31171 8819.683 120.87861 8819.435 121.44551 8819.186 122.01242 8818.9375 122.57932 8818.688 123.146225 8818.44 123.71313 8818.191 124.28003 8817.942 124.82092 8817.636 125.36182 8817.329 125.90271 8817.022 126.4436 8816.716 126.9845 8816.409 127.52539 8816.103 128.06628 8815.796 128.60718 8815.489 129.14807 8815.183 129.68896 8814.876 130.22986 8814.569 130.77075 8814.263 131.31165 8813.956 131.85254 8813.649 132.39343 8813.343 132.93433 8813.036 133.46638 8812.711 133.99843 8812.386 134.53049 8812.061 135.06255 8811.735 135.5946 8811.41 136.12665 8811.085 136.6587 8810.76 137.19077 8810.435 137.72281 8810.109 138.25487 8809.784 138.78693 8809.459 139.31898 8809.134 139.85103 8808.809 140.38309 8808.483 140.91515 8808.158 141.44719 8807.833 141.97893 8807.505 142.51065 8807.178 143.04237 8806.851 143.5741 8806.523 144.10582 8806.195 144.63754 8805.868 145.16927 8805.541 145.70099 8805.213 146.23273 8804.886 146.76445 8804.559 147.29617 8804.231 147.8279 8803.903 148.35962 8803.576 148.89134 8803.249 149.42307 8802.921 149.95479 8802.594 150.49008 8802.271 151.02538 8801.949 151.56067 8801.627 152.09595 8801.306 152.63124 8800.983 153.16653 8800.661 153.70181 8800.339 154.2371 8800.017 154.7724 8799.694 155.3077 8799.372 155.84297 8799.05 156.37827 8798.728 156.91356 8798.405 157.44884 8798.084 157.98413 8797.762 158.51942 8797.439 159.05954 8797.125 159.59964 8796.811 160.13976 8796.497 160.67986 8796.183 161.21997 8795.868 161.76009 8795.554 162.30019 8795.24 162.8403 8794.926 163.3804 8794.611 163.92052 8794.297 164.46063 8793.983 165.00073 8793.669 165.54085 8793.3545 166.08096 8793.04 166.62106 8792.727 167.16118 8792.412 167.70625 8792.106 168.25134 8791.801 168.79643 8791.495 169.3415 8791.189 169.8866 8790.884 170.43169 8790.578 170.97676 8790.273 171.52185 8789.968 172.06693 8789.662 172.61201 8789.356 173.1571 8789.051 173.70218 8788.745 174.24727 8788.439 174.79236 8788.134 175.33743 8787.828 175.88252 8787.523 176.43362 8787.229 176.98474 8786.935 177.53584 8786.64 178.08696 8786.345 178.63808 8786.051 179.18918 8785.756 179.7403 8785.462 180.2914 8785.167 180.84251 8784.873 181.39362 8784.578 181.94473 8784.284 182.49583 8783.989 183.04695 8783.695 183.59805 8783.4 184.14917 8783.106 184.70027 8782.812 185.27034 8782.562 185.8404 8782.312 186.41045 8782.062 186.9805 8781.812 187.55055 8781.562 188.1206 8781.312 188.69066 8781.061 189.26071 8780.811 189.83078 8780.561 190.40083 8780.311 190.97089 8780.061 191.54094 8779.811 192.111 8779.561 192.68105 8779.311 193.2511 8779.061" transform="rotate(71.55132958671894) translate(-47.281799003245055 -8816.257028309936)" stroke="var(--sr-white)" stroke-width="10" stroke-linecap="round" fill="none" style="filter: drop-shadow( 0px 0px 6px var(--sr-white) );"></polyline><circle fill="var(--sr-primary)" r="2" cx="47.281799003245055" cy="8816.257028309936" transform="rotate(71.55132958671894) translate(-47.281799003245055 -8816.257028309936)"></circle></g></svg></div> <div id="dash-autodrive" class="svelte-itei5"> <div class="dash-autodrive-bracket svelte-itei5" style="border-right: medium;"></div> <div class="dash-autodrive-text svelte-itei5">AUTODRIVE</div> <div class="dash-autodrive-bracket svelte-itei5" style="border-left: medium;"></div> </div> <div class="stat speed svelte-bgj4yc speed-touch stat-bottom stat-top"> <div class="stat-value svelte-bgj4yc"> 0.0</div> <div class="stat-unit svelte-bgj4yc">KILOMETERS PER HOUR</div></div> <div class="stat distance svelte-bgj4yc distance-touch stat-bottom stat-top"><div class="stat-value svelte-bgj4yc">0.1</div> <div class="stat-unit svelte-bgj4yc">KILOMETERS</div></div> <div class="stat-underlay svelte-bgj4yc underlay-top"></div> <div class="menu-underlay svelte-bgj4yc"></div></div> <canvas class="svelte-bgj4yc" data-engine="three.js r155" width="1180" height="655" style="width: 1180px; height: 655px;"></canvas></div> <div id="svelte-announcer" aria-live="assertive" aria-atomic="true" style="position: absolute; left: 0px; top: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); overflow: hidden; white-space: nowrap; width: 1px; height: 1px;"></div></div>
-	
-<div style="position: fixed; top: 0px; left: 282px; cursor: pointer; opacity: 0.9; z-index: 9999; display: none;"><canvas width="160" height="96" style="width: 80px; height: 48px; display: block;"></canvas><canvas width="160" height="96" style="width: 80px; height: 48px; display: none;"></canvas></div></body><div id="liquid-glass-zip-hud" style="position: fixed; bottom: 32px; left: 50%; transform: translate3d(-50%, 28px, 0px) scale(0.94); z-index: 2147483647; pointer-events: none; opacity: 0; will-change: transform, opacity; transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.22, 1.25, 0.36, 1);"><div class="lg-shell"><div class="lg-caustic"></div><div class="lg-ring-wrap"><div class="lg-ring-glow" id="lg-glow"></div><svg class="lg-svg" viewBox="0 0 36 36"><defs><linearGradient id="lg-grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffffff"></stop><stop offset="55%" stop-color="#cbd5e1"></stop><stop offset="100%" stop-color="#94a3b8"></stop></linearGradient></defs><circle class="lg-track" cx="18" cy="18" r="15"></circle><circle class="lg-arc" id="lg-arc" cx="18" cy="18" r="15"></circle></svg><span class="lg-pct-mini" id="lg-pct">0%</span></div><div class="lg-meta"><div class="lg-top-row"><span class="lg-title" id="lg-title">Indexing Assets</span><span class="lg-size-pill" id="lg-size">0.0 MB</span></div><div class="lg-sub" id="lg-file">Scanning DOM &amp; 3D resources…</div></div></div></div></html>
+    <body><div id="app"><!----><!----><div id="webgl"><div></div><div id="global-ui" style="position: absolute; top: 0px; left: 0px; width: 0px; height: 0px;"><div class="dialog-button" style="position: absolute; touch-action: none; pointer-events: none; width: 65px; height: 65px; left: 895px; top: 537.5px;"></div><div class="side-button" style="position: absolute; touch-action: none; width: 65px; height: 65px; left: 1085px; top: 50px; pointer-events: none;"></div><div class="side-button" style="position: absolute; touch-action: none; left: 1085px; top: 375px; width: 65px; height: 65px; pointer-events: none;"></div><div class="side-button" style="position: absolute; touch-action: none; left: 1085px; top: 457.5px; width: 65px; height: 65px; pointer-events: none;"></div><div class="side-button" style="position: absolute; touch-action: none; left: 1085px; top: 540px; width: 65px; height: 65px; pointer-events: none;"></div><div class="emoji-bg" style="position: absolute; touch-action: none; pointer-events: none; width: 320px; height: 133.8px; left: 745px; top: 471.2px;"><div style="position: absolute; touch-action: none; pointer-events: none; width: 44.4px; height: 44.4px; left: 260.6px; top: 74.4px;"></div><div style="position: absolute; touch-action: none; pointer-events: none; width: 44.4px; height: 44.4px; left: 199.2px; top: 74.4px;"></div><div style="position: absolute; touch-action: none; pointer-events: none; width: 44.4px; height: 44.4px; left: 137.8px; top: 74.4px;"></div><div style="position: absolute; touch-action: none; pointer-events: none; width: 44.4px; height: 44.4px; left: 76.4px; top: 74.4px;"></div><div style="position: absolute; touch-action: none; pointer-events: none; width: 44.4px; height: 44.4px; left: 15px; top: 74.4px;"></div><div style="position: absolute; touch-action: none; pointer-events: none; width: 44.4px; height: 44.4px; left: 260.6px; top: 15px;"></div><div style="position: absolute; touch-action: none; pointer-events: none; width: 44.4px; height: 44.4px; left: 199.2px; top: 15px;"></div><div style="position: absolute; touch-action: none; pointer-events: none; width: 44.4px; height: 44.4px; left: 137.8px; top: 15px;"></div><div style="position: absolute; touch-action: none; pointer-events: none; width: 44.4px; height: 44.4px; left: 76.4px; top: 15px;"></div><div style="position: absolute; touch-action: none; pointer-events: none; width: 44.4px; height: 44.4px; left: 15px; top: 15px;"></div></div><div class="checklist-bg" style="position: absolute; touch-action: none; pointer-events: none; width: 395px; height: 405.59199px; left: 670px; top: 50px;"></div><div class="continue-button" style="position: absolute; touch-action: none; pointer-events: none; width: 174.349548px; height: 58.136801px; left: 502.825226px; top: 463.577118px;"></div></div></div> <style>/* js */
+        div#webgl {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }</style><!----> <!----><!----></div>
+    
+
+</body><div id="liquid-glass-zip-hud" style="position: fixed; bottom: 32px; left: 50%; transform: translate3d(-50%, 28px, 0px) scale(0.94); z-index: 2147483647; pointer-events: none; opacity: 0; will-change: transform, opacity; transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.22, 1.25, 0.36, 1);"><div class="lg-shell"><div class="lg-caustic"></div><div class="lg-ring-wrap"><div class="lg-ring-glow" id="lg-glow"></div><svg class="lg-svg" viewBox="0 0 36 36"><defs><linearGradient id="lg-grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ffffff"></stop><stop offset="55%" stop-color="#cbd5e1"></stop><stop offset="100%" stop-color="#94a3b8"></stop></linearGradient></defs><circle class="lg-track" cx="18" cy="18" r="15"></circle><circle class="lg-arc" id="lg-arc" cx="18" cy="18" r="15"></circle></svg><span class="lg-pct-mini" id="lg-pct">0%</span></div><div class="lg-meta"><div class="lg-top-row"><span class="lg-title" id="lg-title">Indexing Assets</span><span class="lg-size-pill" id="lg-size">0.0 MB</span></div><div class="lg-sub" id="lg-file">Scanning DOM &amp; 3D resources…</div></div></div></div></html>
