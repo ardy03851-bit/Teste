@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime.CNC7AqOflz.chunk.js";import{inject as t}from"/r2/assets-chess/vite/vendors/vue.6bvt7eBkHo.js";function n(e,t){e.provide(i,t)}function r(e){let n=t(i,void 0);if(!n&&!e?.optional)throw Error(`design system data not found, make sure to call provideDesignSystem() first`);return n}var i,a=e((()=>{i=`design-system-key`}));export{n,r,a as t};

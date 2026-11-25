@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime.CNC7AqOflz.chunk.js";var t,n=e((()=>{(function(e){e.TenureBasedOfferModal={TenureBasedModal:`tenure_based_modal`}})(t||={})}));export{n,t};
