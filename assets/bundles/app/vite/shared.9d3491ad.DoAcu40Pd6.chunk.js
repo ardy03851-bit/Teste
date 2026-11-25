@@ -1,1 +1,0 @@
-import{n as e}from"./rolldown-runtime.CNC7AqOflz.chunk.js";import{d as t,f as n}from"./shared.fea975c5.B6AjigbwqU.chunk.js";function r({preferPendingCoach:e}={preferPendingCoach:!1}){return t({preferPendingCoach:e})?.locale||null}var i=e((()=>{n()}));export{i as n,r as t};

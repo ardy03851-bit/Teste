@@ -1,1 +1,0 @@
-import{n as e}from"./rolldown-runtime.CNC7AqOflz.chunk.js";var t,n=e((()=>{t=()=>document.documentElement.getAttribute(`dir`)===`rtl`}));export{t as n,n as t};

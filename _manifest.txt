@@ -1,390 +1,62 @@
-Website Archive (ZIP64): https://www.chess.com/
-Captured: 2026-11-25T13:31:37.849Z
-------------------------------------------------------------
-[OK] assets/bundles/web/fonts/chessglyph-v3/chessglyph-v3.3e78f81f.woff2 (66.9 KB) <- https://www.chess.com/bundles/web/fonts/chessglyph-v3/chessglyph-v3.3e78f81f.woff2
-[OK] assets/bundles/web/fonts/chess-sans/ChessSans-Bold.19a3983f.woff2 (68.9 KB) <- https://www.chess.com/bundles/web/fonts/chess-sans/ChessSans-Bold.19a3983f.woff2
-[OK] assets/bundles/web/fonts/chess-sans/ChessSans-ExtraBold.3b60f736.woff2 (69.1 KB) <- https://www.chess.com/bundles/web/fonts/chess-sans/ChessSans-ExtraBold.3b60f736.woff2
-[OK] assets/bundles/web/favicons/safari-pinned-tab.1bf62bbf.svg (0.4 KB) <- https://www.chess.com/bundles/web/favicons/safari-pinned-tab.1bf62bbf.svg
-[OK] assets/bundles/web/favicons/apple-touch-icon.7aaa2d1f.png (1.7 KB) <- https://www.chess.com/bundles/web/favicons/apple-touch-icon.7aaa2d1f.png
-[OK] assets/bundles/web/favicons/favicon.46041f2d.ico (15.0 KB) <- https://www.chess.com/bundles/web/favicons/favicon.46041f2d.ico
-[OK] assets/bundles/web/favicons/favicon-32x32.adae7142.png (0.6 KB) <- https://www.chess.com/bundles/web/favicons/favicon-32x32.adae7142.png
-[OK] assets/bundles/web/favicons/favicon.5d6cb047.svg (2.2 KB) <- https://www.chess.com/bundles/web/favicons/favicon.5d6cb047.svg
-[OK] assets/bundles/app/vite/design-system-global-styles.D238ykmO20.css (143.1 KB) <- https://www.chess.com/bundles/app/vite/design-system-global-styles.D238ykmO20.css
-[OK] assets/bundles/app/vite/main-global-styles.BNrHR8gNoD.css (102.0 KB) <- https://www.chess.com/bundles/app/vite/main-global-styles.BNrHR8gNoD.css
-[OK] assets/r2/client-packages/navigation/2026.11.5/navigation-logged-out-global-styles.HBnLJ7dK8H.css (28.3 KB) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/navigation-logged-out-global-styles.HBnLJ7dK8H.css
-[OK] assets/r2/client-packages/navigation/2026.11.5/shared.DO_T7DKtPD.css (5.7 KB) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/shared.DO_T7DKtPD.css
-[OK] assets/r2/client-packages/navigation/2026.11.5/navigation-logged-out.css (61.4 KB) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/navigation-logged-out.css
-[OK] assets/bundles/app/vite/global-global-styles.D10t7xPVfa.css (0.5 KB) <- https://www.chess.com/bundles/app/vite/global-global-styles.D10t7xPVfa.css
-[OK] assets/bundles/app/vite/navigation-footer-global-styles.DZfUFHD1jY.css (4.1 KB) <- https://www.chess.com/bundles/app/vite/navigation-footer-global-styles.DZfUFHD1jY.css
-[OK] assets/bundles/app/vite/navigation-footer.q2tfAwwzJZ.css (6.3 KB) <- https://www.chess.com/bundles/app/vite/navigation-footer.q2tfAwwzJZ.css
-[OK] assets/bundles/app/vite/content-global-styles.DnlxzGgQz7.css (39.9 KB) <- https://www.chess.com/bundles/app/vite/content-global-styles.DnlxzGgQz7.css
-[OK] assets/bundles/app/vite/layout-global-styles.Bk4v-OEjoC.css (1.7 KB) <- https://www.chess.com/bundles/app/vite/layout-global-styles.Bk4v-OEjoC.css
-[OK] assets/bundles/app/vite/web-index-global-styles.DDFTDXYBeK.css (3.8 KB) <- https://www.chess.com/bundles/app/vite/web-index-global-styles.DDFTDXYBeK.css
-[OK] assets/bundles/app/vite/shared.D0U7NhH8DB.css (26.3 KB) <- https://www.chess.com/bundles/app/vite/shared.D0U7NhH8DB.css
-[OK] assets/bundles/app/vite/web-index.BTGBk91ogF.css (1.2 KB) <- https://www.chess.com/bundles/app/vite/web-index.BTGBk91ogF.css
-[OK] assets/bundles/app/vite/landing-page-global-styles.Bo8IOLNNwO.css (54.3 KB) <- https://www.chess.com/bundles/app/vite/landing-page-global-styles.Bo8IOLNNwO.css
-[OK] assets/bundles/app/vite/landing-page.Dkb3XjFNoo.css (0.2 KB) <- https://www.chess.com/bundles/app/vite/landing-page.Dkb3XjFNoo.css
-[OK] assets/themes/css.css (12.4 KB) <- https://www.chess.com/themes/css?board_size=200&pieces_size=150
-[SKIPPED: Load failed] https://assets-themes.chess.com/
-[SKIPPED: Load failed] https://images.chesscomfiles.com/
-[SKIPPED: Load failed] https://api.chess.com/
-[OK] assets/index.html (130.0 KB) <- https://www.chess.com/
-[OK] assets/es (131.0 KB) <- https://www.chess.com/es
-[OK] assets/de (130.9 KB) <- https://www.chess.com/de
-[OK] assets/fr (131.4 KB) <- https://www.chess.com/fr
-[OK] assets/pl (131.1 KB) <- https://www.chess.com/pl
-[OK] assets/sv (116.2 KB) <- https://www.chess.com/sv
-[OK] assets/el (122.3 KB) <- https://www.chess.com/el
-[OK] assets/ru (138.8 KB) <- https://www.chess.com/ru
-[OK] assets/pt (130.8 KB) <- https://www.chess.com/pt
-[OK] assets/it (130.8 KB) <- https://www.chess.com/it
-[OK] assets/zh (131.4 KB) <- https://www.chess.com/zh
-[OK] assets/ko (131.9 KB) <- https://www.chess.com/ko
-[OK] assets/ja (132.7 KB) <- https://www.chess.com/ja
-[OK] assets/nl (116.1 KB) <- https://www.chess.com/nl
-[OK] assets/hy (122.9 KB) <- https://www.chess.com/hy
-[OK] assets/bg (121.5 KB) <- https://www.chess.com/bg
-[OK] assets/hr (116.5 KB) <- https://www.chess.com/hr
-[OK] assets/da (121.2 KB) <- https://www.chess.com/da
-[OK] assets/cs (116.9 KB) <- https://www.chess.com/cs
-[OK] assets/fi (116.4 KB) <- https://www.chess.com/fi
-[OK] assets/ro (116.7 KB) <- https://www.chess.com/ro
-[OK] assets/lt (117.1 KB) <- https://www.chess.com/lt
-[OK] assets/sk (116.6 KB) <- https://www.chess.com/sk
-[OK] assets/hu (131.3 KB) <- https://www.chess.com/hu
-[OK] assets/no (130.5 KB) <- https://www.chess.com/no
-[OK] assets/uk (123.3 KB) <- https://www.chess.com/uk
-[OK] assets/sl (116.3 KB) <- https://www.chess.com/sl
-[OK] assets/af (116.1 KB) <- https://www.chess.com/af
-[OK] assets/tr (131.5 KB) <- https://www.chess.com/tr
-[OK] assets/ar (135.8 KB) <- https://www.chess.com/ar
-[OK] assets/be (118.1 KB) <- https://www.chess.com/be
-[OK] assets/az (116.5 KB) <- https://www.chess.com/az
-[OK] assets/bs (116.4 KB) <- https://www.chess.com/bs
-[OK] assets/et (113.5 KB) <- https://www.chess.com/et
-[OK] assets/fa (121.5 KB) <- https://www.chess.com/fa
-[OK] assets/he (116.7 KB) <- https://www.chess.com/he
-[OK] assets/gl (113.3 KB) <- https://www.chess.com/gl
-[OK] assets/hi (137.6 KB) <- https://www.chess.com/hi
-[OK] assets/is (116.2 KB) <- https://www.chess.com/is
-[OK] assets/ka (121.5 KB) <- https://www.chess.com/ka
-[OK] assets/id (130.7 KB) <- https://www.chess.com/id
-[OK] assets/lv (116.8 KB) <- https://www.chess.com/lv
-[OK] assets/ms (116.4 KB) <- https://www.chess.com/ms
-[OK] assets/sq (116.4 KB) <- https://www.chess.com/sq
-[OK] assets/sr (121.6 KB) <- https://www.chess.com/sr
-[OK] assets/vi (118.1 KB) <- https://www.chess.com/vi
-[OK] assets/pt-BR (131.3 KB) <- https://www.chess.com/pt-BR
-[OK] assets/zh-HK (114.2 KB) <- https://www.chess.com/zh-HK
-[OK] assets/zh-TW (114.2 KB) <- https://www.chess.com/zh-TW
-[OK] assets/fil (116.5 KB) <- https://www.chess.com/fil
-[OK] assets/nl-BE (116.2 KB) <- https://www.chess.com/nl-BE
-[OK] assets/bn (118.9 KB) <- https://www.chess.com/bn
-[OK] assets/manifest.json (0.8 KB) <- https://www.chess.com/manifest.json
-[OK] assets/bundles/app/vite/shared.D5IsozRkWV.css (1.0 KB) <- https://www.chess.com/bundles/app/vite/shared.D5IsozRkWV.css
-[OK] assets/bundles/app/vite/shared.wxNqGVYX2P.css (5.4 KB) <- https://www.chess.com/bundles/app/vite/shared.wxNqGVYX2P.css
-[OK] assets/bundles/app/vite/shared.DQiaMuepMm.css (19.8 KB) <- https://www.chess.com/bundles/app/vite/shared.DQiaMuepMm.css
-[OK] assets/bundles/app/vite/shared.B-FrzlQkjb.css (1.6 KB) <- https://www.chess.com/bundles/app/vite/shared.B-FrzlQkjb.css
-[OK] assets/bundles/app/vite/shared.BXMMdBQHoV.css (1.9 KB) <- https://www.chess.com/bundles/app/vite/shared.BXMMdBQHoV.css
-[OK] assets/bundles/app/vite/shared.v_XJTolLWV.css (0.1 KB) <- https://www.chess.com/bundles/app/vite/shared.v_XJTolLWV.css
-[OK] assets/bundles/app/vite/init.CSNtCUSNOR.css (5.0 KB) <- https://www.chess.com/bundles/app/vite/init.CSNtCUSNOR.css
-[OK] assets/bundles/app/vite/client.CduQrLyZRd.css (0.6 KB) <- https://www.chess.com/bundles/app/vite/client.CduQrLyZRd.css
-[OK] assets/bundles/app/vite/shared.WcSbII4ikX.css (4.1 KB) <- https://www.chess.com/bundles/app/vite/shared.WcSbII4ikX.css
-[SKIPPED: Load failed] https://cdn.cookielaw.org/scripttemplates/202610.1.0/otBannerSdk.js
-[SKIPPED: Load failed] https://cdn.cookielaw.org/scripttemplates/202610.1.0/otTCF.js
-[OK] assets/bundles/app/js/client/es6-translations/es6-translation.en_US.ca729be9.js (5.2 KB) <- https://www.chess.com/bundles/app/js/client/es6-translations/es6-translation.en_US.ca729be9.js
-[OK] assets/bundles/app/vite/global.CD0HJCQ9gX.js (1.2 KB) <- https://www.chess.com/bundles/app/vite/global.CD0HJCQ9gX.js
-[OK] assets/bundles/app/vite/sentry.sGzKJdPHz-.js (8.8 KB) <- https://www.chess.com/bundles/app/vite/sentry.sGzKJdPHz-.js
-[OK] assets/bundles/app/vite/turnstile.DMBeq48883.js (78.1 KB) <- https://www.chess.com/bundles/app/vite/turnstile.DMBeq48883.js
-[SKIPPED: Load failed] https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback
-[OK] assets/bundles/app/vite/web-index.CQdg-LQ0g8.js (75.7 KB) <- https://www.chess.com/bundles/app/vite/web-index.CQdg-LQ0g8.js
-[OK] assets/bundles/app/vite/landing-page.akT8Puy_Lq.js (302.4 KB) <- https://www.chess.com/bundles/app/vite/landing-page.akT8Puy_Lq.js
-[OK] assets/r2/client-packages/navigation/2026.11.5/navigation-logged-out.js (696.5 KB) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/navigation-logged-out.js
-[SKIPPED: Load failed] https://cdn.cookielaw.org/scripttemplates/otSDKStub.js
-[OK] assets/bundles/app/vite/language-banner-loader.DYC-ovIG3m.js (180.8 KB) <- https://www.chess.com/bundles/app/vite/language-banner-loader.DYC-ovIG3m.js
-[OK] assets/bundles/app/vite/ui-fragments.qc7-fVftRu.js (1.5 KB) <- https://www.chess.com/bundles/app/vite/ui-fragments.qc7-fVftRu.js
-[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/play-white.svg
-[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/puzzle-piece.svg
-[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/lessons.svg
-[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/training.svg
-[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/binoculars.svg
-[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/friends.svg
-[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/ellipsis.svg
-[SKIPPED: Load failed] https://assets-configurator.chess.com/image/configurator/learn_section_1786350145713.svg
-[SKIPPED: Load failed] https://assets-configurator.chess.com/image/configurator/bots_1786350154615.svg
-[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/device-bot.svg
-[SKIPPED: Load failed] https://assets-configurator.chess.com/image/configurator/puzzles_1786350165151.svg
-[SKIPPED: Load failed] https://assets-configurator.chess.com/image/configurator/watch_1765899051211.webp
-[OK] assets/tk (114.0 KB) <- https://www.chess.com/tk
-[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/square-light-play.svg
-[OK] assets/bundles/web/images/user-image.007dad08.svg (1.1 KB) <- https://www.chess.com/bundles/web/images/user-image.007dad08.svg
-[SKIPPED: Load failed] https://assets-flair.chess.com/image/System/staff_pawn/staff_pawn.8y29f.webp
-[OK] assets/uz (121.1 KB) <- https://www.chess.com/uz
-[SKIPPED: Load failed] https://assets-configurator.chess.com/video/configurator/hero_1780586045036.webm
-[OK] assets/bundles/web/images/logo/logo-pawn.svg (1.8 KB) <- https://www.chess.com/bundles/web/images/logo/logo-pawn.svg
-[SKIPPED: Load failed] https://assets-configurator.chess.com/image/configurator/sf_world_champ_homepage_events_section_image__1__1793113094197.png
-[OK] assets/bundles/web/images/socials/apple.d77d954d.svg (0.8 KB) <- https://www.chess.com/bundles/web/images/socials/apple.d77d954d.svg
-[OK] assets/bundles/web/images/socials/google-play.9dc15981.svg (1.1 KB) <- https://www.chess.com/bundles/web/images/socials/google-play.9dc15981.svg
-[OK] assets/bundles/app/vite/shared.eager.DtRc_tAckC.chunk.js (6.1 KB) <- https://www.chess.com/bundles/app/vite/shared.eager.DtRc_tAckC.chunk.js
-[OK] assets/bundles/app/vite/rolldown-runtime.CNC7AqOflz.chunk.js (0.9 KB) <- https://www.chess.com/bundles/app/vite/rolldown-runtime.CNC7AqOflz.chunk.js
-[OK] assets/r2/assets-chess/vite/vendors/@sentry/browser.BlrLLymbcR.js (386.5 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/@sentry/browser.BlrLLymbcR.js
-[OK] assets/bundles/app/vite/shared.eager.DDJB8ambzr.chunk.js (1.0 KB) <- https://www.chess.com/bundles/app/vite/shared.eager.DDJB8ambzr.chunk.js
-[OK] assets/bundles/app/vite/rolldown-runtime.BX80bFGj3K.chunk.js (0.3 KB) <- https://www.chess.com/bundles/app/vite/rolldown-runtime.BX80bFGj3K.chunk.js
-[OK] assets/bundles/app/vite/shared.eager.BBRLMja_MP.chunk.js (329.8 KB) <- https://www.chess.com/bundles/app/vite/shared.eager.BBRLMja_MP.chunk.js
-[OK] assets/r2/assets-chess/vite/vendors/vue.6bvt7eBkHo.js (37.5 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/vue.6bvt7eBkHo.js
-[OK] assets/bundles/app/vite/shared.eager.DZpX0wEevr.chunk.js (67.3 KB) <- https://www.chess.com/bundles/app/vite/shared.eager.DZpX0wEevr.chunk.js
-[OK] assets/r2/assets-chess/vite/vendors/pinia.s5idvoGXx1.js (94.4 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/pinia.s5idvoGXx1.js
-[OK] assets/bundles/web/images/sprites/flags-32.b16b2679.png (33.2 KB) <- https://www.chess.com/bundles/web/images/sprites/flags-32.b16b2679.png
-[SKIPPED: Load failed] https://assets-configurator.chess.com/image/configurator/apps_1786350179463.svg
-[OK] assets/r2/assets-chess/vite/vendors/vue.CvfZVBJC9Z.js (36.3 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/vue.CvfZVBJC9Z.js
-[OK] assets/r2/assets-chess/vite/vendors/runtime-core.esm-bundler.bx_7HJ6v0J.js (133.0 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/runtime-core.esm-bundler.bx_7HJ6v0J.js
-[OK] assets/ur (120.6 KB) <- https://www.chess.com/ur
-[OK] assets/r2/client-packages/navigation/2026.11.5/rolldown-runtime.2zpkOWg_Ee.chunk.js (1.7 KB) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/rolldown-runtime.2zpkOWg_Ee.chunk.js
-[OK] assets/ca (116.7 KB) <- https://www.chess.com/ca
-[OK] assets/r2/client-packages/navigation/2026.11.5/index.afa035cd.B6dXxD-cVn.chunk.js (36.9 KB) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/index.afa035cd.B6dXxD-cVn.chunk.js
-[OK] assets/r2/assets-chess/vite/vendors/runtime-core.esm-bundler.CAwUxYTuLg.js (132.6 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/runtime-core.esm-bundler.CAwUxYTuLg.js
-[OK] assets/r2/assets-chess/vite/vendors/pinia.5dQ-li5PSR.js (94.4 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/pinia.5dQ-li5PSR.js
-[SKIPPED: Load failed] https://images.chesscomfiles.com/uploads/v1/event_index/e8979f54-d1c1-11f1-8bd2-715041e0e9de-1.3904d11e.320x180o.c6f760c58020.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/uploads/v1/event/2898969e-8217-11f1-b87b-17bb8ad0903d-2.e8aaa026.320x180o.9ab6b418aa03.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/uploads/v1/event/5cd7c098-b21d-11f1-b189-b725463d7df7-2.70861c10.320x180o.214da2ca5c1e.png
-[SKIPPED: Load failed] https://cdn.cookielaw.org/consent/018fe808-534b-7764-9c67-c3def682a1ab/018fe808-534b-7764-9c67-c3def682a1ab.json
-[OK] assets/bundles/app/vite/index.b9ca428c.FtD0RL-TwX.chunk.js (9.0 KB) <- https://www.chess.com/bundles/app/vite/index.b9ca428c.FtD0RL-TwX.chunk.js
-[OK] assets/r2/client-packages/navigation/2026.11.5/shared.eager.nTUSjSS_4H.chunk.js (534.3 KB) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/shared.eager.nTUSjSS_4H.chunk.js
-[SKIPPED: Load failed] https://cdn.cookielaw.org/vendorlist/iab2V2Data.json
-[SKIPPED: Load failed] https://cdn.cookielaw.org/consent/018fe808-534b-7764-9c67-c3def682a1ab/019f5d50-70ad-75ce-a7cf-6d183e85bb00/en.json
-[SKIPPED: Load failed] https://cdn.cookielaw.org/scripttemplates/202610.1.0/assets/otCommonStyles.css
-[SKIPPED: Load failed] https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location
-[OK] assets/bundles/app/vite/init.6086ecc1.DyCEmXJK60.chunk.js (48.8 KB) <- https://www.chess.com/bundles/app/vite/init.6086ecc1.DyCEmXJK60.chunk.js
-[OK] assets/bundles/app/vite/shared.32480793.Dv4_1HuDMl.chunk.js (69.3 KB) <- https://www.chess.com/bundles/app/vite/shared.32480793.Dv4_1HuDMl.chunk.js
-[OK] assets/bundles/app/vite/shared.8726221a.Cm8tT8MYAX.chunk.js (10.1 KB) <- https://www.chess.com/bundles/app/vite/shared.8726221a.Cm8tT8MYAX.chunk.js
-[OK] assets/bundles/app/vite/shared.7d2dfb9f.JiZv-2PHaO.chunk.js (0.1 KB) <- https://www.chess.com/bundles/app/vite/shared.7d2dfb9f.JiZv-2PHaO.chunk.js
-[OK] assets/bundles/app/vite/shared.cb42aef7.C5rIxQQhR_.chunk.js (13.5 KB) <- https://www.chess.com/bundles/app/vite/shared.cb42aef7.C5rIxQQhR_.chunk.js
-[OK] assets/bundles/app/vite/shared.23b39aeb.BqaPvHrOH5.chunk.js (2.1 KB) <- https://www.chess.com/bundles/app/vite/shared.23b39aeb.BqaPvHrOH5.chunk.js
-[OK] assets/bundles/app/vite/shared.068f2338.DTZ7d8Jds0.chunk.js (22.2 KB) <- https://www.chess.com/bundles/app/vite/shared.068f2338.DTZ7d8Jds0.chunk.js
-[OK] assets/bundles/app/vite/shared.cc44c0f6.Dd1CBFgcu_.chunk.js (60.0 KB) <- https://www.chess.com/bundles/app/vite/shared.cc44c0f6.Dd1CBFgcu_.chunk.js
-[OK] assets/bundles/app/vite/shared.3e2f35f0.UoFx_BbWyu.chunk.js (104.6 KB) <- https://www.chess.com/bundles/app/vite/shared.3e2f35f0.UoFx_BbWyu.chunk.js
-[OK] assets/bundles/app/vite/shared.9269971b.QheTA4usls.chunk.js (1.9 KB) <- https://www.chess.com/bundles/app/vite/shared.9269971b.QheTA4usls.chunk.js
-[OK] assets/bundles/app/vite/shared.8dc1164f.BAy19nEW_f.chunk.js (4.9 KB) <- https://www.chess.com/bundles/app/vite/shared.8dc1164f.BAy19nEW_f.chunk.js
-[OK] assets/bundles/app/vite/shared.5f23d9b9._ldL8Kk-BP.chunk.js (50.7 KB) <- https://www.chess.com/bundles/app/vite/shared.5f23d9b9._ldL8Kk-BP.chunk.js
-[OK] assets/bundles/app/vite/shared.bd011086.icowMIaCmf.chunk.js (2.7 KB) <- https://www.chess.com/bundles/app/vite/shared.bd011086.icowMIaCmf.chunk.js
-[OK] assets/bundles/app/vite/shared.b1cf2273.CMZISgKnZi.chunk.js (2.5 KB) <- https://www.chess.com/bundles/app/vite/shared.b1cf2273.CMZISgKnZi.chunk.js
-[OK] assets/bundles/app/vite/shared.d80c2e7f.CMQ_blVpuV.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.d80c2e7f.CMQ_blVpuV.chunk.js
-[OK] assets/bundles/app/vite/shared.f827dafa.Ci3DIlysl3.chunk.js (15.5 KB) <- https://www.chess.com/bundles/app/vite/shared.f827dafa.Ci3DIlysl3.chunk.js
-[OK] assets/bundles/app/vite/shared.79cfe6cd.o2GhEUikAM.chunk.js (0.5 KB) <- https://www.chess.com/bundles/app/vite/shared.79cfe6cd.o2GhEUikAM.chunk.js
-[OK] assets/bundles/app/vite/shared.1794e3cb.Ce3900hWQH.chunk.js (0.5 KB) <- https://www.chess.com/bundles/app/vite/shared.1794e3cb.Ce3900hWQH.chunk.js
-[OK] assets/bundles/app/vite/shared.6230b5bd.CEP_fVSoVl.chunk.js (2.0 KB) <- https://www.chess.com/bundles/app/vite/shared.6230b5bd.CEP_fVSoVl.chunk.js
-[OK] assets/bundles/app/vite/shared.1615f410.D-sVPMlBEw.chunk.js (1.6 KB) <- https://www.chess.com/bundles/app/vite/shared.1615f410.D-sVPMlBEw.chunk.js
-[OK] assets/bundles/app/vite/shared.e6358757.NgDhodqmCT.chunk.js (5.8 KB) <- https://www.chess.com/bundles/app/vite/shared.e6358757.NgDhodqmCT.chunk.js
-[OK] assets/bundles/app/vite/shared.b43c09c9.Cbj9Stp61G.chunk.js (3.9 KB) <- https://www.chess.com/bundles/app/vite/shared.b43c09c9.Cbj9Stp61G.chunk.js
-[OK] assets/bundles/app/vite/shared.7f425c7b.Ca35e-y5Pc.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.7f425c7b.Ca35e-y5Pc.chunk.js
-[OK] assets/bundles/app/vite/shared.087aef72.Diddw-MLB3.chunk.js (3.4 KB) <- https://www.chess.com/bundles/app/vite/shared.087aef72.Diddw-MLB3.chunk.js
-[OK] assets/bundles/app/vite/shared.9a3a2240.BxzK5ggfb7.chunk.js (0.1 KB) <- https://www.chess.com/bundles/app/vite/shared.9a3a2240.BxzK5ggfb7.chunk.js
-[OK] assets/bundles/app/vite/shared.090e15b7.CUpgmVQwz9.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.090e15b7.CUpgmVQwz9.chunk.js
-[OK] assets/bundles/app/vite/shared.7f499bcb.DZO6ALwTmX.chunk.js (0.3 KB) <- https://www.chess.com/bundles/app/vite/shared.7f499bcb.DZO6ALwTmX.chunk.js
-[OK] assets/bundles/app/vite/shared.027c5cab._cMce8coAF.chunk.js (3.5 KB) <- https://www.chess.com/bundles/app/vite/shared.027c5cab._cMce8coAF.chunk.js
-[OK] assets/bundles/app/vite/shared.154dd763.CRGcUDwyhD.chunk.js (38.2 KB) <- https://www.chess.com/bundles/app/vite/shared.154dd763.CRGcUDwyhD.chunk.js
-[OK] assets/bundles/app/vite/shared.fd1c333a.BleXPxLite.chunk.js (8.2 KB) <- https://www.chess.com/bundles/app/vite/shared.fd1c333a.BleXPxLite.chunk.js
-[OK] assets/bundles/app/vite/shared.27f9a6f9.LHQCoxZ-NT.chunk.js (1.5 KB) <- https://www.chess.com/bundles/app/vite/shared.27f9a6f9.LHQCoxZ-NT.chunk.js
-[OK] assets/bundles/app/vite/shared.332396bc.BLYLZRtErP.chunk.js (5.4 KB) <- https://www.chess.com/bundles/app/vite/shared.332396bc.BLYLZRtErP.chunk.js
-[OK] assets/bundles/app/vite/shared.e768f020.frMEvXVnDS.chunk.js (1.9 KB) <- https://www.chess.com/bundles/app/vite/shared.e768f020.frMEvXVnDS.chunk.js
-[OK] assets/bundles/app/vite/shared.5e054d69.CX-68gwZvb.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.5e054d69.CX-68gwZvb.chunk.js
-[OK] assets/bundles/app/vite/shared.5030f286.C0_77zN-AR.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.5030f286.C0_77zN-AR.chunk.js
-[OK] assets/bundles/app/vite/shared.cf6dd98e.Bgv8Q4NEqp.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.cf6dd98e.Bgv8Q4NEqp.chunk.js
-[OK] assets/bundles/app/vite/shared.6b5b7783.Dc3HoQv49O.chunk.js (1.2 KB) <- https://www.chess.com/bundles/app/vite/shared.6b5b7783.Dc3HoQv49O.chunk.js
-[OK] assets/bundles/app/vite/shared.21bdd832.B3QlN-L2q4.chunk.js (0.7 KB) <- https://www.chess.com/bundles/app/vite/shared.21bdd832.B3QlN-L2q4.chunk.js
-[OK] assets/bundles/app/vite/shared.db87d00c.D7rLxefhae.chunk.js (0.5 KB) <- https://www.chess.com/bundles/app/vite/shared.db87d00c.D7rLxefhae.chunk.js
-[OK] assets/bundles/app/vite/shared.8ead3bc9.lPVpKAeiS2.chunk.js (0.8 KB) <- https://www.chess.com/bundles/app/vite/shared.8ead3bc9.lPVpKAeiS2.chunk.js
-[OK] assets/bundles/app/vite/shared.3f7d75ff.DZJblu7_bf.chunk.js (0.3 KB) <- https://www.chess.com/bundles/app/vite/shared.3f7d75ff.DZJblu7_bf.chunk.js
-[OK] assets/bundles/app/vite/shared.a3051878.Cs4HIghrOZ.chunk.js (0.4 KB) <- https://www.chess.com/bundles/app/vite/shared.a3051878.Cs4HIghrOZ.chunk.js
-[OK] assets/bundles/app/vite/shared.f81e0d0d.fltG4MJeCI.chunk.js (0.8 KB) <- https://www.chess.com/bundles/app/vite/shared.f81e0d0d.fltG4MJeCI.chunk.js
-[OK] assets/bundles/app/vite/shared.59c6c445.BdUaQm0OW7.chunk.js (0.7 KB) <- https://www.chess.com/bundles/app/vite/shared.59c6c445.BdUaQm0OW7.chunk.js
-[OK] assets/bundles/app/vite/shared.0903bcc8.DLUQFGKCx8.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.0903bcc8.DLUQFGKCx8.chunk.js
-[OK] assets/bundles/app/vite/shared.8f1e47a9.BZyYfA9dj3.chunk.js (0.6 KB) <- https://www.chess.com/bundles/app/vite/shared.8f1e47a9.BZyYfA9dj3.chunk.js
-[OK] assets/bundles/app/vite/shared.d1b7e7aa.DDhmiFkUDy.chunk.js (3.8 KB) <- https://www.chess.com/bundles/app/vite/shared.d1b7e7aa.DDhmiFkUDy.chunk.js
-[OK] assets/bundles/app/vite/shared.27ff9756.CZZNnEQhmX.chunk.js (1.3 KB) <- https://www.chess.com/bundles/app/vite/shared.27ff9756.CZZNnEQhmX.chunk.js
-[OK] assets/bundles/app/vite/shared.6b4a8866.Di3lN5QrAg.chunk.js (1.6 KB) <- https://www.chess.com/bundles/app/vite/shared.6b4a8866.Di3lN5QrAg.chunk.js
-[OK] assets/bundles/app/vite/shared.1f005489.CSbZ9ICOxm.chunk.js (85.3 KB) <- https://www.chess.com/bundles/app/vite/shared.1f005489.CSbZ9ICOxm.chunk.js
-[OK] assets/bundles/app/vite/shared.0d2ea67c.CkqdclbvMP.chunk.js (0.3 KB) <- https://www.chess.com/bundles/app/vite/shared.0d2ea67c.CkqdclbvMP.chunk.js
-[OK] assets/bundles/app/vite/shared.a04c0fb4.mwMHxxz6Du.chunk.js (8.1 KB) <- https://www.chess.com/bundles/app/vite/shared.a04c0fb4.mwMHxxz6Du.chunk.js
-[OK] assets/bundles/app/vite/shared.18da04ac.BkBZmtZAeS.chunk.js (1.9 KB) <- https://www.chess.com/bundles/app/vite/shared.18da04ac.BkBZmtZAeS.chunk.js
-[OK] assets/bundles/app/vite/shared.1728f328.DR0SLo0qMp.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.1728f328.DR0SLo0qMp.chunk.js
-[OK] assets/bundles/app/vite/shared.89a58251.ArR0TDErgH.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.89a58251.ArR0TDErgH.chunk.js
-[OK] assets/bundles/app/vite/shared.14f7b525.B0mCEx5TW1.chunk.js (0.6 KB) <- https://www.chess.com/bundles/app/vite/shared.14f7b525.B0mCEx5TW1.chunk.js
-[OK] assets/bundles/app/vite/shared.9a7c7061.x540G6Tm0q.chunk.js (0.1 KB) <- https://www.chess.com/bundles/app/vite/shared.9a7c7061.x540G6Tm0q.chunk.js
-[OK] assets/bundles/app/vite/shared.50a67504.ytxvVWRldF.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.50a67504.ytxvVWRldF.chunk.js
-[OK] assets/bundles/app/vite/shared.5823c2bb.D9NYAqVlKV.chunk.js (6.6 KB) <- https://www.chess.com/bundles/app/vite/shared.5823c2bb.D9NYAqVlKV.chunk.js
-[OK] assets/bundles/app/vite/shared.52b9e99a.BNbDg8gj1U.chunk.js (2.1 KB) <- https://www.chess.com/bundles/app/vite/shared.52b9e99a.BNbDg8gj1U.chunk.js
-[OK] assets/bundles/app/vite/shared.2a62d571.BOxxvRfX8H.chunk.js (0.8 KB) <- https://www.chess.com/bundles/app/vite/shared.2a62d571.BOxxvRfX8H.chunk.js
-[OK] assets/bundles/app/vite/shared.2d3c23dd.BMFhC5igpC.chunk.js (2.6 KB) <- https://www.chess.com/bundles/app/vite/shared.2d3c23dd.BMFhC5igpC.chunk.js
-[OK] assets/bundles/app/vite/shared.57c03423.DFFDxYbeKS.chunk.js (0.4 KB) <- https://www.chess.com/bundles/app/vite/shared.57c03423.DFFDxYbeKS.chunk.js
-[OK] assets/bundles/app/vite/shared.af70d918.ROl0TllyEB.chunk.js (0.1 KB) <- https://www.chess.com/bundles/app/vite/shared.af70d918.ROl0TllyEB.chunk.js
-[OK] assets/bundles/app/vite/shared.4f3e17ed.BinW6jzSdg.chunk.js (10.0 KB) <- https://www.chess.com/bundles/app/vite/shared.4f3e17ed.BinW6jzSdg.chunk.js
-[OK] assets/bundles/app/vite/shared.bc468a76.D0_dxG-ofJ.chunk.js (1.0 KB) <- https://www.chess.com/bundles/app/vite/shared.bc468a76.D0_dxG-ofJ.chunk.js
-[OK] assets/bundles/app/vite/shared.a6731d6f.CkM3N-TRha.chunk.js (40.7 KB) <- https://www.chess.com/bundles/app/vite/shared.a6731d6f.CkM3N-TRha.chunk.js
-[OK] assets/bundles/app/vite/shared.0ee015f2.LwnDWzBo-T.chunk.js (0.5 KB) <- https://www.chess.com/bundles/app/vite/shared.0ee015f2.LwnDWzBo-T.chunk.js
-[OK] assets/bundles/app/vite/shared.ab2fea52.DIaHDuPIKW.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.ab2fea52.DIaHDuPIKW.chunk.js
-[OK] assets/bundles/app/vite/shared.d6614911.Cw4inc5YV4.chunk.js (22.2 KB) <- https://www.chess.com/bundles/app/vite/shared.d6614911.Cw4inc5YV4.chunk.js
-[OK] assets/bundles/app/vite/shared.e1a9f94b.DvOcDlwjQr.chunk.js (2.4 KB) <- https://www.chess.com/bundles/app/vite/shared.e1a9f94b.DvOcDlwjQr.chunk.js
-[OK] assets/bundles/app/vite/shared.435df6d5.C9hMpxvpb-.chunk.js (15.8 KB) <- https://www.chess.com/bundles/app/vite/shared.435df6d5.C9hMpxvpb-.chunk.js
-[OK] assets/bundles/app/vite/shared.767958ae.pMUjdKIk1l.chunk.js (1.0 KB) <- https://www.chess.com/bundles/app/vite/shared.767958ae.pMUjdKIk1l.chunk.js
-[OK] assets/bundles/app/vite/shared.02f37fc0.2N9xwXsFTy.chunk.js (0.6 KB) <- https://www.chess.com/bundles/app/vite/shared.02f37fc0.2N9xwXsFTy.chunk.js
-[OK] assets/bundles/app/vite/shared.f56be838.DHFtyZNsxD.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.f56be838.DHFtyZNsxD.chunk.js
-[OK] assets/bundles/app/vite/shared.481d7c25.Bxo2U3psHw.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.481d7c25.Bxo2U3psHw.chunk.js
-[OK] assets/bundles/app/vite/shared.0e324652.Bw2535pt30.chunk.js (1.0 KB) <- https://www.chess.com/bundles/app/vite/shared.0e324652.Bw2535pt30.chunk.js
-[OK] assets/bundles/app/vite/shared.ff7d6390.1PLFkx_c1G.chunk.js (11.3 KB) <- https://www.chess.com/bundles/app/vite/shared.ff7d6390.1PLFkx_c1G.chunk.js
-[OK] assets/bundles/app/vite/shared.3e6b4813.CKQcTuMdN9.chunk.js (2.2 KB) <- https://www.chess.com/bundles/app/vite/shared.3e6b4813.CKQcTuMdN9.chunk.js
-[OK] assets/bundles/app/vite/shared.9f3dee6a.DDG0egDYxq.chunk.js (0.1 KB) <- https://www.chess.com/bundles/app/vite/shared.9f3dee6a.DDG0egDYxq.chunk.js
-[OK] assets/bundles/app/vite/shared.bb038db6.D0SMp3tM_c.chunk.js (0.8 KB) <- https://www.chess.com/bundles/app/vite/shared.bb038db6.D0SMp3tM_c.chunk.js
-[OK] assets/bundles/app/vite/shared.61d8042f.mt6_pQZ0Tn.chunk.js (0.6 KB) <- https://www.chess.com/bundles/app/vite/shared.61d8042f.mt6_pQZ0Tn.chunk.js
-[OK] assets/bundles/app/vite/shared.b1c841ae.Ci3NzwxYFZ.chunk.js (4.6 KB) <- https://www.chess.com/bundles/app/vite/shared.b1c841ae.Ci3NzwxYFZ.chunk.js
-[OK] assets/bundles/app/vite/shared.dd4bfc84.CGnfBlKuPG.chunk.js (15.4 KB) <- https://www.chess.com/bundles/app/vite/shared.dd4bfc84.CGnfBlKuPG.chunk.js
-[OK] assets/bundles/app/vite/shared.da7ce013.BvbAuFh8mt.chunk.js (1.5 KB) <- https://www.chess.com/bundles/app/vite/shared.da7ce013.BvbAuFh8mt.chunk.js
-[OK] assets/bundles/app/vite/shared.327db63b.dESzeBjq0p.chunk.js (0.1 KB) <- https://www.chess.com/bundles/app/vite/shared.327db63b.dESzeBjq0p.chunk.js
-[OK] assets/bundles/app/vite/shared.3269b8f1.DLUQFGKCx8.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.3269b8f1.DLUQFGKCx8.chunk.js
-[OK] assets/bundles/app/vite/client.82135df0.DRTM3GvMs8.chunk.js (3.0 KB) <- https://www.chess.com/bundles/app/vite/client.82135df0.DRTM3GvMs8.chunk.js
-[OK] assets/bundles/app/vite/setup-deferred-images.a829a42c.DEf0XlFZMD.chunk.js (0.6 KB) <- https://www.chess.com/bundles/app/vite/setup-deferred-images.a829a42c.DEf0XlFZMD.chunk.js
-[OK] assets/bundles/app/vite/index.f0078bb6.BCZTUm67l6.chunk.js (13.5 KB) <- https://www.chess.com/bundles/app/vite/index.f0078bb6.BCZTUm67l6.chunk.js
-[OK] assets/bundles/app/vite/client.8643b3a0.CFeXEzCoQK.chunk.js (7.4 KB) <- https://www.chess.com/bundles/app/vite/client.8643b3a0.CFeXEzCoQK.chunk.js
-[OK] assets/bundles/app/vite/create-tooltip.581b9e3d.BhJg66vGL4.chunk.js (1.3 KB) <- https://www.chess.com/bundles/app/vite/create-tooltip.581b9e3d.BhJg66vGL4.chunk.js
-[OK] assets/bundles/app/vite/shared.eager.BPh1KHff6x.chunk.js (253.0 KB) <- https://www.chess.com/bundles/app/vite/shared.eager.BPh1KHff6x.chunk.js
-[SKIPPED: HTTP 405] https://www.chess.com/events/v1/api/navbar/top-events
-[OK] assets/bundles/app/vite/shared.e3a53960.DcLm2yJ39o.chunk.js (0.9 KB) <- https://www.chess.com/bundles/app/vite/shared.e3a53960.DcLm2yJ39o.chunk.js
-[OK] assets/bundles/app/vite/shared.955219ca.B6qtX_zTaC.chunk.js (13.9 KB) <- https://www.chess.com/bundles/app/vite/shared.955219ca.B6qtX_zTaC.chunk.js
-[OK] assets/bundles/app/vite/shared.77fe9701.OMDYVoIW_x.chunk.js (2.0 KB) <- https://www.chess.com/bundles/app/vite/shared.77fe9701.OMDYVoIW_x.chunk.js
-[OK] assets/bundles/app/vite/shared.4a248e08.Cfo8OjjMxX.chunk.js (1.6 KB) <- https://www.chess.com/bundles/app/vite/shared.4a248e08.Cfo8OjjMxX.chunk.js
-[OK] assets/bundles/app/vite/shared.51bc46da.DtDEKwopNr.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.51bc46da.DtDEKwopNr.chunk.js
-[OK] assets/bundles/app/vite/shared.c5a4553e.EkWnm-jpKN.chunk.js (67.3 KB) <- https://www.chess.com/bundles/app/vite/shared.c5a4553e.EkWnm-jpKN.chunk.js
-[OK] assets/bundles/app/vite/shared.6f1d3817.BnDSCyrTMK.chunk.js (3.5 KB) <- https://www.chess.com/bundles/app/vite/shared.6f1d3817.BnDSCyrTMK.chunk.js
-[OK] assets/bundles/app/vite/shared.83994918.DBcFrgRMQy.chunk.js (7.4 KB) <- https://www.chess.com/bundles/app/vite/shared.83994918.DBcFrgRMQy.chunk.js
-[OK] assets/bundles/app/vite/shared.5a6652ae.mWmPtZZShB.chunk.js (5.8 KB) <- https://www.chess.com/bundles/app/vite/shared.5a6652ae.mWmPtZZShB.chunk.js
-[OK] assets/bundles/app/vite/shared.96af1584.C_3EjlHhGt.chunk.js (2.4 KB) <- https://www.chess.com/bundles/app/vite/shared.96af1584.C_3EjlHhGt.chunk.js
-[OK] assets/bundles/app/vite/shared.42f94c48.BO_5wKjYVZ.chunk.js (1.0 KB) <- https://www.chess.com/bundles/app/vite/shared.42f94c48.BO_5wKjYVZ.chunk.js
-[OK] assets/bundles/app/vite/shared.063d64f7.C0mW69bxPr.chunk.js (26.5 KB) <- https://www.chess.com/bundles/app/vite/shared.063d64f7.C0mW69bxPr.chunk.js
-[OK] assets/bundles/app/vite/shared.4aabd08e.DyUOu5KVgy.chunk.js (0.1 KB) <- https://www.chess.com/bundles/app/vite/shared.4aabd08e.DyUOu5KVgy.chunk.js
-[OK] assets/bundles/app/vite/shared.7abd1172.Gw4qPYv8kD.chunk.js (0.4 KB) <- https://www.chess.com/bundles/app/vite/shared.7abd1172.Gw4qPYv8kD.chunk.js
-[OK] assets/bundles/app/vite/shared.ad6daef6.D_kErLruvQ.chunk.js (10.2 KB) <- https://www.chess.com/bundles/app/vite/shared.ad6daef6.D_kErLruvQ.chunk.js
-[OK] assets/bundles/app/vite/shared.f4a84d77.ClZBxcjLqC.chunk.js (15.4 KB) <- https://www.chess.com/bundles/app/vite/shared.f4a84d77.ClZBxcjLqC.chunk.js
-[OK] assets/bundles/app/vite/client.8f6f2109.E_mEklZ9Sk.chunk.js (79.4 KB) <- https://www.chess.com/bundles/app/vite/client.8f6f2109.E_mEklZ9Sk.chunk.js
-[OK] assets/bundles/app/vite/shared.68a15850.Cjgiy_39GC.chunk.js (3.4 KB) <- https://www.chess.com/bundles/app/vite/shared.68a15850.Cjgiy_39GC.chunk.js
-[OK] assets/bundles/app/vite/shared.33393aa5.B0SlOlCNPz.chunk.js (4.8 KB) <- https://www.chess.com/bundles/app/vite/shared.33393aa5.B0SlOlCNPz.chunk.js
-[OK] assets/bundles/app/vite/shared.61f58b01.DuKcPIKbHD.chunk.js (303.3 KB) <- https://www.chess.com/bundles/app/vite/shared.61f58b01.DuKcPIKbHD.chunk.js
-[OK] assets/bundles/app/vite/shared.d6645251.Bubk-d9E8o.chunk.js (2.0 KB) <- https://www.chess.com/bundles/app/vite/shared.d6645251.Bubk-d9E8o.chunk.js
-[OK] assets/bundles/app/vite/shared.481be69c.m7olkoAyEi.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.481be69c.m7olkoAyEi.chunk.js
-[OK] assets/bundles/app/vite/shared.e8ea1403.CDjqiZkWhd.chunk.js (15.8 KB) <- https://www.chess.com/bundles/app/vite/shared.e8ea1403.CDjqiZkWhd.chunk.js
-[OK] assets/bundles/app/vite/shared.9e21fba3.BPWv0kluLN.chunk.js (138.1 KB) <- https://www.chess.com/bundles/app/vite/shared.9e21fba3.BPWv0kluLN.chunk.js
-[OK] assets/bundles/app/vite/shared.4fc35d13.as7Ns60s-i.chunk.js (23.0 KB) <- https://www.chess.com/bundles/app/vite/shared.4fc35d13.as7Ns60s-i.chunk.js
-[OK] assets/bundles/app/vite/shared.cfc7f457.DnlLGLaDs_.chunk.js (33.0 KB) <- https://www.chess.com/bundles/app/vite/shared.cfc7f457.DnlLGLaDs_.chunk.js
-[OK] assets/bundles/app/vite/shared.992e19ff.CQMUx_dFt7.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.992e19ff.CQMUx_dFt7.chunk.js
-[OK] assets/bundles/app/vite/shared.18e0037b.D8ZqIqg9tf.chunk.js (2.3 KB) <- https://www.chess.com/bundles/app/vite/shared.18e0037b.D8ZqIqg9tf.chunk.js
-[OK] assets/bundles/app/vite/shared.e9a96879.BjSH23s2qP.chunk.js (0.8 KB) <- https://www.chess.com/bundles/app/vite/shared.e9a96879.BjSH23s2qP.chunk.js
-[OK] assets/bundles/app/vite/shared.fea975c5.B6AjigbwqU.chunk.js (12.2 KB) <- https://www.chess.com/bundles/app/vite/shared.fea975c5.B6AjigbwqU.chunk.js
-[OK] assets/bundles/app/vite/shared.323195ce.CRPCmHz4gz.chunk.js (1.7 KB) <- https://www.chess.com/bundles/app/vite/shared.323195ce.CRPCmHz4gz.chunk.js
-[OK] assets/bundles/app/vite/shared.6db27148.mKBUwJk1XU.chunk.js (48.7 KB) <- https://www.chess.com/bundles/app/vite/shared.6db27148.mKBUwJk1XU.chunk.js
-[OK] assets/bundles/app/vite/shared.25882998.zK-CpSTh-R.chunk.js (91.8 KB) <- https://www.chess.com/bundles/app/vite/shared.25882998.zK-CpSTh-R.chunk.js
-[OK] assets/bundles/app/vite/shared.aca82ce7.DMjn7cjiOG.chunk.js (0.5 KB) <- https://www.chess.com/bundles/app/vite/shared.aca82ce7.DMjn7cjiOG.chunk.js
-[OK] assets/bundles/app/vite/shared.7b5411ba.D0_dxG-ofJ.chunk.js (1.0 KB) <- https://www.chess.com/bundles/app/vite/shared.7b5411ba.D0_dxG-ofJ.chunk.js
-[OK] assets/bundles/app/vite/shared.fd29c984.C-V7Ap_c2G.chunk.js (24.9 KB) <- https://www.chess.com/bundles/app/vite/shared.fd29c984.C-V7Ap_c2G.chunk.js
-[OK] assets/bundles/app/vite/shared.f14add80.UwvGvqQAcU.chunk.js (15.4 KB) <- https://www.chess.com/bundles/app/vite/shared.f14add80.UwvGvqQAcU.chunk.js
-[OK] assets/bundles/app/vite/shared.6ca74dfb.BScGhZr5kL.chunk.js (15.2 KB) <- https://www.chess.com/bundles/app/vite/shared.6ca74dfb.BScGhZr5kL.chunk.js
-[OK] assets/bundles/app/vite/shared.9d3491ad.DoAcu40Pd6.chunk.js (0.3 KB) <- https://www.chess.com/bundles/app/vite/shared.9d3491ad.DoAcu40Pd6.chunk.js
-[OK] assets/bundles/app/vite/shared.07dcdddf.BBUqD5FdRP.chunk.js (0.3 KB) <- https://www.chess.com/bundles/app/vite/shared.07dcdddf.BBUqD5FdRP.chunk.js
-[OK] assets/bundles/app/vite/shared.3b820ee0.DZO6ALwTmX.chunk.js (0.3 KB) <- https://www.chess.com/bundles/app/vite/shared.3b820ee0.DZO6ALwTmX.chunk.js
-[OK] assets/bundles/app/vite/shared.3e3c1dec.DwTeYlTReM.chunk.js (0.2 KB) <- https://www.chess.com/bundles/app/vite/shared.3e3c1dec.DwTeYlTReM.chunk.js
-[OK] assets/bundles/app/vite/shared.66d70c63.DdtjFY1hMs.chunk.js (0.3 KB) <- https://www.chess.com/bundles/app/vite/shared.66d70c63.DdtjFY1hMs.chunk.js
-[OK] assets/bundles/app/vite/coaches.2bfaafd2.MVuZnTltrH.chunk.js (0.3 KB) <- https://www.chess.com/bundles/app/vite/coaches.2bfaafd2.MVuZnTltrH.chunk.js
-[SKIPPED: Load failed] https://o90235.ingest.sentry.io/api/198358/envelope/?sentry_key=20162e70eae1422ea8a429a79c3af592&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.4
-[SKIPPED: HTTP 415] https://www.chess.com/service/user-activity/chesscom.user_activity.v1.UserActivityHttpBridgeService/DispatchEventBatch
-[OK] assets/bundles/web/images/avatars/avatar-mask.7a13885f.svg (0.2 KB) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask.7a13885f.svg
-[OK] assets/callback/user/daily/games.json (0.4 KB) <- https://www.chess.com/callback/user/daily/games?limit=10
-[OK] assets/bundles/web/images/avatars/avatar-mask-80.e5f68f79.svg (0.2 KB) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-80.e5f68f79.svg
-[OK] assets/bundles/web/images/avatars/avatar-mask-96.7d0c786e.svg (0.2 KB) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-96.7d0c786e.svg
-[OK] assets/bundles/web/images/avatars/avatar-mask-48.8e07b74f.svg (0.2 KB) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-48.8e07b74f.svg
-[OK] assets/bundles/web/images/avatars/avatar-mask-64.69f1737c.svg (0.2 KB) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-64.69f1737c.svg
-[OK] assets/bundles/web/images/avatars/avatar-mask-40.562f1d2c.svg (0.2 KB) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-40.562f1d2c.svg
-[OK] assets/bundles/web/images/avatars/avatar-mask-32.405d6790.svg (0.2 KB) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-32.405d6790.svg
-[OK] assets/bundles/web/images/avatars/avatar-mask-24.a72f7773.svg (0.2 KB) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-24.a72f7773.svg
-[OK] assets/bundles/web/images/avatars/avatar-mask-160.b6fcd58f.svg (0.3 KB) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-160.b6fcd58f.svg
-[OK] assets/bundles/web/images/sprites/flags-64.9c7b976c.png (79.8 KB) <- https://www.chess.com/bundles/web/images/sprites/flags-64.9c7b976c.png
-[OK] assets/bundles/web/images/sprites/flags-128.9ffb1051.png (189.5 KB) <- https://www.chess.com/bundles/web/images/sprites/flags-128.9ffb1051.png
-[OK] assets/bundles/web/images/sprites/flags-16.bc44e847.png (14.3 KB) <- https://www.chess.com/bundles/web/images/sprites/flags-16.bc44e847.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/boards/green/150.png
-[OK] assets/bundles/web/fonts/chessglyph-v3/chessglyph-v3.274864ae.woff (80.2 KB) <- https://www.chess.com/bundles/web/fonts/chessglyph-v3/chessglyph-v3.274864ae.woff
-[OK] assets/bundles/web/images/glyphs/media-camera-photo.09ef328d.svg (0.4 KB) <- https://www.chess.com/bundles/web/images/glyphs/media-camera-photo.09ef328d.svg
-[OK] assets/bundles/web/fonts/chess-note/ChessNote-Regular.d118c6e8.woff2 (3.3 KB) <- https://www.chess.com/bundles/web/fonts/chess-note/ChessNote-Regular.d118c6e8.woff2
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wp.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wr.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wn.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wq.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wb.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wk.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bp.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bn.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bb.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/br.png
-[SKIPPED: HTTP 405] https://api.chess.com/rpc/chesscom.coaches.v2.CoachesService/GetCurrentCoach
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bq.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bk.png
-[OK] assets/bundles/web/images/logo/logo-black.svg (5.5 KB) <- https://www.chess.com/bundles/web/images/logo/logo-black.svg
-[OK] assets/bundles/web/images/game-preview-loading.8677fb94.png (1.5 KB) <- https://www.chess.com/bundles/web/images/game-preview-loading.8677fb94.png
-[OK] assets/bundles/web/images/logo/logo.svg (5.5 KB) <- https://www.chess.com/bundles/web/images/logo/logo.svg
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/9rdwe/200.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/9rdwe/3dboard.jpg
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/9rdwe/3dboardcoordinates.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/9rdwe/square_preview.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wp.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wn.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wr.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wb.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wq.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wk.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/bp.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/bn.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/bb.png
-[SKIPPED: HTTP 404] https://www.chess.com/themes/711e8a54-b2f4-11ed-8d8e-8f97686604fd
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/br.png
-[SKIPPED: HTTP 404] https://www.chess.com/themes/7110af10-b2f4-11ed-b059-6f5f46f8585e
-[SKIPPED: HTTP 404] https://www.chess.com/themes/7120f8de-b2f4-11ed-8c3d-a12327de8f3b
-[SKIPPED: HTTP 404] https://www.chess.com/themes/7117ca02-b2f4-11ed-b16d-955914d8bb0a
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/bk.png
-[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/bq.png
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/notification.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-end.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/event-warning.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/shoutout.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/event-end.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/promote.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/puzzle-correct.mp3
-[SKIPPED: Load failed] https://assets-themes.chess.com/audio/mtj0d/incorrect.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/scatter.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-lose-long.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/correct.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/click.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/tenseconds.mp3
-[SKIPPED: Load failed] https://assets-themes.chess.com/audio/mtj0d/_archive.zip
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-start.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-self-check.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-check.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/puzzle-wrong.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/castle.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-self.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/lesson_pass.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/premove.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/capture.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-opponent.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/boom.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/decline.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-draw.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/lesson-fail.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-opponent-check.mp3
-[SKIPPED: Load failed] https://assets-themes.chess.com/audio/b9qbh/illegal.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/notify.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/event-start.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/puzzle-correct-2.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/achievement.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-lose.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-win-long.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/draw-offer.wav
-[OK] assets/bundles/web/images/brand/smart-app-banner-icon.03c2b80c.svg (2.3 KB) <- https://www.chess.com/bundles/web/images/brand/smart-app-banner-icon.03c2b80c.svg
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/draw-offer.mp3
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/draw-offer.ogg
-[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/draw-offer.webm
+Complete Website Source & Layout Archive (ZIP64): https://slowroads.io/
+Captured: 2026-11-25T13:52:06.994Z
+Files:
+  - index.html            (Exact live layout with rewritten local CSS & asset paths)
+  - _original_source.html (Raw unmodified HTML source returned by server)
+--------------------------------------------------------------------------------
+[OK] _original_source.html (6.0 KB) <- https://slowroads.io/
+[OK] assets/favicon.svg (980 B) <- https://slowroads.io/favicon.svg
+[OK] assets/apple-touch-icon.png (3.4 KB) <- https://slowroads.io/apple-touch-icon.png
+[OK] assets/fonts/Sono.ttf (150.9 KB) <- https://slowroads.io/fonts/Sono.ttf
+[OK] assets/fonts/Space.ttf (131.0 KB) <- https://slowroads.io/fonts/Space.ttf
+[OK] assets/manifest.json (328 B) <- https://slowroads.io/manifest.json
+[OK] assets/_app/immutable/entry/start.4593a708.js (24.5 KB) <- https://slowroads.io/_app/immutable/entry/start.4593a708.js
+[OK] assets/_app/immutable/chunks/scheduler.05185c5f.js (2.3 KB) <- https://slowroads.io/_app/immutable/chunks/scheduler.05185c5f.js
+[OK] assets/_app/immutable/chunks/singletons.28a0dec0.js (2.4 KB) <- https://slowroads.io/_app/immutable/chunks/singletons.28a0dec0.js
+[OK] assets/_app/immutable/chunks/index.205d685d.js (451 B) <- https://slowroads.io/_app/immutable/chunks/index.205d685d.js
+[OK] assets/_app/immutable/chunks/control.c2cf8273.js (352 B) <- https://slowroads.io/_app/immutable/chunks/control.c2cf8273.js
+[OK] assets/_app/immutable/entry/app.a7863966.js (10.6 KB) <- https://slowroads.io/_app/immutable/entry/app.a7863966.js
+[OK] assets/_app/immutable/chunks/index.2e86b85f.js (10.6 KB) <- https://slowroads.io/_app/immutable/chunks/index.2e86b85f.js
+[OK] assets/_app/immutable/nodes/0.545b03e2.js (226 B) <- https://slowroads.io/_app/immutable/nodes/0.545b03e2.js
+[OK] assets/_app/immutable/chunks/layout.eb19d6ff.js (566 B) <- https://slowroads.io/_app/immutable/chunks/layout.eb19d6ff.js
+[OK] assets/_app/immutable/nodes/1.04400d9e.js (1.0 KB) <- https://slowroads.io/_app/immutable/nodes/1.04400d9e.js
+[OK] assets/_app/immutable/nodes/3.da2ad8c8.js (371.0 KB) <- https://slowroads.io/_app/immutable/nodes/3.da2ad8c8.js
+[OK] assets/_app/immutable/chunks/conifers.26f84295.js (560.9 KB) <- https://slowroads.io/_app/immutable/chunks/conifers.26f84295.js
+[OK] assets/_app/immutable/chunks/SettingsManager.a31845d6.js (837.5 KB) <- https://slowroads.io/_app/immutable/chunks/SettingsManager.a31845d6.js
+[OK] assets/_app/immutable/chunks/DevMidlineGenerator.7013ef99.js (564.7 KB) <- https://slowroads.io/_app/immutable/chunks/DevMidlineGenerator.7013ef99.js
+[OK] assets/_app/immutable/chunks/HillsHeightmap.1d759caa.js (5.6 KB) <- https://slowroads.io/_app/immutable/chunks/HillsHeightmap.1d759caa.js
+[OK] assets/_app/immutable/chunks/DriftmasMidlineGenerator.13fc1bad.js (168.8 KB) <- https://slowroads.io/_app/immutable/chunks/DriftmasMidlineGenerator.13fc1bad.js
+[OK] assets/_app/immutable/chunks/tree_08.839552e8.js (485 B) <- https://slowroads.io/_app/immutable/chunks/tree_08.839552e8.js
+[OK] assets/_app/immutable/chunks/IsStaticRoute.ed7acde0.js (287.5 KB) <- https://slowroads.io/_app/immutable/chunks/IsStaticRoute.ed7acde0.js
+[OK] assets/_app/immutable/chunks/index.d9998155.js (40.3 KB) <- https://slowroads.io/_app/immutable/chunks/index.d9998155.js
+[OK] assets/_app/immutable/chunks/times.b1a5e42f.js (210 B) <- https://slowroads.io/_app/immutable/chunks/times.b1a5e42f.js
+[OK] assets/_app/immutable/chunks/each.e59479a4.js (87 B) <- https://slowroads.io/_app/immutable/chunks/each.e59479a4.js
+[OK] assets/_app/immutable/assets/3.988f5726.css (61.7 KB, CSS rewritten) <- https://slowroads.io/_app/immutable/assets/3.988f5726.css
+[OK] assets/alea.min.js (970 B) <- https://slowroads.io/alea.min.js
+[OK] assets/img/logo-stacked-white.svg (3.7 KB) <- https://slowroads.io/img/logo-stacked-white.svg
+[OK] assets/img/icon_discord_white.svg (2.0 KB) <- https://slowroads.io/img/icon_discord_white.svg
+[OK] assets/img/icon_steam_white.svg (1.5 KB) <- https://slowroads.io/img/icon_steam_white.svg
+[OK] assets/img/about_dev_04.jpg (154.7 KB) <- https://slowroads.io/img/about_dev_04.jpg
+[OK] assets/img/icon_itch_white.svg (2.3 KB) <- https://slowroads.io/img/icon_itch_white.svg
+[OK] assets/img/letterbox-general.mp4 (7.08 MB) <- https://slowroads.io/img/letterbox-general.mp4
+[OK] assets/img/letterbox-vehicles.mp4 (6.75 MB) <- https://slowroads.io/img/letterbox-vehicles.mp4
+[OK] assets/img/letterbox-customisation.mp4 (4.25 MB) <- https://slowroads.io/img/letterbox-customisation.mp4
+[OK] assets/img/letterbox-cockpit.mp4 (7.13 MB) <- https://slowroads.io/img/letterbox-cockpit.mp4
+[OK] assets/meta-autumn-02c.jpg (162.4 KB) <- https://slowroads.io/meta-autumn-02c.jpg
+[OK] assets/img/autumn_09b.webp (87.7 KB) <- https://slowroads.io/img/autumn_09b.webp
+[OK] assets/img/steam_00.webp (50.4 KB) <- https://slowroads.io/img/steam_00.webp
+[OK] assets/img/bg_driftmas_05.webp (10.9 KB) <- https://slowroads.io/img/bg_driftmas_05.webp
+[OK] assets/img/bg_summer_01_b.webp (97.8 KB) <- https://slowroads.io/img/bg_summer_01_b.webp
+[OK] assets/img/topo_square_dark.png (165.4 KB) <- https://slowroads.io/img/topo_square_dark.png
+[OK] assets/_app/immutable/assets/noise_fine.592be1a0.webp (28.7 KB) <- https://slowroads.io/_app/immutable/assets/noise_fine.592be1a0.webp
+[OK] assets/_app/immutable/assets/noise_finer.98c1753c.webp (58.2 KB) <- https://slowroads.io/_app/immutable/assets/noise_finer.98c1753c.webp
+[OK] assets/_app/immutable/assets/sea_waves.63ff8729.webp (86.5 KB) <- https://slowroads.io/_app/immutable/assets/sea_waves.63ff8729.webp
+[OK] assets/_app/immutable/assets/signs.c90afd62.webp (19.8 KB) <- https://slowroads.io/_app/immutable/assets/signs.c90afd62.webp
+[OK] assets/_app/immutable/assets/noise_fine.9cdaf478.webp (25.6 KB) <- https://slowroads.io/_app/immutable/assets/noise_fine.9cdaf478.webp
+[OK] assets/_app/immutable/assets/noise_finer.56c77b62.webp (58.9 KB) <- https://slowroads.io/_app/immutable/assets/noise_finer.56c77b62.webp
+[OK] assets/_app/immutable/assets/signs.19335281.webp (19.5 KB) <- https://slowroads.io/_app/immutable/assets/signs.19335281.webp
+[OK] assets/_app/immutable/assets/noise_fine.a3591251.webp (26.2 KB) <- https://slowroads.io/_app/immutable/assets/noise_fine.a3591251.webp
+[OK] assets/_app/immutable/assets/noise_finer.962cd5d7.webp (65.5 KB) <- https://slowroads.io/_app/immutable/assets/noise_finer.962cd5d7.webp
+[OK] assets/_app/immutable/assets/moon_earthrise.83efb4ea.webp (7.6 KB) <- https://slowroads.io/_app/immutable/assets/moon_earthrise.83efb4ea.webp
+[OK] assets/_app/immutable/assets/snow_spray.03bb4bca.webp (11.1 KB) <- https://slowroads.io/_app/immutable/assets/snow_spray.03bb4bca.webp
+[OK] index.html (56.5 KB, layout & paths localized)
