@@ -1,109 +1,286 @@
-Complete Website Source & Layout Archive (ZIP64): https://www.igloo.inc/
-Captured: 2026-11-25T15:29:39.633Z
+Complete Website Source & Layout Archive (ZIP64): https://www.chess.com/play/online
+Captured: 2026-11-26T10:54:23.511Z
 Files:
   - index.html            (Exact live layout with rewritten local CSS & asset paths)
   - _original_source.html (Raw unmodified HTML source returned by server)
 --------------------------------------------------------------------------------
-[OK] _original_source.html (1.4 KB) <- https://www.igloo.inc/
-[OK] assets/assets/favicon32-af94112f.png (1.2 KB) <- https://www.igloo.inc/assets/favicon32-af94112f.png
-[OK] assets/assets/index-2e130bc1.js (16.2 KB) <- https://www.igloo.inc/assets/index-2e130bc1.js
-[OK] assets/assets/favicon16-9e4401be.png (513 B) <- https://www.igloo.inc/assets/favicon16-9e4401be.png
-[OK] assets/assets/images/social.jpg (86.0 KB) <- https://www.igloo.inc/assets/images/social.jpg
-[OK] assets/assets/App3D-d68cb154.js (1.42 MB) <- https://www.igloo.inc/assets/App3D-d68cb154.js
-[OK] assets/assets/fonts/IBMPlexMono-Medium.json (23.7 KB) <- https://www.igloo.inc/assets/fonts/IBMPlexMono-Medium.json
-[OK] assets/assets/geometries/mountain.drc (11.6 KB) <- https://www.igloo.inc/assets/geometries/mountain.drc
-[OK] assets/assets/geometries/ground.drc (18.4 KB) <- https://www.igloo.inc/assets/geometries/ground.drc
-[OK] assets/assets/libs/draco/draco_wasm_wrapper.js (57.4 KB) <- https://www.igloo.inc/assets/libs/draco/draco_wasm_wrapper.js
-[OK] assets/assets/libs/draco/draco_decoder.wasm (279.2 KB) <- https://www.igloo.inc/assets/libs/draco/draco_decoder.wasm
-[OK] assets/assets/IBMPlexMono-Medium-1e253194.woff (56.2 KB) <- https://www.igloo.inc/assets/IBMPlexMono-Medium-1e253194.woff
-[OK] assets/assets/IBMPlexMono-Medium-897c8c30.woff2 (39.0 KB) <- https://www.igloo.inc/assets/IBMPlexMono-Medium-897c8c30.woff2
-[OK] assets/assets/geometries/igloo/igloo_outline.drc (19.9 KB) <- https://www.igloo.inc/assets/geometries/igloo/igloo_outline.drc
-[OK] assets/assets/geometries/igloo.drc (217.6 KB) <- https://www.igloo.inc/assets/geometries/igloo.drc
-[OK] assets/assets/geometries/igloo/igloo_cage.drc (5.6 KB) <- https://www.igloo.inc/assets/geometries/igloo/igloo_cage.drc
-[OK] assets/assets/IBMPlexMono-Regular-419d45f6.woff (55.2 KB) <- https://www.igloo.inc/assets/IBMPlexMono-Regular-419d45f6.woff
-[OK] assets/assets/geometries/igloo/patch.drc (240 B) <- https://www.igloo.inc/assets/geometries/igloo/patch.drc
-[OK] assets/assets/IBMPlexMono-Regular-d3034935.woff2 (38.2 KB) <- https://www.igloo.inc/assets/IBMPlexMono-Regular-d3034935.woff2
-[OK] assets/assets/geometries/intro_particles.drc (2.0 KB) <- https://www.igloo.inc/assets/geometries/intro_particles.drc
-[OK] assets/assets/geometries/blurrytext.drc (1.2 KB) <- https://www.igloo.inc/assets/geometries/blurrytext.drc
-[OK] assets/assets/geometries/cubes/background_shapes.drc (669 B) <- https://www.igloo.inc/assets/geometries/cubes/background_shapes.drc
-[OK] assets/assets/geometries/shattered_ring2.drc (42.5 KB) <- https://www.igloo.inc/assets/geometries/shattered_ring2.drc
-[OK] assets/assets/geometries/floor.drc (39.8 KB) <- https://www.igloo.inc/assets/geometries/floor.drc
-[OK] assets/assets/geometries/blurrytext_cylinder.drc (5.4 KB) <- https://www.igloo.inc/assets/geometries/blurrytext_cylinder.drc
-[OK] assets/assets/geometries/smoke_trail.drc (4.0 KB) <- https://www.igloo.inc/assets/geometries/smoke_trail.drc
-[OK] assets/assets/geometries/shattered_ring_smoke.drc (10.0 KB) <- https://www.igloo.inc/assets/geometries/shattered_ring_smoke.drc
-[OK] assets/assets/geometries/pudgy.drc (29.9 KB) <- https://www.igloo.inc/assets/geometries/pudgy.drc
-[OK] assets/assets/geometries/ceilingsmoke.drc (13.4 KB) <- https://www.igloo.inc/assets/geometries/ceilingsmoke.drc
-[OK] assets/assets/geometries/overpass_logo.drc (14.2 KB) <- https://www.igloo.inc/assets/geometries/overpass_logo.drc
-[OK] assets/assets/images/scroll-datatexture.ktx2 (1.23 MB) <- https://www.igloo.inc/assets/images/scroll-datatexture.ktx2
-[OK] assets/assets/msdfworker-ac346fa7.js (3.1 KB) <- https://www.igloo.inc/assets/msdfworker-ac346fa7.js
-[OK] assets/assets/images/frost-datatexture.ktx2 (131.6 KB) <- https://www.igloo.inc/assets/images/frost-datatexture.ktx2
-[OK] assets/assets/fonts/IBMPlexMono-Medium-datatexture.ktx2 (107.7 KB) <- https://www.igloo.inc/assets/fonts/IBMPlexMono-Medium-datatexture.ktx2
-[OK] assets/assets/images/ui/sound-datatexture.ktx2 (4.3 KB) <- https://www.igloo.inc/assets/images/ui/sound-datatexture.ktx2
-[OK] assets/assets/images/noises/blue-8-128-rgb.ktx2 (49.2 KB) <- https://www.igloo.inc/assets/images/noises/blue-8-128-rgb.ktx2
-[OK] assets/assets/images/ui/logo-datatexture.ktx2 (2.1 KB) <- https://www.igloo.inc/assets/images/ui/logo-datatexture.ktx2
-[OK] assets/assets/images/ui/close-datatexture.ktx2 (826 B) <- https://www.igloo.inc/assets/images/ui/close-datatexture.ktx2
-[OK] assets/assets/images/ui/arrow-datatexture.ktx2 (1.5 KB) <- https://www.igloo.inc/assets/images/ui/arrow-datatexture.ktx2
-[OK] assets/assets/images/wind_noise.ktx2 (17.7 KB) <- https://www.igloo.inc/assets/images/wind_noise.ktx2
-[OK] assets/assets/images/perlin-datatexture.ktx2 (3.7 KB) <- https://www.igloo.inc/assets/images/perlin-datatexture.ktx2
-[OK] assets/assets/bitmapworker-046527f8.js (2.9 KB) <- https://www.igloo.inc/assets/bitmapworker-046527f8.js
-[OK] assets/assets/images/igloo/triangles_tiling.ktx2 (46.5 KB) <- https://www.igloo.inc/assets/images/igloo/triangles_tiling.ktx2
-[OK] assets/assets/exrworker-41cbee65.js (81.5 KB) <- https://www.igloo.inc/assets/exrworker-41cbee65.js
-[OK] assets/assets/images/clouds_noise.ktx2 (24.8 KB) <- https://www.igloo.inc/assets/images/clouds_noise.ktx2
-[OK] assets/assets/images/cubes/dot_pattern.ktx2 (725 B) <- https://www.igloo.inc/assets/images/cubes/dot_pattern.ktx2
-[OK] assets/assets/images/igloo/igloo_scene.ktx2 (14.1 KB) <- https://www.igloo.inc/assets/images/igloo/igloo_scene.ktx2
-[OK] assets/assets/images/cubes/cube_scene.ktx2 (40.4 KB) <- https://www.igloo.inc/assets/images/cubes/cube_scene.ktx2
-[OK] assets/assets/images/volumes/medium_32.ktx2 (44.3 KB) <- https://www.igloo.inc/assets/images/volumes/medium_32.ktx2
-[OK] assets/assets/libs/basis/basis_transcoder.js (65.5 KB) <- https://www.igloo.inc/assets/libs/basis/basis_transcoder.js
-[OK] assets/assets/images/bokeh.ktx2 (21.1 KB) <- https://www.igloo.inc/assets/images/bokeh.ktx2
-[OK] assets/assets/images/volumes/x_64.ktx2 (311.0 KB) <- https://www.igloo.inc/assets/images/volumes/x_64.ktx2
-[OK] assets/assets/images/ui/visit-datatexture.ktx2 (844 B) <- https://www.igloo.inc/assets/images/ui/visit-datatexture.ktx2
-[OK] assets/assets/images/volumes/peachesbody_64.ktx2 (817.0 KB) <- https://www.igloo.inc/assets/images/volumes/peachesbody_64.ktx2
-[OK] assets/assets/libs/basis/basis_transcoder.wasm (461.8 KB) <- https://www.igloo.inc/assets/libs/basis/basis_transcoder.wasm
-[OK] assets/assets/images/igloo/ground_glow.ktx2 (208.7 KB) <- https://www.igloo.inc/assets/images/igloo/ground_glow.ktx2
-[OK] assets/assets/images/mosaic.ktx2 (1.1 KB) <- https://www.igloo.inc/assets/images/mosaic.ktx2
-[OK] assets/assets/images/igloo/mountain_color.ktx2 (578.1 KB) <- https://www.igloo.inc/assets/images/igloo/mountain_color.ktx2
-[OK] assets/assets/images/igloo/ground_color.ktx2 (610.7 KB) <- https://www.igloo.inc/assets/images/igloo/ground_color.ktx2
-[OK] assets/assets/images/numbers-datatexture.ktx2 (13.2 KB) <- https://www.igloo.inc/assets/images/numbers-datatexture.ktx2
-[OK] assets/assets/images/igloo/ground_sansigloo_color.ktx2 (614.1 KB) <- https://www.igloo.inc/assets/images/igloo/ground_sansigloo_color.ktx2
-[OK] assets/assets/images/igloo/igloo_color.ktx2 (520.9 KB) <- https://www.igloo.inc/assets/images/igloo/igloo_color.ktx2
-[OK] assets/assets/images/igloo/igloo_exploded_color.ktx2 (822.5 KB) <- https://www.igloo.inc/assets/images/igloo/igloo_exploded_color.ktx2
-[OK] assets/assets/images/igloo/numbers.ktx2 (4.7 KB) <- https://www.igloo.inc/assets/images/igloo/numbers.ktx2
-[OK] assets/assets/geometries/cubes/cube3.drc (39.4 KB) <- https://www.igloo.inc/assets/geometries/cubes/cube3.drc
-[OK] assets/assets/geometries/cubes/cube1.drc (27.4 KB) <- https://www.igloo.inc/assets/geometries/cubes/cube1.drc
-[OK] assets/assets/images/cubes/blurrytext_atlas.ktx2 (7.6 KB) <- https://www.igloo.inc/assets/images/cubes/blurrytext_atlas.ktx2
-[OK] assets/assets/images/shapes_blurred.ktx2 (38.0 KB) <- https://www.igloo.inc/assets/images/shapes_blurred.ktx2
-[OK] assets/assets/geometries/shattered_ring.drc (39.7 KB) <- https://www.igloo.inc/assets/geometries/shattered_ring.drc
-[OK] assets/assets/images/floor_color.ktx2 (614.9 KB) <- https://www.igloo.inc/assets/images/floor_color.ktx2
-[OK] assets/assets/images/pudgy_dark_color.ktx2 (125.9 KB) <- https://www.igloo.inc/assets/images/pudgy_dark_color.ktx2
-[OK] assets/assets/images/caustics.ktx2 (2.4 KB) <- https://www.igloo.inc/assets/images/caustics.ktx2
-[OK] assets/assets/images/overpass_logo_dark_color.ktx2 (177.8 KB) <- https://www.igloo.inc/assets/images/overpass_logo_dark_color.ktx2
-[OK] assets/assets/images/cubes/cube3_roughness.ktx2 (234.6 KB) <- https://www.igloo.inc/assets/images/cubes/cube3_roughness.ktx2
-[OK] assets/assets/images/cubes/cube3_normal.ktx2 (1.08 MB) <- https://www.igloo.inc/assets/images/cubes/cube3_normal.ktx2
-[OK] assets/assets/images/cubes/pudgy_color.ktx2 (178.8 KB) <- https://www.igloo.inc/assets/images/cubes/pudgy_color.ktx2
-[OK] assets/assets/images/cubes/cube1_roughness.ktx2 (231.1 KB) <- https://www.igloo.inc/assets/images/cubes/cube1_roughness.ktx2
-[OK] assets/assets/images/cubes/overpass_logo_color.ktx2 (227.8 KB) <- https://www.igloo.inc/assets/images/cubes/overpass_logo_color.ktx2
-[OK] assets/assets/images/shattered_ring2_ao.ktx2 (17.5 KB) <- https://www.igloo.inc/assets/images/shattered_ring2_ao.ktx2
-[OK] assets/assets/images/cubes/cube1_normal.ktx2 (1.03 MB) <- https://www.igloo.inc/assets/images/cubes/cube1_normal.ktx2
-[OK] assets/assets/images/shattered_ring2_color.ktx2 (223.4 KB) <- https://www.igloo.inc/assets/images/shattered_ring2_color.ktx2
-[OK] assets/assets/images/shattered_ring_ao.ktx2 (16.6 KB) <- https://www.igloo.inc/assets/images/shattered_ring_ao.ktx2
-[OK] assets/assets/images/shattered_ring_color.ktx2 (213.6 KB) <- https://www.igloo.inc/assets/images/shattered_ring_color.ktx2
-[OK] assets/assets/audio/room.ogg (595.4 KB) <- https://www.igloo.inc/assets/audio/room.ogg
-[OK] assets/assets/audio/beeps.ogg (9.5 KB) <- https://www.igloo.inc/assets/audio/beeps.ogg
-[OK] assets/assets/audio/igloo.ogg (61.0 KB) <- https://www.igloo.inc/assets/audio/igloo.ogg
-[OK] assets/assets/audio/beeps2.ogg (10.0 KB) <- https://www.igloo.inc/assets/audio/beeps2.ogg
-[OK] assets/assets/audio/music-highq.ogg (1.46 MB) <- https://www.igloo.inc/assets/audio/music-highq.ogg
-[OK] assets/assets/audio/wind.ogg (559.5 KB) <- https://www.igloo.inc/assets/audio/wind.ogg
-[OK] assets/assets/audio/beeps3.ogg (9.9 KB) <- https://www.igloo.inc/assets/audio/beeps3.ogg
-[OK] assets/assets/audio/click-project.ogg (6.6 KB) <- https://www.igloo.inc/assets/audio/click-project.ogg
-[OK] assets/assets/audio/shard.ogg (21.2 KB) <- https://www.igloo.inc/assets/audio/shard.ogg
-[OK] assets/assets/audio/leave-project.ogg (11.6 KB) <- https://www.igloo.inc/assets/audio/leave-project.ogg
-[OK] assets/assets/audio/ui-long.ogg (4.3 KB) <- https://www.igloo.inc/assets/audio/ui-long.ogg
-[OK] assets/assets/audio/logo.ogg (4.7 KB) <- https://www.igloo.inc/assets/audio/logo.ogg
-[OK] assets/assets/audio/enter-project.ogg (21.1 KB) <- https://www.igloo.inc/assets/audio/enter-project.ogg
-[OK] assets/assets/audio/particles.ogg (16.4 KB) <- https://www.igloo.inc/assets/audio/particles.ogg
-[OK] assets/assets/audio/project-text.ogg (10.8 KB) <- https://www.igloo.inc/assets/audio/project-text.ogg
-[OK] assets/assets/audio/manifesto.ogg (6.0 KB) <- https://www.igloo.inc/assets/audio/manifesto.ogg
-[OK] assets/assets/audio/ui-short.ogg (3.0 KB) <- https://www.igloo.inc/assets/audio/ui-short.ogg
-[OK] assets/assets/audio/circles.ogg (27.8 KB) <- https://www.igloo.inc/assets/audio/circles.ogg
-[OK] assets/assets/audioworker-036a09db.js (113.6 KB) <- https://www.igloo.inc/assets/audioworker-036a09db.js
-[OK] index.html (2.8 KB, layout & paths localized)
+[OK] _original_source.html (109.6 KB) <- https://www.chess.com/play/online
+[OK] assets/bundles/web/fonts/chessglyph-v3/chessglyph-v3.3e78f81f.woff2 (66.9 KB) <- https://www.chess.com/bundles/web/fonts/chessglyph-v3/chessglyph-v3.3e78f81f.woff2
+[OK] assets/bundles/web/fonts/chess-sans/ChessSans-Bold.19a3983f.woff2 (68.9 KB) <- https://www.chess.com/bundles/web/fonts/chess-sans/ChessSans-Bold.19a3983f.woff2
+[OK] assets/bundles/web/fonts/chess-sans/ChessSans-ExtraBold.3b60f736.woff2 (69.1 KB) <- https://www.chess.com/bundles/web/fonts/chess-sans/ChessSans-ExtraBold.3b60f736.woff2
+[OK] assets/bundles/web/favicons/safari-pinned-tab.1bf62bbf.svg (401 B) <- https://www.chess.com/bundles/web/favicons/safari-pinned-tab.1bf62bbf.svg
+[OK] assets/bundles/web/favicons/apple-touch-icon.7aaa2d1f.png (1.7 KB) <- https://www.chess.com/bundles/web/favicons/apple-touch-icon.7aaa2d1f.png
+[OK] assets/bundles/web/favicons/favicon.46041f2d.ico (15.0 KB) <- https://www.chess.com/bundles/web/favicons/favicon.46041f2d.ico
+[OK] assets/bundles/web/favicons/favicon-32x32.adae7142.png (621 B) <- https://www.chess.com/bundles/web/favicons/favicon-32x32.adae7142.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/
+[OK] assets/bundles/app/vite/design-system-global-styles.D238ykmO20.css (143.1 KB, CSS rewritten) <- https://www.chess.com/bundles/app/vite/design-system-global-styles.D238ykmO20.css
+[OK] assets/bundles/app/vite/main-global-styles.BNrHR8gNoD.css (102.0 KB, CSS rewritten) <- https://www.chess.com/bundles/app/vite/main-global-styles.BNrHR8gNoD.css
+[OK] assets/r2/client-packages/checkmate/2026.11.22/checkmate.css (27.6 KB, CSS rewritten) <- https://www.chess.com/r2/client-packages/checkmate/2026.11.22/checkmate.css
+[OK] assets/r2/client-packages/navigation/2026.11.5/navigation-logged-out-global-styles.HBnLJ7dK8H.css (28.3 KB, CSS rewritten) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/navigation-logged-out-global-styles.HBnLJ7dK8H.css
+[SKIPPED: Load failed] https://images.chesscomfiles.com/
+[OK] assets/r2/client-packages/navigation/2026.11.5/shared.DO_T7DKtPD.css (5.7 KB, CSS rewritten) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/shared.DO_T7DKtPD.css
+[OK] assets/r2/client-packages/navigation/2026.11.5/navigation-logged-out.css (61.4 KB, CSS rewritten) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/navigation-logged-out.css
+[OK] assets/bundles/app/vite/global-global-styles.D10t7xPVfa.css (525 B, CSS rewritten) <- https://www.chess.com/bundles/app/vite/global-global-styles.D10t7xPVfa.css
+[OK] assets/bundles/app/vite/chessboard-layout.CoelVQAgfc.css (15.1 KB, CSS rewritten) <- https://www.chess.com/bundles/app/vite/chessboard-layout.CoelVQAgfc.css
+[OK] assets/themes/css.css (12.4 KB, CSS rewritten) <- https://www.chess.com/themes/css?board_size=200&pieces_size=150
+[OK] assets/bundles/web/favicons/favicon.5d6cb047.svg (2.2 KB) <- https://www.chess.com/bundles/web/favicons/favicon.5d6cb047.svg
+[SKIPPED: Load failed] https://api.chess.com/
+[OK] assets/index.html (129.8 KB) <- https://www.chess.com/
+[OK] assets/es/play/online (110.5 KB) <- https://www.chess.com/es/play/online
+[OK] assets/play/online (109.6 KB) <- https://www.chess.com/play/online
+[OK] assets/fr/play/online (110.7 KB) <- https://www.chess.com/fr/play/online
+[OK] assets/de/play/online (110.4 KB) <- https://www.chess.com/de/play/online
+[OK] assets/pl/play/online (110.6 KB) <- https://www.chess.com/pl/play/online
+[OK] assets/el/play/online (115.3 KB) <- https://www.chess.com/el/play/online
+[OK] assets/sv/play/online (108.6 KB) <- https://www.chess.com/sv/play/online
+[OK] assets/pt/play/online (110.4 KB) <- https://www.chess.com/pt/play/online
+[OK] assets/ru/play/online (116.0 KB) <- https://www.chess.com/ru/play/online
+[OK] assets/it/play/online (110.4 KB) <- https://www.chess.com/it/play/online
+[OK] assets/zh/play/online (110.8 KB) <- https://www.chess.com/zh/play/online
+[OK] assets/ja/play/online (112.2 KB) <- https://www.chess.com/ja/play/online
+[OK] assets/ko/play/online (111.4 KB) <- https://www.chess.com/ko/play/online
+[OK] assets/nl/play/online (110.2 KB) <- https://www.chess.com/nl/play/online
+[OK] assets/hy/play/online (116.1 KB) <- https://www.chess.com/hy/play/online
+[OK] assets/bg/play/online (114.8 KB) <- https://www.chess.com/bg/play/online
+[OK] assets/cs/play/online (110.9 KB) <- https://www.chess.com/cs/play/online
+[OK] assets/hr/play/online (110.5 KB) <- https://www.chess.com/hr/play/online
+[OK] assets/da/play/online (110.2 KB) <- https://www.chess.com/da/play/online
+[OK] assets/fi/play/online (108.7 KB) <- https://www.chess.com/fi/play/online
+[OK] assets/hu/play/online (110.8 KB) <- https://www.chess.com/hu/play/online
+[OK] assets/no/play/online (110.2 KB) <- https://www.chess.com/no/play/online
+[OK] assets/lt/play/online (110.9 KB) <- https://www.chess.com/lt/play/online
+[OK] assets/ro/play/online (110.6 KB) <- https://www.chess.com/ro/play/online
+[OK] assets/sk/play/online (110.5 KB) <- https://www.chess.com/sk/play/online
+[OK] assets/sl/play/online (110.3 KB) <- https://www.chess.com/sl/play/online
+[OK] assets/tr/play/online (110.9 KB) <- https://www.chess.com/tr/play/online
+[OK] assets/af/play/online (110.2 KB) <- https://www.chess.com/af/play/online
+[OK] assets/uk/play/online (116.4 KB) <- https://www.chess.com/uk/play/online
+[OK] assets/ar/play/online (114.6 KB) <- https://www.chess.com/ar/play/online
+[OK] assets/az/play/online (109.0 KB) <- https://www.chess.com/az/play/online
+[OK] assets/et/play/online (108.8 KB) <- https://www.chess.com/et/play/online
+[OK] assets/bs/play/online (108.9 KB) <- https://www.chess.com/bs/play/online
+[OK] assets/be/play/online (113.7 KB) <- https://www.chess.com/be/play/online
+[OK] assets/fa/play/online (114.7 KB) <- https://www.chess.com/fa/play/online
+[OK] assets/gl/play/online (110.2 KB) <- https://www.chess.com/gl/play/online
+[OK] assets/he/play/online (113.2 KB) <- https://www.chess.com/he/play/online
+[OK] assets/id/play/online (110.2 KB) <- https://www.chess.com/id/play/online
+[OK] assets/is/play/online (110.3 KB) <- https://www.chess.com/is/play/online
+[OK] assets/hi/play/online (115.2 KB) <- https://www.chess.com/hi/play/online
+[OK] assets/ka/play/online (116.9 KB) <- https://www.chess.com/ka/play/online
+[OK] assets/lv/play/online (110.7 KB) <- https://www.chess.com/lv/play/online
+[OK] assets/ms/play/online (110.3 KB) <- https://www.chess.com/ms/play/online
+[OK] assets/pt-BR/play/online (110.7 KB) <- https://www.chess.com/pt-BR/play/online
+[OK] assets/sq/play/online (110.5 KB) <- https://www.chess.com/sq/play/online
+[OK] assets/vi/play/online (111.7 KB) <- https://www.chess.com/vi/play/online
+[OK] assets/sr/play/online (115.0 KB) <- https://www.chess.com/sr/play/online
+[OK] assets/zh-TW/play/online (111.1 KB) <- https://www.chess.com/zh-TW/play/online
+[OK] assets/zh-HK/play/online (111.2 KB) <- https://www.chess.com/zh-HK/play/online
+[OK] assets/fil/play/online (110.6 KB) <- https://www.chess.com/fil/play/online
+[OK] assets/nl-BE/play/online (110.3 KB) <- https://www.chess.com/nl-BE/play/online
+[OK] assets/bn/play/online (113.5 KB) <- https://www.chess.com/bn/play/online
+[OK] assets/manifest.json (820 B) <- https://www.chess.com/manifest.json
+[SKIPPED: Load failed] https://dn0qt3r0xannq.cloudfront.net/chess-RXC9HVsKRD/chess-default/prebid-wrapper.js
+[SKIPPED: Load failed] https://edge.aditude.io/prebid/9.44.1.js?fork=1&v=d031f38e83eaefcc2d2de6f65307f010&modules=WyIzM2Fjcm9zc0lkU3lzdGVtIiwiYWRpdHVkZSIsImFkcG9kIiwiYWxsb3dBY3Rpdml0aWVzIiwiYXRzQW5hbHl0aWNzQWRhcHRlciIsImNvbnNlbnRNYW5hZ2VtZW50IiwiY29uc2VudE1hbmFnZW1lbnRHcHAiLCJjb25zZW50TWFuYWdlbWVudFVzcCIsImNyaXRlb0JpZEFkYXB0ZXIiLCJjcml0ZW9JZFN5c3RlbSIsImRmcEFkU2VydmVyVmlkZW8iLCJlbnJpY2htZW50RnBkTW9kdWxlIiwiZXF1YXRpdkJpZEFkYXB0ZXIiLCJldWlkSWRTeXN0ZW0iLCJnZHByRW5mb3JjZW1lbnQiLCJncHRQcmVBdWN0aW9uIiwiaWQ1SWRTeXN0ZW0iLCJpZGVudGl0eUxpbmtJZFN5c3RlbSIsIml4QmlkQWRhcHRlciIsImxvdGFtZVBhbm9yYW1hSWRTeXN0ZW0iLCJtZWRpYW5ldEJpZEFkYXB0ZXIiLCJtaW51dGVtZWRpYUJpZEFkYXB0ZXIiLCJvcGVueEJpZEFkYXB0ZXIiLCJwYWlySWRTeXN0ZW0iLCJwcmViaWRTZXJ2ZXJCaWRBZGFwdGVyIiwicHJpY2VGbG9vcnMiLCJwdWJQcm92aWRlZElkU3lzdGVtIiwicHVibWF0aWNCaWRBZGFwdGVyIiwicnViaWNvbkJpZEFkYXB0ZXIiLCJzaGFyZWRJZFN5c3RlbSIsInNtYXJ0YWRzZXJ2ZXJCaWRBZGFwdGVyIiwidGFib29sYUlkU3lzdGVtIiwidHJpcGxlbGlmdEJpZEFkYXB0ZXIiLCJ0dGRCaWRBZGFwdGVyIiwidWlkMklkU3lzdGVtIiwidW5pZmllZElkU3lzdGVtIiwidW5ydWx5QmlkQWRhcHRlciIsInVzZXJJZCIsInZpZGF6b29CaWRBZGFwdGVyIiwidmlkZW9Nb2R1bGUiXQ%3D%3D
+[SKIPPED: Load failed] https://btloader.com/tag?o=5107457992425472&upapi=true
+[OK] assets/tk/play/online (110.6 KB) <- https://www.chess.com/tk/play/online
+[OK] assets/uz/play/online (109.9 KB) <- https://www.chess.com/uz/play/online
+[OK] assets/r2/client-packages/play/2026.11.7/play-global-styles.C6zzLmz51x.css (116.1 KB, CSS rewritten) <- https://www.chess.com/r2/client-packages/play/2026.11.7/play-global-styles.C6zzLmz51x.css
+[OK] assets/r2/client-packages/play/2026.11.7/shared.BksNhwg-We.css (91.8 KB, CSS rewritten) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.BksNhwg-We.css
+[OK] assets/r2/client-packages/play/2026.11.7/play.css (30.5 KB, CSS rewritten) <- https://www.chess.com/r2/client-packages/play/2026.11.7/play.css
+[OK] assets/bundles/app/vite/shared.TOWRMcGK5q.css (63.2 KB, CSS rewritten) <- https://www.chess.com/bundles/app/vite/shared.TOWRMcGK5q.css
+[OK] assets/bundles/app/vite/comments.HUmc9WsbWh.css (138.9 KB, CSS rewritten) <- https://www.chess.com/bundles/app/vite/comments.HUmc9WsbWh.css
+[OK] assets/bundles/app/vite/sprites-global-styles.-XqAhS6hzY.css (26.5 KB, CSS rewritten) <- https://www.chess.com/bundles/app/vite/sprites-global-styles.-XqAhS6hzY.css
+[SKIPPED: Load failed] https://cdn.cookielaw.org/scripttemplates/202610.1.0/otBannerSdk.js
+[SKIPPED: Load failed] https://cdn.cookielaw.org/scripttemplates/202610.1.0/otTCF.js
+[SKIPPED: Load failed] https://raven-edge.aditude.io/raven/chess-main-E3n4Z/library.js
+[SKIPPED: Load failed] https://raven-static.aditude.io/prod/1.25.2-sydwjj/raven.js
+[OK] assets/bundles/app/js/client/es6-translations/es6-translation.en_US.ca729be9.js (5.2 KB) <- https://www.chess.com/bundles/app/js/client/es6-translations/es6-translation.en_US.ca729be9.js
+[OK] assets/bundles/app/vite/global.CpNFg3WFs1.js (1.2 KB) <- https://www.chess.com/bundles/app/vite/global.CpNFg3WFs1.js
+[OK] assets/bundles/app/vite/sentry.sGzKJdPHz-.js (8.8 KB) <- https://www.chess.com/bundles/app/vite/sentry.sGzKJdPHz-.js
+[OK] assets/bundles/app/vite/turnstile.DMBeq48883.js (78.1 KB) <- https://www.chess.com/bundles/app/vite/turnstile.DMBeq48883.js
+[OK] assets/ca/play/online (109.0 KB) <- https://www.chess.com/ca/play/online
+[SKIPPED: Load failed] https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback
+[OK] assets/bundles/app/vite/chessboard-layout.CKkjF8P48L.js (6.1 KB) <- https://www.chess.com/bundles/app/vite/chessboard-layout.CKkjF8P48L.js
+[OK] assets/r2/client-packages/play/2026.11.7/play.js (167.6 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/play.js
+[SKIPPED: Load failed] https://cdn.cookielaw.org/scripttemplates/otSDKStub.js
+[SKIPPED: Load failed] https://dn0qt3r0xannq.cloudfront.net/chess-RXC9HVsKRD/chess-default/prebid-load.js
+[SKIPPED: Load failed] https://cdn.confiant-integrations.net/XOvl74ZjQYVxeXLSbIOC9TYzBeY/gpt_and_prebid/config.js
+[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/play-white.svg
+[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/puzzle-piece.svg
+[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/lessons.svg
+[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/training.svg
+[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/binoculars.svg
+[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/friends.svg
+[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/ellipsis.svg
+[OK] assets/bundles/web/images/black_400.png (790 B) <- https://www.chess.com/bundles/web/images/black_400.png
+[OK] assets/r2/client-packages/navigation/2026.11.5/navigation-logged-out.js (696.5 KB) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/navigation-logged-out.js
+[OK] assets/bundles/web/images/white_400.png (803 B) <- https://www.chess.com/bundles/web/images/white_400.png
+[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/board-settings.svg
+[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/hand-shake.svg
+[SKIPPED: Load failed] https://assets-ds.chess.com/color-icons/tournament-gold.svg
+[OK] assets/ur/play/online (114.1 KB) <- https://www.chess.com/ur/play/online
+[OK] assets/bundles/web/images/black_400@2x.png (1.7 KB) <- https://www.chess.com/bundles/web/images/black_400@2x.png
+[OK] assets/bundles/web/images/social/share-play-online.49be68ce.png (12.8 KB) <- https://www.chess.com/bundles/web/images/social/share-play-online.49be68ce.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/boards/green/150.png
+[OK] assets/bundles/web/images/white_400@2x.png (1.6 KB) <- https://www.chess.com/bundles/web/images/white_400@2x.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/br.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bn.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bb.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bq.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bk.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bp.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wn.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wr.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wb.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wq.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wk.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wp.png
+[OK] assets/bundles/web/images/avatars/avatar-mask.7a13885f.svg (240 B) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask.7a13885f.svg
+[OK] assets/bundles/web/images/avatars/avatar-mask-80.e5f68f79.svg (255 B) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-80.e5f68f79.svg
+[SKIPPED: Load failed] https://cdn.cookielaw.org/logos/static/ot_persistent_cookie_icon.png
+[OK] assets/bundles/web/images/avatars/avatar-mask-64.69f1737c.svg (252 B) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-64.69f1737c.svg
+[OK] assets/bundles/web/images/avatars/avatar-mask-40.562f1d2c.svg (255 B) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-40.562f1d2c.svg
+[OK] assets/bundles/web/images/avatars/avatar-mask-48.8e07b74f.svg (255 B) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-48.8e07b74f.svg
+[OK] assets/bundles/web/images/avatars/avatar-mask-24.a72f7773.svg (255 B) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-24.a72f7773.svg
+[OK] assets/bundles/web/images/avatars/avatar-mask-32.405d6790.svg (255 B) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-32.405d6790.svg
+[OK] assets/bundles/web/images/avatars/avatar-mask-96.7d0c786e.svg (253 B) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-96.7d0c786e.svg
+[OK] assets/bundles/web/images/avatars/avatar-mask-160.b6fcd58f.svg (267 B) <- https://www.chess.com/bundles/web/images/avatars/avatar-mask-160.b6fcd58f.svg
+[OK] assets/bundles/web/images/sprites/flags-16.bc44e847.png (14.3 KB) <- https://www.chess.com/bundles/web/images/sprites/flags-16.bc44e847.png
+[OK] assets/bundles/web/images/sprites/flags-32.b16b2679.png (33.2 KB) <- https://www.chess.com/bundles/web/images/sprites/flags-32.b16b2679.png
+[OK] assets/bundles/web/images/sprites/flags-64.9c7b976c.png (79.8 KB) <- https://www.chess.com/bundles/web/images/sprites/flags-64.9c7b976c.png
+[OK] assets/bundles/web/fonts/chessglyph-v3/chessglyph-v3.274864ae.woff (80.2 KB) <- https://www.chess.com/bundles/web/fonts/chessglyph-v3/chessglyph-v3.274864ae.woff
+[OK] assets/bundles/web/images/user-image.007dad08.svg (1.1 KB) <- https://www.chess.com/bundles/web/images/user-image.007dad08.svg
+[OK] assets/bundles/web/images/glyphs/media-camera-photo.09ef328d.svg (449 B) <- https://www.chess.com/bundles/web/images/glyphs/media-camera-photo.09ef328d.svg
+[OK] assets/bundles/web/fonts/chess-note/ChessNote-Regular.d118c6e8.woff2 (3.3 KB) <- https://www.chess.com/bundles/web/fonts/chess-note/ChessNote-Regular.d118c6e8.woff2
+[OK] assets/bundles/web/images/sprites/flags-128.9ffb1051.png (189.5 KB) <- https://www.chess.com/bundles/web/images/sprites/flags-128.9ffb1051.png
+[OK] assets/bundles/web/images/game-preview-loading.8677fb94.png (1.5 KB) <- https://www.chess.com/bundles/web/images/game-preview-loading.8677fb94.png
+[OK] assets/bundles/web/images/logo/logo-black.svg (5.5 KB) <- https://www.chess.com/bundles/web/images/logo/logo-black.svg
+[OK] assets/bundles/web/images/logo/logo-pawn.svg (1.8 KB) <- https://www.chess.com/bundles/web/images/logo/logo-pawn.svg
+[OK] assets/bundles/web/images/logo/logo.svg (5.5 KB) <- https://www.chess.com/bundles/web/images/logo/logo.svg
+[SKIPPED: HTTP 404] https://www.chess.com/themes/711e8a54-b2f4-11ed-8d8e-8f97686604fd
+[SKIPPED: HTTP 404] https://www.chess.com/themes/7117ca02-b2f4-11ed-b16d-955914d8bb0a
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/9rdwe/200.png
+[SKIPPED: HTTP 404] https://www.chess.com/themes/7120f8de-b2f4-11ed-8c3d-a12327de8f3b
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/9rdwe/3dboard.jpg
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/9rdwe/3dboardcoordinates.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/9rdwe/square_preview.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wp.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wn.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wr.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wb.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wq.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/wk.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/bp.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/bn.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/bb.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/br.png
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/bq.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-lose-long.mp3
+[SKIPPED: Load failed] https://assets-themes.chess.com/image/ejgfv/150/bk.png
+[SKIPPED: HTTP 404] https://www.chess.com/themes/7110af10-b2f4-11ed-b059-6f5f46f8585e
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/notification.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-self.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/event-warning.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-check.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/achievement.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/puzzle-wrong.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-opponent-check.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-end.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/tenseconds.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/event-start.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/event-end.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/lesson-fail.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/puzzle-correct.mp3
+[SKIPPED: Load failed] https://assets-themes.chess.com/audio/mtj0d/incorrect.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/notify.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/puzzle-correct-2.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-lose.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/shoutout.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/scatter.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/draw-offer.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_OGG_/default/draw-offer.ogg
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/correct.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/boom.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/castle.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_WAV_/default/draw-offer.wav
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/decline.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/promote.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-draw.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-opponent.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/move-self-check.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_WEBM_/default/draw-offer.webm
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/capture.mp3
+[SKIPPED: Load failed] https://assets-themes.chess.com/audio/mtj0d/_archive.zip
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-start.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-win-long.mp3
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/premove.mp3
+[SKIPPED: Load failed] https://assets-themes.chess.com/audio/b9qbh/illegal.mp3
+[OK] assets/bundles/web/images/color-icons/cup.svg (1.5 KB) <- https://www.chess.com/bundles/web/images/color-icons/cup.svg
+[OK] assets/bundles/web/images/color-icons/board-archive.svg (1.8 KB) <- https://www.chess.com/bundles/web/images/color-icons/board-archive.svg
+[OK] assets/bundles/web/images/color-icons/3check.svg (2.7 KB) <- https://www.chess.com/bundles/web/images/color-icons/3check.svg
+[OK] assets/bundles/web/images/color-icons/koh.svg (3.1 KB) <- https://www.chess.com/bundles/web/images/color-icons/koh.svg
+[OK] assets/bundles/web/images/color-icons/bughouse.svg (1.7 KB) <- https://www.chess.com/bundles/web/images/color-icons/bughouse.svg
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/click.mp3
+[OK] assets/bundles/web/images/color-icons/crazyhouse.svg (1.8 KB) <- https://www.chess.com/bundles/web/images/color-icons/crazyhouse.svg
+[OK] assets/bundles/web/images/color-icons/time-daily-960.svg (2.4 KB) <- https://www.chess.com/bundles/web/images/color-icons/time-daily-960.svg
+[OK] assets/bundles/web/images/color-icons/time-rapid-960.svg (3.4 KB) <- https://www.chess.com/bundles/web/images/color-icons/time-rapid-960.svg
+[OK] assets/bundles/web/images/color-icons/time-bullet.svg (1.9 KB) <- https://www.chess.com/bundles/web/images/color-icons/time-bullet.svg
+[OK] assets/bundles/web/images/color-icons/time-blitz.svg (1.3 KB) <- https://www.chess.com/bundles/web/images/color-icons/time-blitz.svg
+[OK] assets/bundles/web/images/color-icons/time-rapid.svg (2.4 KB) <- https://www.chess.com/bundles/web/images/color-icons/time-rapid.svg
+[OK] assets/bundles/web/images/color-icons/time-daily.svg (2.5 KB) <- https://www.chess.com/bundles/web/images/color-icons/time-daily.svg
+[OK] assets/bundles/web/images/color-icons/variants.svg (2.7 KB) <- https://www.chess.com/bundles/web/images/color-icons/variants.svg
+[OK] assets/bundles/web/images/color-icons/pro.svg (4.9 KB) <- https://www.chess.com/bundles/web/images/color-icons/pro.svg
+[OK] assets/bundles/web/images/sprites/captured-pieces.png (19.5 KB) <- https://www.chess.com/bundles/web/images/sprites/captured-pieces.png
+[OK] assets/bundles/web/images/sprites/emoticons/emote.f970a9f2@2x.png (67.7 KB) <- https://www.chess.com/bundles/web/images/sprites/emoticons/emote.f970a9f2@2x.png
+[OK] assets/bundles/web/images/sprites/emoticons/emote.f970a9f2.png (28.2 KB) <- https://www.chess.com/bundles/web/images/sprites/emoticons/emote.f970a9f2.png
+[OK] assets/bundles/web/images/sprites/emoticons/emote_select.4660d979.png (41.3 KB) <- https://www.chess.com/bundles/web/images/sprites/emoticons/emote_select.4660d979.png
+[OK] assets/bundles/web/images/sprites/emoticons/emote_large.c4619ecf.png (67.7 KB) <- https://www.chess.com/bundles/web/images/sprites/emoticons/emote_large.c4619ecf.png
+[OK] assets/bundles/web/images/sprites/emoticons/emote_select.4660d979@2x.png (99.0 KB) <- https://www.chess.com/bundles/web/images/sprites/emoticons/emote_select.4660d979@2x.png
+[OK] assets/bundles/web/images/sprites/emoticons/emote_large.c4619ecf@2x.png (162.2 KB) <- https://www.chess.com/bundles/web/images/sprites/emoticons/emote_large.c4619ecf@2x.png
+[OK] assets/bundles/web/images/sprites/flair.952c385c@2x.png (64.6 KB) <- https://www.chess.com/bundles/web/images/sprites/flair.952c385c@2x.png
+[OK] assets/bundles/web/images/sprites/flair.952c385c.png (25.7 KB) <- https://www.chess.com/bundles/web/images/sprites/flair.952c385c.png
+[OK] assets/bundles/app/vite/rolldown-runtime.CNC7AqOflz.chunk.js (879 B) <- https://www.chess.com/bundles/app/vite/rolldown-runtime.CNC7AqOflz.chunk.js
+[OK] assets/bundles/app/vite/shared.eager.DtRc_tAckC.chunk.js (6.1 KB) <- https://www.chess.com/bundles/app/vite/shared.eager.DtRc_tAckC.chunk.js
+[OK] assets/r2/assets-chess/vite/vendors/@sentry/browser.BlrLLymbcR.js (386.5 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/@sentry/browser.BlrLLymbcR.js
+[OK] assets/bundles/app/vite/rolldown-runtime.BX80bFGj3K.chunk.js (323 B) <- https://www.chess.com/bundles/app/vite/rolldown-runtime.BX80bFGj3K.chunk.js
+[OK] assets/bundles/app/vite/shared.eager.DDJB8ambzr.chunk.js (1017 B) <- https://www.chess.com/bundles/app/vite/shared.eager.DDJB8ambzr.chunk.js
+[OK] assets/r2/assets-chess/vite/vendors/vue.6bvt7eBkHo.js (37.5 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/vue.6bvt7eBkHo.js
+[OK] assets/r2/client-packages/play/2026.11.7/rolldown-runtime.TryDkoInH8.chunk.js (1.7 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/rolldown-runtime.TryDkoInH8.chunk.js
+[OK] assets/r2/client-packages/play/2026.11.7/shared.eager.BRbmmUB1WK.chunk.js (3.30 MB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.eager.BRbmmUB1WK.chunk.js
+[OK] assets/bundles/web/images/sprites/flair.952c385c@4x.png (159.8 KB) <- https://www.chess.com/bundles/web/images/sprites/flair.952c385c@4x.png
+[OK] assets/r2/client-packages/navigation/2026.11.5/rolldown-runtime.2zpkOWg_Ee.chunk.js (1.7 KB) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/rolldown-runtime.2zpkOWg_Ee.chunk.js
+[OK] assets/r2/assets-chess/vite/vendors/vue.CvfZVBJC9Z.js (36.3 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/vue.CvfZVBJC9Z.js
+[OK] assets/r2/assets-chess/vite/vendors/runtime-core.esm-bundler.bx_7HJ6v0J.js (133.0 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/runtime-core.esm-bundler.bx_7HJ6v0J.js
+[OK] assets/r2/client-packages/navigation/2026.11.5/shared.eager.nTUSjSS_4H.chunk.js (534.3 KB) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/shared.eager.nTUSjSS_4H.chunk.js
+[OK] assets/r2/assets-chess/vite/vendors/pinia.5dQ-li5PSR.js (94.4 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/pinia.5dQ-li5PSR.js
+[OK] assets/r2/assets-chess/vite/vendors/runtime-core.esm-bundler.CAwUxYTuLg.js (132.6 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/runtime-core.esm-bundler.CAwUxYTuLg.js
+[OK] assets/r2/assets-chess/vite/vendors/pinia.s5idvoGXx1.js (94.4 KB) <- https://www.chess.com/r2/assets-chess/vite/vendors/pinia.s5idvoGXx1.js
+[OK] assets/r2/client-packages/play/2026.11.7/client.8f6f2109.B3JELcR54G.chunk.js (31.4 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/client.8f6f2109.B3JELcR54G.chunk.js
+[OK] assets/r2/client-packages/play/2026.11.7/client.36111b44.C1-NsY48I-.chunk.js (2.1 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/client.36111b44.C1-NsY48I-.chunk.js
+[OK] assets/r2/client-packages/navigation/2026.11.5/index.afa035cd.B6dXxD-cVn.chunk.js (36.9 KB) <- https://www.chess.com/r2/client-packages/navigation/2026.11.5/index.afa035cd.B6dXxD-cVn.chunk.js
+[SKIPPED: Load failed] https://cdn.cookielaw.org/consent/018fe808-534b-7764-9c67-c3def682a1ab/018fe808-534b-7764-9c67-c3def682a1ab.json
+[SKIPPED: Load failed] https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/lesson_pass.mp3
+[SKIPPED: HTTP 405] https://www.chess.com/events/v1/api/navbar/top-events
+[OK] assets/callback/user/daily/games.json (403 B) <- https://www.chess.com/callback/user/daily/games?limit=10
+[OK] assets/r2/client-packages/play/2026.11.7/shared.25882998.DiOTRhr5MM.chunk.js (3.4 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.25882998.DiOTRhr5MM.chunk.js
+[OK] assets/r2/client-packages/play/2026.11.7/shared.0e6cc64a.CpPG3aeHv4.chunk.js (1.2 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.0e6cc64a.CpPG3aeHv4.chunk.js
+[OK] assets/r2/client-packages/play/2026.11.7/shared.94096e3a.BFmmpsN8Ay.chunk.js (4.8 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.94096e3a.BFmmpsN8Ay.chunk.js
+[OK] assets/r2/client-packages/play/2026.11.7/shared.86367092.C4sPTLaLjn.chunk.js (44.2 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.86367092.C4sPTLaLjn.chunk.js
+[OK] assets/r2/client-packages/play/2026.11.7/shared.e024f352.CB_PPRRuD9.chunk.js (8.3 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.e024f352.CB_PPRRuD9.chunk.js
+[SKIPPED: Load failed] https://cdn.cookielaw.org/consent/018fe808-534b-7764-9c67-c3def682a1ab/019f5d50-70ad-75ce-a7cf-6d183e85bb00/en.json
+[SKIPPED: Load failed] https://cdn.cookielaw.org/vendorlist/iab2V2Data.json
+[SKIPPED: Load failed] https://cdn.cookielaw.org/scripttemplates/202610.1.0/assets/otCommonStyles.css
+[OK] assets/r2/client-packages/play/2026.11.7/shared.24719a65.xtRNkXUaYd.chunk.js (35.7 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.24719a65.xtRNkXUaYd.chunk.js
+[OK] assets/r2/client-packages/play/2026.11.7/shared.56445a18.Dxi19mVvjK.chunk.js (38.2 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.56445a18.Dxi19mVvjK.chunk.js
+[OK] assets/r2/client-packages/play/2026.11.7/shared.876c9d41.Cs_42jK7zR.chunk.js (28.7 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.876c9d41.Cs_42jK7zR.chunk.js
+[OK] assets/r2/client-packages/play/2026.11.7/shared.55902b02.JbXT1Ic34l.chunk.js (62.7 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.55902b02.JbXT1Ic34l.chunk.js
+[OK] assets/r2/client-packages/play/2026.11.7/shared.b216bc01.CuXxBnXhl4.chunk.js (1.1 KB) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.b216bc01.CuXxBnXhl4.chunk.js
+[OK] assets/r2/client-packages/play/2026.11.7/shared.934c77a9.cK8_qsV04q.chunk.js (1003 B) <- https://www.chess.com/r2/client-packages/play/2026.11.7/shared.934c77a9.cK8_qsV04q.chunk.js
+[SKIPPED: Load failed] https://images.chesscomfiles.com/uploads/v1/event/2898969e-8217-11f1-b87b-17bb8ad0903d-2.e8aaa026.320x180o.9ab6b418aa03.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/uploads/v1/event_index/76b2af46-e4eb-11f0-b982-37ce407d3a67-1.9c3b236b.320x180o.84a7523a38a6.png
+[SKIPPED: Load failed] https://images.chesscomfiles.com/uploads/v1/event_index/e8979f54-d1c1-11f1-8bd2-715041e0e9de-1.1dfcac9d.320x180o.2b628611e629.png
+[SKIPPED: HTTP 415] https://www.chess.com/service/user-activity/chesscom.user_activity.v1.UserActivityHttpBridgeService/DispatchEventBatch
+[SKIPPED: Load failed] https://o90235.ingest.sentry.io/api/198358/envelope/?sentry_key=20162e70eae1422ea8a429a79c3af592&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.120.4
+[SKIPPED: Load failed] https://securepubads.g.doubleclick.net/tag/js/gpt.js
+[SKIPPED: Load failed] https://static.vidazoo.com/basev/vwpt.js
+[OK] index.html (162.3 KB, layout & paths localized)
