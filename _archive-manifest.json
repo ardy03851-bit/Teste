@@ -1,12 +1,12 @@
 {
-  "archivedAt": "2026-11-26T14:26:32.739Z",
-  "sourceUrl": "https://slowroads.io/#A2-44ec640e@0",
+  "archivedAt": "2026-11-26T15:15:06.702Z",
+  "sourceUrl": "https://slowroads.io/#A2-f110dad8@0",
   "origin": "https://slowroads.io",
   "partial": false,
-  "totalFilesSaved": 303,
-  "totalFolders": 8,
+  "totalFilesSaved": 304,
+  "totalFolders": 9,
   "totalSkipped": 0,
-  "totalBytes": 64946853,
+  "totalBytes": 65035017,
   "folders": [
     {
       "folder": "_app/immutable/assets/",
@@ -31,12 +31,12 @@
     {
       "folder": "/ (root)",
       "files": 11,
-      "bytes": 338489
+      "bytes": 378622
     },
     {
       "folder": "cdn-cgi/challenge-platform/scripts/jsd/",
-      "files": 1,
-      "bytes": 40590
+      "files": 2,
+      "bytes": 81673
     },
     {
       "folder": "fonts/",
@@ -45,8 +45,13 @@
     },
     {
       "folder": "img/",
-      "files": 53,
-      "bytes": 28477193
+      "files": 52,
+      "bytes": 28404737
+    },
+    {
+      "folder": "privacy/",
+      "files": 1,
+      "bytes": 7175
     }
   ],
   "skipped": []
