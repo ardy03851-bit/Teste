@@ -1,0 +1,53 @@
+{
+  "archivedAt": "2026-11-26T14:26:32.739Z",
+  "sourceUrl": "https://slowroads.io/#A2-44ec640e@0",
+  "origin": "https://slowroads.io",
+  "partial": false,
+  "totalFilesSaved": 303,
+  "totalFolders": 8,
+  "totalSkipped": 0,
+  "totalBytes": 64946853,
+  "folders": [
+    {
+      "folder": "_app/immutable/assets/",
+      "files": 206,
+      "bytes": 32663430
+    },
+    {
+      "folder": "_app/immutable/chunks/",
+      "files": 17,
+      "bytes": 2543044
+    },
+    {
+      "folder": "_app/immutable/entry/",
+      "files": 2,
+      "bytes": 35938
+    },
+    {
+      "folder": "_app/immutable/nodes/",
+      "files": 11,
+      "bytes": 631648
+    },
+    {
+      "folder": "/ (root)",
+      "files": 11,
+      "bytes": 338489
+    },
+    {
+      "folder": "cdn-cgi/challenge-platform/scripts/jsd/",
+      "files": 1,
+      "bytes": 40590
+    },
+    {
+      "folder": "fonts/",
+      "files": 2,
+      "bytes": 288592
+    },
+    {
+      "folder": "img/",
+      "files": 53,
+      "bytes": 28477193
+    }
+  ],
+  "skipped": []
+}
