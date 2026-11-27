@@ -1,0 +1,317 @@
+Complete Website Source & Layout Archive (ZIP64): https://www.tesco.ie/shop/en-IE/zone/tesco-delivery?gclsrc=aw.ds&gad_source=1&gad_campaignid=24459916496&gbraid=0AAAAACeJ41oU34UVwJmIE2cM4663VFEDu&gclid=EAIaIQobChMIzfjbnv6nmAMVl6NQBh19ShXSEAAYASAAEgL0P_D_BwE
+Captured: 2026-11-27T10:57:40.804Z
+Files:
+  - index.html            (Exact live layout with rewritten local CSS & asset paths)
+  - _original_source.html (Raw unmodified HTML source returned by server)
+--------------------------------------------------------------------------------
+[OK] _original_source.html (382.3 KB) <- https://www.tesco.ie/shop/en-IE/zone/tesco-delivery?gclsrc=aw.ds&gad_source=1&gad_campaignid=24459916496&gbraid=0AAAAACeJ41oU34UVwJmIE2cM4663VFEDu&gclid=EAIaIQobChMIzfjbnv6nmAMVl6NQBh19ShXSEAAYASAAEgL0P_D_BwE
+[OK] assets/assets/mfe-orchestrator/favicon.ico (15.0 KB) <- https://www.tesco.ie/assets/mfe-orchestrator/favicon.ico
+[OK] assets/assets/mfe-orchestrator/favicon-16x16.73e9627387d3a7a046c9.png (395 B) <- https://www.tesco.ie/assets/mfe-orchestrator/favicon-16x16.73e9627387d3a7a046c9.png
+[OK] assets/assets/mfe-orchestrator/favicon-32x32.e9b6667b56d1dc299eda.png (613 B) <- https://www.tesco.ie/assets/mfe-orchestrator/favicon-32x32.e9b6667b56d1dc299eda.png
+[OK] assets/assets/mfe-orchestrator/apple-touch-icon.229682dcf4b1a36c9a19.png (3.7 KB) <- https://www.tesco.ie/assets/mfe-orchestrator/apple-touch-icon.229682dcf4b1a36c9a19.png
+[OK] assets/assets/mfe-global-scripts/8b504f73b12e7d402d0c.css (94.6 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-global-scripts/8b504f73b12e7d402d0c.css
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/
+[OK] assets/assets/mfe-footer/9c9f361d484593ea5328.css (65.7 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-footer/9c9f361d484593ea5328.css
+[OK] assets/assets/mfe-orchestrator/1c635c40.html (105.3 KB) <- https://www.tesco.ie/assets/mfe-orchestrator/1c635c40.html
+[OK] assets/assets/mfe-header/da08e5353eb3353d76a2.css (246.0 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-header/da08e5353eb3353d76a2.css
+[OK] assets/assets/mfe-digital-content/17dedf07b4085a11c9b7.css (173.2 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/17dedf07b4085a11c9b7.css
+[OK] assets/assets/mfe-digital-content/887956e503c8b9c1d0c3.css (54.9 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/887956e503c8b9c1d0c3.css
+[OK] assets/assets/mfe-digital-content/5a3dd7597541722cd897.css (19.6 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/5a3dd7597541722cd897.css
+[OK] assets/assets/mfe-digital-content/c5ff525d854706d1eeb6.css (17.2 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/c5ff525d854706d1eeb6.css
+[OK] assets/assets/mfe-digital-content/ddf917aa8e781a5bc943.css (23.8 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/ddf917aa8e781a5bc943.css
+[OK] assets/assets/mfe-digital-content/257a6f7635042bafaa44.css (15.1 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/257a6f7635042bafaa44.css
+[OK] assets/assets/mfe-digital-content/b632606e60ca6530ff04.css (12.0 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/b632606e60ca6530ff04.css
+[OK] assets/assets/mfe-digital-content/4fc29899d981e44ca626.css (8.5 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/4fc29899d981e44ca626.css
+[OK] assets/assets/mfe-digital-content/cfe15e2f502685c8305b.css (7.4 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/cfe15e2f502685c8305b.css
+[OK] assets/assets/mfe-digital-content/b07d1cfc26351aab58e9.css (7.3 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/b07d1cfc26351aab58e9.css
+[OK] assets/assets/mfe-orchestrator/b7d94a5.html (110.6 KB) <- https://www.tesco.ie/assets/mfe-orchestrator/b7d94a5.html
+[OK] assets/assets/mfe-digital-content/f24b2d00c875d25de556.css (6.4 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/f24b2d00c875d25de556.css
+[OK] assets/assets/mfe-digital-content/452dcd27fa63a4abb386.css (6.8 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/452dcd27fa63a4abb386.css
+[OK] assets/assets/mfe-digital-content/3a555ce241a66c091a65.css (4.4 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/3a555ce241a66c091a65.css
+[OK] assets/assets/mfe-digital-content/12daa19f65c277d82f72.css (5.2 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/12daa19f65c277d82f72.css
+[OK] assets/assets/mfe-digital-content/b814e30272597db3c374.css (3.8 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/b814e30272597db3c374.css
+[OK] assets/assets/mfe-digital-content/06b874aeefb086ad7ed9.css (4.1 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/06b874aeefb086ad7ed9.css
+[OK] assets/assets/mfe-digital-content/0a900725e82f64ef5744.css (3.6 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/0a900725e82f64ef5744.css
+[OK] assets/assets/mfe-digital-content/b475084058ecaebade1b.css (3.5 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/b475084058ecaebade1b.css
+[OK] assets/assets/mfe-digital-content/c9d44a3db93f46b555a3.css (3.6 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/c9d44a3db93f46b555a3.css
+[OK] assets/assets/mfe-digital-content/c414ff51180216498897.css (3.3 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/c414ff51180216498897.css
+[OK] assets/assets/mfe-digital-content/f9f1ebe00b16b1a4d010.css (3.3 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/f9f1ebe00b16b1a4d010.css
+[OK] assets/assets/mfe-digital-content/ce0173faa3d6826af75f.css (2.7 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/ce0173faa3d6826af75f.css
+[OK] assets/assets/mfe-digital-content/11ffc3636b4a92f83dbf.css (3.0 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/11ffc3636b4a92f83dbf.css
+[OK] assets/assets/mfe-digital-content/6f180adabbce148036ac.css (2.6 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/6f180adabbce148036ac.css
+[OK] assets/assets/mfe-digital-content/8110cacee70042b0a85c.css (2.3 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/8110cacee70042b0a85c.css
+[OK] assets/assets/mfe-digital-content/ae9cb652bb37ed9060ac.css (2.3 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/ae9cb652bb37ed9060ac.css
+[OK] assets/assets/mfe-digital-content/84768874d286d1a508c6.css (2.3 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/84768874d286d1a508c6.css
+[OK] assets/assets/mfe-digital-content/8dea2236d9eb6391fa59.css (2.2 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/8dea2236d9eb6391fa59.css
+[OK] assets/assets/mfe-digital-content/c277ef53221e7ba91027.css (2.3 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/c277ef53221e7ba91027.css
+[OK] assets/assets/mfe-digital-content/096d359fa852ca1ab80a.css (2.2 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/096d359fa852ca1ab80a.css
+[OK] assets/assets/mfe-digital-content/d910999e004dbb8e1227.css (2.2 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/d910999e004dbb8e1227.css
+[OK] assets/assets/mfe-digital-content/7118372ba61cd04c0e65.css (2.1 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/7118372ba61cd04c0e65.css
+[OK] assets/assets/mfe-digital-content/7658933d526e466ec97a.css (2.1 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/7658933d526e466ec97a.css
+[OK] assets/assets/mfe-digital-content/51995a87cb6420a9dce1.css (2.0 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/51995a87cb6420a9dce1.css
+[OK] assets/assets/mfe-digital-content/eef5129d80617a26b503.css (2.1 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/eef5129d80617a26b503.css
+[OK] assets/assets/mfe-digital-content/8ff993a5148fbc3594a0.css (2.0 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/8ff993a5148fbc3594a0.css
+[OK] assets/assets/mfe-digital-content/ad29300dfa916c44d979.css (2.0 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/ad29300dfa916c44d979.css
+[OK] assets/assets/mfe-digital-content/3ba26bf725144d691c86.css (1.9 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/3ba26bf725144d691c86.css
+[OK] assets/assets/mfe-digital-content/bcdb9ba842909d98e846.css (1.9 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/bcdb9ba842909d98e846.css
+[OK] assets/assets/mfe-digital-content/ecbb8ec646874e744aaf.css (1.8 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/ecbb8ec646874e744aaf.css
+[OK] assets/assets/mfe-digital-content/8112d378f32376d1fcd0.css (1.8 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/8112d378f32376d1fcd0.css
+[OK] assets/assets/mfe-digital-content/cfacae99632b38104068.css (1.8 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/cfacae99632b38104068.css
+[OK] assets/assets/mfe-digital-content/64f32117b9e3a43b159c.css (1.8 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/64f32117b9e3a43b159c.css
+[OK] assets/assets/mfe-digital-content/4c11abb42ce372c9f287.css (1.8 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/4c11abb42ce372c9f287.css
+[OK] assets/assets/mfe-digital-content/78ba076a4603471610a3.css (1.7 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/78ba076a4603471610a3.css
+[OK] assets/assets/mfe-digital-content/4f4c58c40a91fd0c63f5.css (1.7 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/4f4c58c40a91fd0c63f5.css
+[OK] assets/assets/mfe-digital-content/3f18b3e42f109380fdda.css (1.7 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/3f18b3e42f109380fdda.css
+[OK] assets/assets/mfe-digital-content/25c28f75ce25c067639d.css (1.6 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/25c28f75ce25c067639d.css
+[OK] assets/assets/mfe-digital-content/ac7c380c9d00367ac5bd.css (1.4 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/ac7c380c9d00367ac5bd.css
+[OK] assets/assets/mfe-digital-content/63bb2d50fdfb34fa5449.css (1.7 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/63bb2d50fdfb34fa5449.css
+[OK] assets/assets/mfe-digital-content/821c14ab0948f1c0b653.css (1.3 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/821c14ab0948f1c0b653.css
+[OK] assets/assets/mfe-digital-content/80ec70dee904c3331e24.css (1.2 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/80ec70dee904c3331e24.css
+[OK] assets/assets/mfe-digital-content/467ba89e3cf6b16a4430.css (1.2 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/467ba89e3cf6b16a4430.css
+[OK] assets/assets/mfe-digital-content/3089418ed6afd94e1e70.css (1.1 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/3089418ed6afd94e1e70.css
+[OK] assets/assets/mfe-digital-content/49a2884c6aea6e00213e.css (1.1 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/49a2884c6aea6e00213e.css
+[OK] assets/assets/mfe-digital-content/3525a927953d09b462da.css (1.1 KB, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/3525a927953d09b462da.css
+[OK] assets/assets/mfe-digital-content/8a3ead4e4dab044793a0.css (981 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/8a3ead4e4dab044793a0.css
+[OK] assets/assets/mfe-digital-content/ab17b5bad83c7a0cccf7.css (906 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/ab17b5bad83c7a0cccf7.css
+[OK] assets/assets/mfe-digital-content/99dca04e1edef6eff4ad.css (845 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/99dca04e1edef6eff4ad.css
+[OK] assets/assets/mfe-digital-content/ead02a66a95147883e3e.css (820 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/ead02a66a95147883e3e.css
+[OK] assets/assets/mfe-digital-content/f6f28eb1da2bbb346892.css (814 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/f6f28eb1da2bbb346892.css
+[OK] assets/assets/mfe-digital-content/eca0229e456477105142.css (775 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/eca0229e456477105142.css
+[OK] assets/assets/mfe-digital-content/f2b3c6678d5348d2b0fa.css (723 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/f2b3c6678d5348d2b0fa.css
+[OK] assets/assets/mfe-digital-content/8e7af33cf7c82da193a6.css (758 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/8e7af33cf7c82da193a6.css
+[OK] assets/assets/mfe-digital-content/72f607cc46f6ee963df1.css (668 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/72f607cc46f6ee963df1.css
+[OK] assets/assets/mfe-digital-content/c0931fd6c56475d666ab.css (702 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/c0931fd6c56475d666ab.css
+[OK] assets/assets/mfe-digital-content/4e7bcf1ddca9ad7de1dc.css (657 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/4e7bcf1ddca9ad7de1dc.css
+[OK] assets/assets/mfe-digital-content/fbb1e656b72f90443772.css (651 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/fbb1e656b72f90443772.css
+[OK] assets/assets/mfe-digital-content/4c4deb6710211b76418f.css (640 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/4c4deb6710211b76418f.css
+[OK] assets/assets/mfe-digital-content/d969eb72c4ac2ff8d890.css (640 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/d969eb72c4ac2ff8d890.css
+[OK] assets/assets/mfe-digital-content/e5b30cdd781d51c5e161.css (612 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/e5b30cdd781d51c5e161.css
+[OK] assets/assets/mfe-digital-content/e2de0ec0a0ab0c896cc8.css (615 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/e2de0ec0a0ab0c896cc8.css
+[OK] assets/assets/mfe-digital-content/8b1e2e47e776eb0c622a.css (609 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/8b1e2e47e776eb0c622a.css
+[OK] assets/assets/mfe-digital-content/eee2a28e04a046378a5a.css (586 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/eee2a28e04a046378a5a.css
+[OK] assets/assets/mfe-digital-content/539ad384aa36697abfea.css (590 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/539ad384aa36697abfea.css
+[OK] assets/assets/mfe-digital-content/5b94b58c4c3cf02ac3b4.css (555 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/5b94b58c4c3cf02ac3b4.css
+[OK] assets/assets/mfe-digital-content/cc4f987e7f82f1fbb2de.css (520 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/cc4f987e7f82f1fbb2de.css
+[OK] assets/assets/mfe-digital-content/df4f235f1a363a3e88e6.css (535 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/df4f235f1a363a3e88e6.css
+[OK] assets/assets/mfe-digital-content/bcd8ac8e4e7b0e0269ac.css (518 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/bcd8ac8e4e7b0e0269ac.css
+[OK] assets/assets/mfe-digital-content/40a300fb074d4de82062.css (512 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/40a300fb074d4de82062.css
+[OK] assets/assets/mfe-digital-content/fab5848fd6982cfd7ea5.css (505 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/fab5848fd6982cfd7ea5.css
+[OK] assets/assets/mfe-digital-content/d80a7aa6af9931bb0f33.css (502 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/d80a7aa6af9931bb0f33.css
+[OK] assets/assets/mfe-digital-content/88c9d5c872e456e9a667.css (403 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/88c9d5c872e456e9a667.css
+[OK] assets/assets/mfe-digital-content/6b5cc299562c4dfbb56c.css (372 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/6b5cc299562c4dfbb56c.css
+[OK] assets/assets/mfe-digital-content/2fab1c422b053306da0f.css (363 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/2fab1c422b053306da0f.css
+[OK] assets/assets/mfe-digital-content/5454fb454de313a56e89.css (337 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/5454fb454de313a56e89.css
+[OK] assets/assets/mfe-digital-content/d4dce5c99981e87908cd.css (363 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/d4dce5c99981e87908cd.css
+[OK] assets/assets/mfe-digital-content/5e6531df76bf82b7317a.css (323 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/5e6531df76bf82b7317a.css
+[OK] assets/assets/mfe-digital-content/1f5ef8cc4d4c2a19373a.css (317 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/1f5ef8cc4d4c2a19373a.css
+[OK] assets/assets/mfe-digital-content/1f637299d8a11459f949.css (296 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/1f637299d8a11459f949.css
+[OK] assets/assets/mfe-digital-content/1e63888efbd4b1b883df.css (289 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/1e63888efbd4b1b883df.css
+[OK] assets/assets/mfe-digital-content/5e6e1361389e5ae945ff.css (287 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/5e6e1361389e5ae945ff.css
+[OK] assets/assets/mfe-digital-content/c42d0e73ddf57c4d7d39.css (276 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/c42d0e73ddf57c4d7d39.css
+[OK] assets/assets/mfe-digital-content/aed3a82214a1e0eb6c75.css (266 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/aed3a82214a1e0eb6c75.css
+[OK] assets/assets/mfe-digital-content/377b584462685730eece.css (272 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/377b584462685730eece.css
+[OK] assets/assets/mfe-digital-content/4e3a7ddf4cf84f9a13d8.css (268 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/4e3a7ddf4cf84f9a13d8.css
+[OK] assets/assets/mfe-digital-content/b9b8f4b69a25fcd897af.css (255 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/b9b8f4b69a25fcd897af.css
+[OK] assets/assets/mfe-digital-content/bc724ae0551e916921cf.css (254 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/bc724ae0551e916921cf.css
+[OK] assets/assets/mfe-digital-content/3bca8dca167f0facbf32.css (251 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/3bca8dca167f0facbf32.css
+[OK] assets/assets/mfe-digital-content/8e192e68ef69c9b39be4.css (238 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/8e192e68ef69c9b39be4.css
+[OK] assets/assets/mfe-digital-content/14c7f12a08cd328f5ff2.css (248 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/14c7f12a08cd328f5ff2.css
+[OK] assets/assets/mfe-digital-content/03a7f43d664dc682e2a5.css (223 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/03a7f43d664dc682e2a5.css
+[OK] assets/assets/mfe-digital-content/be382e1b776b74eac7bc.css (230 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/be382e1b776b74eac7bc.css
+[OK] assets/assets/mfe-digital-content/510bf3922dcc691fa9f3.css (228 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/510bf3922dcc691fa9f3.css
+[OK] assets/assets/mfe-digital-content/58bace93298dcc5be9ff.css (208 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/58bace93298dcc5be9ff.css
+[OK] assets/assets/mfe-digital-content/b53124c97262bc43ada8.css (218 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/b53124c97262bc43ada8.css
+[OK] assets/assets/mfe-digital-content/cba3e9137163f6395b04.css (186 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/cba3e9137163f6395b04.css
+[SKIPPED: Load failed] https://ucm-eu.verint-cdn.com/files/sites/tesco-com/live/custom-style.css
+[OK] assets/assets/mfe-digital-content/2108d848a79c5a928822.css (173 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/2108d848a79c5a928822.css
+[OK] assets/assets/mfe-digital-content/b08901845225f750b2fc.css (146 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/b08901845225f750b2fc.css
+[OK] external/www.googletagmanager.com/gtag/js.js (415.9 KB) <- https://www.googletagmanager.com/gtag/js?id=DC-16456554&cx=c&gtm=4e6bh1
+[OK] external/www.googletagmanager.com/gtag/js_1.js (488.4 KB) <- https://www.googletagmanager.com/gtag/js?id=AW-663348058&cx=c&gtm=4e6bh1
+[OK] assets/assets/mfe-footer/e6aa27c38d9522170d525beaf700a129.png (5.4 KB) <- https://www.tesco.ie/assets/mfe-footer/e6aa27c38d9522170d525beaf700a129.png
+[OK] assets/assets/mfe-digital-content/12e2a665e8673ce0a2b5.css (142 B, CSS rewritten) <- https://www.tesco.ie/assets/mfe-digital-content/12e2a665e8673ce0a2b5.css
+[OK] assets/assets/mfe-orchestrator/b761cd5c5fd4876e94e0.js (384.3 KB) <- https://www.tesco.ie/assets/mfe-orchestrator/b761cd5c5fd4876e94e0.js
+[OK] assets/assets/mfe-orchestrator/third-party/oo_engine.min.fbe9d2d0754cb7258138.js (46.1 KB) <- https://www.tesco.ie/assets/mfe-orchestrator/third-party/oo_engine.min.fbe9d2d0754cb7258138.js
+[SKIPPED: Load failed] https://mi.tesco.ie/p/js/1.js
+[OK] assets/assets/cmp/202601.2.0_v2/scripttemplates/otSDKStub.js (25.8 KB) <- https://www.tesco.ie/assets/cmp/202601.2.0_v2/scripttemplates/otSDKStub.js
+[OK] assets/assets/mfe-orchestrator/third-party/oo_conf_inline.4e013a66d377100c58c2.js (2.3 KB) <- https://www.tesco.ie/assets/mfe-orchestrator/third-party/oo_conf_inline.4e013a66d377100c58c2.js
+[OK] assets/assets/mfe-header/dd958b18c833e09f1404.js (15.6 KB) <- https://www.tesco.ie/assets/mfe-header/dd958b18c833e09f1404.js
+[OK] assets/assets/mfe-digital-content/bf55b0717ef7987a78d5.js (17.6 KB) <- https://www.tesco.ie/assets/mfe-digital-content/bf55b0717ef7987a78d5.js
+[OK] assets/assets/mfe-footer/5e151e6c56ebe4509656.js (7.7 KB) <- https://www.tesco.ie/assets/mfe-footer/5e151e6c56ebe4509656.js
+[OK] assets/assets/mfe-global-scripts/4270fec580910c2c9f7a.js (9.0 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/4270fec580910c2c9f7a.js
+[OK] assets/assets/mfe-analytics/e2a276349dc3637bc78a.js (6.7 KB) <- https://www.tesco.ie/assets/mfe-analytics/e2a276349dc3637bc78a.js
+[SKIPPED: Load failed] https://ucm-eu.verint-cdn.com/files/sites/tesco-com/live/sdk.js
+[OK] assets/assets/mfe-basket-manager/f33ee70721cad1b87fbc.js (4.2 KB) <- https://www.tesco.ie/assets/mfe-basket-manager/f33ee70721cad1b87fbc.js
+[OK] assets/assets/cmp/202601.2.0_v2/scripttemplates/202601.2.0/otBannerSdk.js (525.6 KB) <- https://www.tesco.ie/assets/cmp/202601.2.0_v2/scripttemplates/202601.2.0/otBannerSdk.js
+[SKIPPED: Load failed] https://ucm-eu.verint-cdn.com/files/modules/unified-websdk/2.8.1/visitor.js
+[OK] external/www.googletagmanager.com/gtm.js (336.6 KB) <- https://www.googletagmanager.com/gtm.js?id=GTM-T6MT4X9
+[SKIPPED: Load failed] https://ucm-eu.verint-cdn.com/files/sites/tesco-com/live/customcode.js
+[OK] assets/assets/cmp/202601.2.0_v2/scripttemplates/202601.2.0/otTCF.js (63.4 KB) <- https://www.tesco.ie/assets/cmp/202601.2.0_v2/scripttemplates/202601.2.0/otTCF.js
+[SKIPPED: Load failed] https://ucm-eu.verint-cdn.com/files/modules/unified-websdk/2.8.1/rules-engine.js
+[OK] external/www.googletagmanager.com/gtag/js_2.js (472.2 KB) <- https://www.googletagmanager.com/gtag/js?id=G-H653QXESTP
+[OK] external/www.googletagmanager.com/gtag/js_3.js (551.0 KB) <- https://www.googletagmanager.com/gtag/js?id=G-YVXWF6D2Q3
+[OK] assets/nKu09G94r/Lo-9Ycx/Pg/S3SOkw9wNuNErt/XgtkODEzAw/UUxHR3/tlZFY.js (618.5 KB) <- https://www.tesco.ie/nKu09G94r/Lo-9Ycx/Pg/S3SOkw9wNuNErt/XgtkODEzAw/UUxHR3/tlZFY
+[OK] assets/nKu09G94r/Lo-9Ycx/Pg/8NSOkw9w/Ix1sODEzAw/A0oUUF/c3Ll92AQ.js (468.9 KB) <- https://www.tesco.ie/nKu09G94r/Lo-9Ycx/Pg/8NSOkw9w/Ix1sODEzAw/A0oUUF/c3Ll92AQ?v=4ead22d0-ac87-1203-a8a5-b76c27db0213
+[OK] assets/shop/en-IE/zone/tesco-delivery (382.0 KB) <- https://www.tesco.ie/shop/en-IE/zone/tesco-delivery
+[SKIPPED: Load failed] https://www.tesco.com/data-assets/prod/GHS-MFE/launcher.js?20261112
+[SKIPPED: Load failed] https://www.tesco.com/data-assets/prod/GHS-MFE/mrktScr/movableInkUKIE.js?2026-06-01T09:14:16.296Z
+[SKIPPED: Load failed] https://www.tesco.com/data-assets/prod/GHS-MFE/aa-mfe.js?2026-11-09T16:29:27.513Z
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/82d7fc47-14f8-4ed7-a8d9-122de12efb77/2638-Click-Collect-Zone.jpeg
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/9b62249e-de34-4985-ad6d-b319e13eadd3/2114-GHS-DeliveryHub-GreatValue.jpeg
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/9046fe4f-26c1-4237-875c-1cbd46670611/2638-Whoosh-Zone.jpeg
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/3ee9d19a-d4cf-4778-be2a-ef18616ab733/2638-Home-Delivery-Zone.jpeg
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/e71b5904-99e4-4598-b958-e2046e1acfaf/2638-DeliverySaver-Zone.jpeg
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/4151d1bd-6949-45ae-b076-26223a06ff4b/2114-GHS-DeliveryHub-Locations.jpeg
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/83434e9f-1c6c-41c9-bf39-2c46ab3cb592/2114-GHS-DeliveryHub-HowClickCollect-Step2.png
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/017e383f-f0b2-44a0-818e-257902f8fd54/2114-GHS-DeliveryHub-HowClickCollect-Step3.png
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/b7a55921-aa95-4bc3-94d4-49f121ed282b/2114-GHS-DeliveryHub-HowClickCollect-Step4.png
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/6730505f-adba-4509-8f78-7dca6414baf9/2114-GHS-DeliveryHub-HowClickCollect-Step1.png
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/0fabfeed-ad36-4b5b-817f-634a9184645b/2114-GHS-DeliveryHub-HowHomeDelivery-Step1.png
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/8a4ae72d-64a9-4f45-b590-fd1e184a8f34/2421-GHS-DeliveryHub-Homedelivery.jpeg
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/d8d4e17a-5141-4401-bc8c-611d921e24e0/2421-GHS-DeliveryHub-Freedelivery.jpeg
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/f8c34d52-17b7-4c7a-b444-a501b73067a6/2114-GHS-DeliveryHub-HowHomeDelivery-Step2.png
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/d2882344-635a-42b8-bba4-b470138dd349/2114-GHS-DeliveryHub-ClickCollect-Kerbside.jpeg
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/b3b224ba-f43e-4c76-a462-87db9a4e6245/2114-GHS-DeliveryHub-HowHomeDelivery-Step3.png
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/7a60985b-b0ae-42ab-bd65-5cea0ffbe6fd/2114-GHS-DeliveryHub-HowHomeDelivery-Step4.png
+[OK] assets/assets/cmp/202601.2.0_v2/consent/0191319e-1261-779e-84c0-ead41a891345/019247fa-f5a5-76fd-a671-bdea721a2331/logos/static/powered_by_logo.svg (5.1 KB) <- https://www.tesco.ie/assets/cmp/202601.2.0_v2/consent/0191319e-1261-779e-84c0-ead41a891345/019247fa-f5a5-76fd-a671-bdea721a2331/logos/static/powered_by_logo.svg
+[OK] assets/assets/cmp/202601.2.0_v2/consent/0191319e-1261-779e-84c0-ead41a891345/019247fa-f5a5-76fd-a671-bdea721a2331/logos/static/ot_company_logo.png (8.5 KB) <- https://www.tesco.ie/assets/cmp/202601.2.0_v2/consent/0191319e-1261-779e-84c0-ead41a891345/019247fa-f5a5-76fd-a671-bdea721a2331/logos/static/ot_company_logo.png
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/f6e41e99-03b2-4594-ae03-aa170fdc5817/2421-GHS-DeliveryHub-Customer.jpeg
+[OK] assets/assets/cmp/202601.2.0_v2/consent/0191319e-1261-779e-84c0-ead41a891345/019247fa-f5a5-76fd-a671-bdea721a2331/logos/static/ot_close.svg (651 B) <- https://www.tesco.ie/assets/cmp/202601.2.0_v2/consent/0191319e-1261-779e-84c0-ead41a891345/019247fa-f5a5-76fd-a671-bdea721a2331/logos/static/ot_close.svg
+[OK] assets/fonts/TESCOModern-Regular.woff2 (28.4 KB) <- https://www.tesco.ie/fonts/TESCOModern-Regular.woff2
+[OK] assets/fonts/TESCOModern-Bold.woff2 (27.1 KB) <- https://www.tesco.ie/fonts/TESCOModern-Bold.woff2
+[OK] assets/assets/mfe-global-scripts/3b41173b0ad59d14992d.woff2 (27.1 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/3b41173b0ad59d14992d.woff2
+[OK] assets/assets/cmp/202601.2.0_v2/consent/0191319e-1261-779e-84c0-ead41a891345/019247fa-f5a5-76fd-a671-bdea721a2331/logos/static/ot_persistent_cookie_icon.png (3.8 KB) <- https://www.tesco.ie/assets/cmp/202601.2.0_v2/consent/0191319e-1261-779e-84c0-ead41a891345/019247fa-f5a5-76fd-a671-bdea721a2331/logos/static/ot_persistent_cookie_icon.png
+[OK] assets/assets/mfe-global-scripts/73f812abbf2f07f5a206.woff2 (27.5 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/73f812abbf2f07f5a206.woff2
+[OK] assets/assets/mfe-global-scripts/63613825b61888b6b02e.woff (35.5 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/63613825b61888b6b02e.woff
+[OK] assets/assets/mfe-global-scripts/f08d97d22c4233d32e76.woff2 (28.9 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/f08d97d22c4233d32e76.woff2
+[OK] assets/assets/mfe-global-scripts/0c6241e541af1f93352b.woff (37.6 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/0c6241e541af1f93352b.woff
+[OK] assets/assets/mfe-global-scripts/897bb0a017cdf0265149.woff (35.7 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/897bb0a017cdf0265149.woff
+[OK] assets/assets/mfe-global-scripts/e3daa8c3df6a0c44db4c.woff2 (26.7 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/e3daa8c3df6a0c44db4c.woff2
+[OK] assets/assets/mfe-global-scripts/f42800e0095bc92baf94.woff (35.2 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/f42800e0095bc92baf94.woff
+[OK] assets/assets/mfe-global-scripts/c2a4ee80b1acc0225dfa.woff2 (27.7 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/c2a4ee80b1acc0225dfa.woff2
+[OK] assets/assets/mfe-global-scripts/bce3fea723dfd1127615.woff (36.2 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/bce3fea723dfd1127615.woff
+[OK] assets/assets/mfe-global-scripts/371126bd66d0cbc1aa21.woff2 (28.4 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/371126bd66d0cbc1aa21.woff2
+[OK] assets/assets/mfe-global-scripts/df213ca5709323decb62.woff (37.2 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/df213ca5709323decb62.woff
+[OK] assets/assets/mfe-global-scripts/6bb15757b6ce19395368.woff2 (28.9 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/6bb15757b6ce19395368.woff2
+[OK] assets/assets/mfe-global-scripts/6bdb64d9ee0f93e6fc0e.woff (37.6 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/6bdb64d9ee0f93e6fc0e.woff
+[OK] assets/assets/mfe-global-scripts/e204b5913912ee7975f9.woff2 (28.4 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/e204b5913912ee7975f9.woff2
+[OK] assets/assets/mfe-header/d1fcf518b1f4ea90ead0.woff2 (18.7 KB) <- https://www.tesco.ie/assets/mfe-header/d1fcf518b1f4ea90ead0.woff2
+[OK] assets/assets/mfe-global-scripts/57fdee1ea496aa6557e8.woff (37.2 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/57fdee1ea496aa6557e8.woff
+[OK] assets/assets/mfe-header/982d4bc9449a59d3f0bd.woff (23.5 KB) <- https://www.tesco.ie/assets/mfe-header/982d4bc9449a59d3f0bd.woff
+[OK] assets/assets/mfe-header/a3cb8ae5df2babcc723e.woff2 (20.0 KB) <- https://www.tesco.ie/assets/mfe-header/a3cb8ae5df2babcc723e.woff2
+[OK] assets/assets/mfe-header/38e264546cc83e21a75f.woff2 (21.8 KB) <- https://www.tesco.ie/assets/mfe-header/38e264546cc83e21a75f.woff2
+[OK] assets/assets/mfe-header/306e0ce8310be34038b4.woff (25.4 KB) <- https://www.tesco.ie/assets/mfe-header/306e0ce8310be34038b4.woff
+[OK] assets/assets/mfe-header/98a049263763a83ad6fa.woff (27.7 KB) <- https://www.tesco.ie/assets/mfe-header/98a049263763a83ad6fa.woff
+[OK] assets/assets/mfe-header/6501c905ee2dd09cdbb7.woff (23.3 KB) <- https://www.tesco.ie/assets/mfe-header/6501c905ee2dd09cdbb7.woff
+[OK] assets/assets/mfe-header/d1fc89ac228032e0ceda.woff2 (18.5 KB) <- https://www.tesco.ie/assets/mfe-header/d1fc89ac228032e0ceda.woff2
+[OK] assets/assets/mfe-header/6193f02be98f710f751a.woff2 (19.7 KB) <- https://www.tesco.ie/assets/mfe-header/6193f02be98f710f751a.woff2
+[OK] assets/assets/mfe-header/af734f56abf57c76ec7a.woff (25.1 KB) <- https://www.tesco.ie/assets/mfe-header/af734f56abf57c76ec7a.woff
+[OK] assets/assets/mfe-header/fa969bbf6f751beb0b5a.woff (25.8 KB) <- https://www.tesco.ie/assets/mfe-header/fa969bbf6f751beb0b5a.woff
+[OK] assets/assets/mfe-header/c7c4e84dd1fdf2bc608a.woff2 (20.4 KB) <- https://www.tesco.ie/assets/mfe-header/c7c4e84dd1fdf2bc608a.woff2
+[OK] assets/assets/mfe-header/dade3dd7622d4d565ce4.png (4.0 KB) <- https://www.tesco.ie/assets/mfe-header/dade3dd7622d4d565ce4.png
+[OK] assets/assets/mfe-digital-content/982d4bc9449a59d3f0bd.woff (23.5 KB) <- https://www.tesco.ie/assets/mfe-digital-content/982d4bc9449a59d3f0bd.woff
+[OK] assets/assets/mfe-digital-content/d1fcf518b1f4ea90ead0.woff2 (18.7 KB) <- https://www.tesco.ie/assets/mfe-digital-content/d1fcf518b1f4ea90ead0.woff2
+[OK] assets/assets/mfe-digital-content/a3cb8ae5df2babcc723e.woff2 (20.0 KB) <- https://www.tesco.ie/assets/mfe-digital-content/a3cb8ae5df2babcc723e.woff2
+[OK] assets/assets/mfe-digital-content/306e0ce8310be34038b4.woff (25.4 KB) <- https://www.tesco.ie/assets/mfe-digital-content/306e0ce8310be34038b4.woff
+[OK] assets/assets/mfe-digital-content/38e264546cc83e21a75f.woff2 (21.8 KB) <- https://www.tesco.ie/assets/mfe-digital-content/38e264546cc83e21a75f.woff2
+[OK] assets/assets/mfe-digital-content/98a049263763a83ad6fa.woff (27.7 KB) <- https://www.tesco.ie/assets/mfe-digital-content/98a049263763a83ad6fa.woff
+[OK] assets/assets/mfe-digital-content/d1fc89ac228032e0ceda.woff2 (18.5 KB) <- https://www.tesco.ie/assets/mfe-digital-content/d1fc89ac228032e0ceda.woff2
+[OK] assets/assets/mfe-digital-content/6501c905ee2dd09cdbb7.woff (23.3 KB) <- https://www.tesco.ie/assets/mfe-digital-content/6501c905ee2dd09cdbb7.woff
+[OK] assets/assets/mfe-digital-content/6193f02be98f710f751a.woff2 (19.7 KB) <- https://www.tesco.ie/assets/mfe-digital-content/6193f02be98f710f751a.woff2
+[OK] assets/assets/mfe-digital-content/af734f56abf57c76ec7a.woff (25.1 KB) <- https://www.tesco.ie/assets/mfe-digital-content/af734f56abf57c76ec7a.woff
+[OK] assets/assets/mfe-digital-content/c7c4e84dd1fdf2bc608a.woff2 (20.4 KB) <- https://www.tesco.ie/assets/mfe-digital-content/c7c4e84dd1fdf2bc608a.woff2
+[OK] assets/assets/mfe-header/75363ec72522029092d0.js (134.4 KB) <- https://www.tesco.ie/assets/mfe-header/75363ec72522029092d0.js
+[OK] assets/assets/mfe-digital-content/fa969bbf6f751beb0b5a.woff (25.8 KB) <- https://www.tesco.ie/assets/mfe-digital-content/fa969bbf6f751beb0b5a.woff
+[OK] assets/assets/cmp/202601.2.0_v2/consent/0191319e-1261-779e-84c0-ead41a891345/0191319e-1261-779e-84c0-ead41a891345.json (5.1 KB) <- https://www.tesco.ie/assets/cmp/202601.2.0_v2/consent/0191319e-1261-779e-84c0-ead41a891345/0191319e-1261-779e-84c0-ead41a891345.json
+[OK] assets/assets/mfe-header/a3886dded216772f0bab.js (7.5 KB) <- https://www.tesco.ie/assets/mfe-header/a3886dded216772f0bab.js
+[OK] assets/assets/mfe-header/e906037b9f3686d44cb3.js (50.9 KB) <- https://www.tesco.ie/assets/mfe-header/e906037b9f3686d44cb3.js
+[OK] assets/assets/mfe-header/cdd310f124cee24c3350.js (601 B) <- https://www.tesco.ie/assets/mfe-header/cdd310f124cee24c3350.js
+[OK] assets/assets/mfe-header/94346c0bcb9ed804eb6d.js (31.4 KB) <- https://www.tesco.ie/assets/mfe-header/94346c0bcb9ed804eb6d.js
+[OK] assets/assets/mfe-header/77c33b022951fc812b45.js (698 B) <- https://www.tesco.ie/assets/mfe-header/77c33b022951fc812b45.js
+[OK] assets/assets/mfe-header/0cd1708d547edea2dae6.js (1.4 KB) <- https://www.tesco.ie/assets/mfe-header/0cd1708d547edea2dae6.js
+[OK] assets/assets/mfe-header/7bf09098039e0cd26fc6.js (5.1 KB) <- https://www.tesco.ie/assets/mfe-header/7bf09098039e0cd26fc6.js
+[OK] assets/assets/mfe-header/e850ec123de80c7c2969.js (176.2 KB) <- https://www.tesco.ie/assets/mfe-header/e850ec123de80c7c2969.js
+[OK] assets/assets/mfe-header/32b6c37235cb293a404a.js (3.7 KB) <- https://www.tesco.ie/assets/mfe-header/32b6c37235cb293a404a.js
+[OK] assets/assets/mfe-header/e0bc442981fd68683c8d.js (2.0 KB) <- https://www.tesco.ie/assets/mfe-header/e0bc442981fd68683c8d.js
+[OK] assets/assets/mfe-header/6852e7e28dd159c6b9c7.js (7.5 KB) <- https://www.tesco.ie/assets/mfe-header/6852e7e28dd159c6b9c7.js
+[OK] assets/assets/mfe-header/14ae49ec8ffda7f3a6b9.js (35.6 KB) <- https://www.tesco.ie/assets/mfe-header/14ae49ec8ffda7f3a6b9.js
+[OK] assets/assets/mfe-header/8ae5012ff371886bcbcf.js (20.0 KB) <- https://www.tesco.ie/assets/mfe-header/8ae5012ff371886bcbcf.js
+[OK] assets/assets/mfe-header/41af6a4761ea20fb03be.js (1.1 KB) <- https://www.tesco.ie/assets/mfe-header/41af6a4761ea20fb03be.js
+[OK] assets/assets/mfe-header/680f5551e3ae7972f41a.js (800 B) <- https://www.tesco.ie/assets/mfe-header/680f5551e3ae7972f41a.js
+[OK] assets/assets/mfe-digital-content/4f40cad28d1c94835d2d.js (5.8 KB) <- https://www.tesco.ie/assets/mfe-digital-content/4f40cad28d1c94835d2d.js
+[OK] assets/assets/mfe-header/0b366fbe83253143f324.js (8.4 KB) <- https://www.tesco.ie/assets/mfe-header/0b366fbe83253143f324.js
+[OK] assets/assets/mfe-header/f1629b9d53054cb04e1f.js (221.7 KB) <- https://www.tesco.ie/assets/mfe-header/f1629b9d53054cb04e1f.js
+[OK] assets/assets/mfe-header/0b9a79a763c6ce1af3bc.js (293.0 KB) <- https://www.tesco.ie/assets/mfe-header/0b9a79a763c6ce1af3bc.js
+[OK] assets/assets/mfe-digital-content/7cfb2cc44269bf0c6391.js (7.6 KB) <- https://www.tesco.ie/assets/mfe-digital-content/7cfb2cc44269bf0c6391.js
+[OK] assets/assets/mfe-digital-content/beb96f20b0f6dde9e8f5.js (39.7 KB) <- https://www.tesco.ie/assets/mfe-digital-content/beb96f20b0f6dde9e8f5.js
+[OK] assets/assets/mfe-digital-content/e8bc8b86d8fab2ced375.js (140.2 KB) <- https://www.tesco.ie/assets/mfe-digital-content/e8bc8b86d8fab2ced375.js
+[OK] assets/assets/mfe-digital-content/1722c5b402d9e503ab65.js (36.4 KB) <- https://www.tesco.ie/assets/mfe-digital-content/1722c5b402d9e503ab65.js
+[SKIPPED: Load failed] https://digitalcontent.api.tesco.com/v2/media/ghs-roi/6e5eb459-2b88-4e3d-a74c-e1ffe77fea81/2135-ROI-GHS-delivery-hub-743x430-vans.jpeg
+[OK] assets/assets/mfe-digital-content/70b04b26ab4214620aba.js (430.1 KB) <- https://www.tesco.ie/assets/mfe-digital-content/70b04b26ab4214620aba.js
+[OK] assets/assets/mfe-digital-content/ee5929b45ece0d75b525.js (7.0 KB) <- https://www.tesco.ie/assets/mfe-digital-content/ee5929b45ece0d75b525.js
+[OK] assets/assets/mfe-digital-content/c3cf74561e684d094bf6.js (4.4 KB) <- https://www.tesco.ie/assets/mfe-digital-content/c3cf74561e684d094bf6.js
+[OK] assets/assets/mfe-digital-content/70f735ca1f651a907019.js (9.6 KB) <- https://www.tesco.ie/assets/mfe-digital-content/70f735ca1f651a907019.js
+[OK] assets/assets/mfe-digital-content/3e43a03558a91db36ac2.js (35.9 KB) <- https://www.tesco.ie/assets/mfe-digital-content/3e43a03558a91db36ac2.js
+[OK] assets/assets/mfe-digital-content/88096ce7d9cc4338533f.js (2.4 KB) <- https://www.tesco.ie/assets/mfe-digital-content/88096ce7d9cc4338533f.js
+[OK] assets/assets/mfe-digital-content/10d423d270974cb67c32.js (769 B) <- https://www.tesco.ie/assets/mfe-digital-content/10d423d270974cb67c32.js
+[OK] assets/assets/mfe-digital-content/fb8fd5ff6780c7071863.js (9.8 KB) <- https://www.tesco.ie/assets/mfe-digital-content/fb8fd5ff6780c7071863.js
+[OK] assets/assets/mfe-digital-content/cd5c9a51bbb64603d457.js (633 B) <- https://www.tesco.ie/assets/mfe-digital-content/cd5c9a51bbb64603d457.js
+[OK] assets/assets/mfe-digital-content/881c3f2f1ea160fb6dd2.js (176.2 KB) <- https://www.tesco.ie/assets/mfe-digital-content/881c3f2f1ea160fb6dd2.js
+[OK] assets/assets/mfe-digital-content/868d89fd8894a4631745.js (61.6 KB) <- https://www.tesco.ie/assets/mfe-digital-content/868d89fd8894a4631745.js
+[OK] assets/assets/mfe-digital-content/a8056f58864b240dbfd9.js (1.5 KB) <- https://www.tesco.ie/assets/mfe-digital-content/a8056f58864b240dbfd9.js
+[OK] assets/assets/mfe-digital-content/d2c064b3f424df544315.js (7.5 KB) <- https://www.tesco.ie/assets/mfe-digital-content/d2c064b3f424df544315.js
+[OK] assets/assets/mfe-digital-content/dfd45384ef2e4be7e4b1.js (1.3 KB) <- https://www.tesco.ie/assets/mfe-digital-content/dfd45384ef2e4be7e4b1.js
+[OK] assets/assets/mfe-digital-content/4f5201a02fda03d2d251.js (3.8 KB) <- https://www.tesco.ie/assets/mfe-digital-content/4f5201a02fda03d2d251.js
+[OK] assets/assets/mfe-digital-content/e9965cee29758530ad40.js (206.8 KB) <- https://www.tesco.ie/assets/mfe-digital-content/e9965cee29758530ad40.js
+[OK] assets/assets/mfe-footer/4519e5897ec63bf9d5a2.js (5.7 KB) <- https://www.tesco.ie/assets/mfe-footer/4519e5897ec63bf9d5a2.js
+[OK] assets/assets/mfe-footer/ab07d2b3b627975ed2bc.js (119.8 KB) <- https://www.tesco.ie/assets/mfe-footer/ab07d2b3b627975ed2bc.js
+[OK] assets/assets/mfe-footer/c35cfd545797888c4c8c.js (182.6 KB) <- https://www.tesco.ie/assets/mfe-footer/c35cfd545797888c4c8c.js
+[OK] assets/assets/mfe-digital-content/b06a0f98c9b34ea9c795.js (818.7 KB) <- https://www.tesco.ie/assets/mfe-digital-content/b06a0f98c9b34ea9c795.js
+[OK] assets/assets/mfe-footer/733920f3121dfb5c7b6d.js (25.2 KB) <- https://www.tesco.ie/assets/mfe-footer/733920f3121dfb5c7b6d.js
+[OK] assets/assets/mfe-global-scripts/86b04a658ddadb04ad46.js (424.9 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/86b04a658ddadb04ad46.js
+[OK] assets/assets/mfe-global-scripts/534c3e11dd48c7e26b55.js (13.1 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/534c3e11dd48c7e26b55.js
+[OK] assets/assets/mfe-global-scripts/7ea369b1cfb58e89feae.js (32.1 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/7ea369b1cfb58e89feae.js
+[OK] assets/assets/mfe-global-scripts/19f8d009ec6c3a86e338.js (816 B) <- https://www.tesco.ie/assets/mfe-global-scripts/19f8d009ec6c3a86e338.js
+[OK] assets/assets/mfe-global-scripts/763d0d3eb5e544c4ba4c.js (5.8 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/763d0d3eb5e544c4ba4c.js
+[OK] assets/assets/mfe-global-scripts/4bd6bb1d140eea46cf38.js (2.0 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/4bd6bb1d140eea46cf38.js
+[OK] assets/assets/mfe-global-scripts/b88ff194ffa5ffa3a69e.js (49.6 KB) <- https://www.tesco.ie/assets/mfe-global-scripts/b88ff194ffa5ffa3a69e.js
+[OK] assets/assets/mfe-analytics/26da38a6adec934688cd.js (111.1 KB) <- https://www.tesco.ie/assets/mfe-analytics/26da38a6adec934688cd.js
+[OK] assets/assets/mfe-global-scripts/2396eb821a4548f88247.js (617 B) <- https://www.tesco.ie/assets/mfe-global-scripts/2396eb821a4548f88247.js
+[OK] assets/assets/mfe-analytics/7ee56a0f528073201ee1.js (2.8 KB) <- https://www.tesco.ie/assets/mfe-analytics/7ee56a0f528073201ee1.js
+[OK] assets/assets/mfe-analytics/07b2a8acd4bf51335cc2.js (5.9 KB) <- https://www.tesco.ie/assets/mfe-analytics/07b2a8acd4bf51335cc2.js
+[OK] assets/assets/mfe-analytics/2100c3c9d4e2b5edee4f.js (1.2 KB) <- https://www.tesco.ie/assets/mfe-analytics/2100c3c9d4e2b5edee4f.js
+[OK] assets/assets/mfe-basket-manager/a2bf5893c5dde94e4e8c.js (59.7 KB) <- https://www.tesco.ie/assets/mfe-basket-manager/a2bf5893c5dde94e4e8c.js
+[SKIPPED: Load failed] https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location
+[OK] assets/assets/mfe-analytics/10ae152e8092945d3ff9.js (140.4 KB) <- https://www.tesco.ie/assets/mfe-analytics/10ae152e8092945d3ff9.js
+[OK] assets/assets/mfe-basket-manager/4957a80fd47dac5f7b1a.js (33.5 KB) <- https://www.tesco.ie/assets/mfe-basket-manager/4957a80fd47dac5f7b1a.js
+[OK] assets/assets/mfe-header/bce0657de13f124e5875.js (126 B) <- https://www.tesco.ie/assets/mfe-header/bce0657de13f124e5875.js
+[OK] assets/assets/mfe-header/7f1d984fa09264ddeaed.js (128 B) <- https://www.tesco.ie/assets/mfe-header/7f1d984fa09264ddeaed.js
+[OK] assets/assets/mfe-header/bec85fbe716942b11cb7.js (128 B) <- https://www.tesco.ie/assets/mfe-header/bec85fbe716942b11cb7.js
+[OK] assets/assets/mfe-header/66ad5e578c24f889c741.js (127 B) <- https://www.tesco.ie/assets/mfe-header/66ad5e578c24f889c741.js
+[OK] assets/assets/mfe-header/62a645e200e874eb6995.js (128 B) <- https://www.tesco.ie/assets/mfe-header/62a645e200e874eb6995.js
+[OK] assets/assets/mfe-header/8750e320a925b629b683.js (127 B) <- https://www.tesco.ie/assets/mfe-header/8750e320a925b629b683.js
+[OK] assets/assets/mfe-header/a406087be9fdcc3038e2.js (127 B) <- https://www.tesco.ie/assets/mfe-header/a406087be9fdcc3038e2.js
+[OK] assets/assets/mfe-header/036add0014e973b29d60.js (127 B) <- https://www.tesco.ie/assets/mfe-header/036add0014e973b29d60.js
+[OK] assets/assets/mfe-header/e1ffef5f2fa677c6dc26.js (127 B) <- https://www.tesco.ie/assets/mfe-header/e1ffef5f2fa677c6dc26.js
+[OK] assets/assets/mfe-header/90a3b9789bda324add65.js (128 B) <- https://www.tesco.ie/assets/mfe-header/90a3b9789bda324add65.js
+[OK] assets/assets/mfe-header/8a4b5a5128e3a5139501.js (128 B) <- https://www.tesco.ie/assets/mfe-header/8a4b5a5128e3a5139501.js
+[OK] assets/assets/mfe-header/bcdddde0a706d6afad5c.js (128 B) <- https://www.tesco.ie/assets/mfe-header/bcdddde0a706d6afad5c.js
+[OK] assets/assets/mfe-header/2f4629060e1f3c8196bf.js (127 B) <- https://www.tesco.ie/assets/mfe-header/2f4629060e1f3c8196bf.js
+[OK] assets/assets/mfe-header/6c10d150908d6eb44aae.js (128 B) <- https://www.tesco.ie/assets/mfe-header/6c10d150908d6eb44aae.js
+[OK] assets/assets/mfe-header/ebbbfeb6f79cf4e0994f.js (128 B) <- https://www.tesco.ie/assets/mfe-header/ebbbfeb6f79cf4e0994f.js
+[OK] assets/assets/mfe-header/8183b51ac345c1e9adde.js (127 B) <- https://www.tesco.ie/assets/mfe-header/8183b51ac345c1e9adde.js
+[OK] assets/assets/mfe-header/7365fc1ec1820a1edcf6.js (128 B) <- https://www.tesco.ie/assets/mfe-header/7365fc1ec1820a1edcf6.js
+[OK] assets/assets/mfe-header/0d90b37bd7ce07f65e61.js (128 B) <- https://www.tesco.ie/assets/mfe-header/0d90b37bd7ce07f65e61.js
+[OK] assets/assets/mfe-header/e497cdf85b3413d0cf59.js (126 B) <- https://www.tesco.ie/assets/mfe-header/e497cdf85b3413d0cf59.js
+[OK] assets/assets/mfe-header/ce006cef23cbd58eee4b.js (128 B) <- https://www.tesco.ie/assets/mfe-header/ce006cef23cbd58eee4b.js
+[OK] assets/assets/mfe-header/93e67d171d2a2cdf1c0f.js (128 B) <- https://www.tesco.ie/assets/mfe-header/93e67d171d2a2cdf1c0f.js
+[OK] assets/assets/mfe-header/97a39c59d3e6bb16162b.js (128 B) <- https://www.tesco.ie/assets/mfe-header/97a39c59d3e6bb16162b.js
+[OK] assets/assets/mfe-header/b3fbb60ff2456bff0166.js (128 B) <- https://www.tesco.ie/assets/mfe-header/b3fbb60ff2456bff0166.js
+[OK] assets/assets/mfe-header/1efeb622dc4ba74f0ee4.js (128 B) <- https://www.tesco.ie/assets/mfe-header/1efeb622dc4ba74f0ee4.js
+[OK] assets/assets/mfe-header/80be831bddd2c5325a17.js (128 B) <- https://www.tesco.ie/assets/mfe-header/80be831bddd2c5325a17.js
+[OK] assets/assets/mfe-header/31fdd79e130e4a66cdca.js (128 B) <- https://www.tesco.ie/assets/mfe-header/31fdd79e130e4a66cdca.js
+[OK] assets/assets/mfe-digital-content/1fb5a99cd7dc798f33ed.js (147 B) <- https://www.tesco.ie/assets/mfe-digital-content/1fb5a99cd7dc798f33ed.js
+[OK] assets/assets/mfe-digital-content/c6767f08490b8f1e9d43.js (147 B) <- https://www.tesco.ie/assets/mfe-digital-content/c6767f08490b8f1e9d43.js
+[OK] assets/assets/mfe-digital-content/bff4dc17ae956fc8ed8d.js (147 B) <- https://www.tesco.ie/assets/mfe-digital-content/bff4dc17ae956fc8ed8d.js
+[OK] assets/assets/mfe-digital-content/4e3635b0fa0414d134e0.js (147 B) <- https://www.tesco.ie/assets/mfe-digital-content/4e3635b0fa0414d134e0.js
+[OK] external/testci.demdex.net/dest5.html (6.8 KB) <- https://testci.demdex.net/dest5.html?d_nsid=0
+[OK] index.html (534.9 KB, layout & paths localized)
